@@ -72,13 +72,21 @@
         <div class="grid grid-cols-1">
             <div class="col-span-1">
                 <a href="/images/banner-img.jpeg" data-fancybox="gallery" data-caption="Caption #1">
-                    <img src="/images/banner-img.jpeg" />
+                    <img src="/images/banner-img.jpeg" alt="banner image" class="w-full h-auto"/>
                 </a>
             </div>
         </div>
     </section>
-    <main>
-
+    <main id="content" role="main">
+        <section aria-labelledby="main-title" class="py-10">
+            <div class="container">
+                <div class="grid grid-cols-12">
+                    <div class="col-span-8">
+                        <h1 id="main-title">Welcome To SolarFrame, your local Yorkshire experts in all things home improvement!</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
