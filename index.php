@@ -363,8 +363,65 @@
         </section>
     </main>
 
-    <footer>
-
+    <footer class="bg-brand-black text-brand-white">
+        <div class="container">
+            <div class="grid grid-cols-5">
+                <div>
+                    <img src="images/solarframe-footer%20logo%20.png" alt="SolarFrame logo">
+                    <address>Unit 3 Davey Road, Fields End Business Park, Goldthorpe , South Yorkshire , S63 0JF</address>
+                    <a href="tel:08006250000" title="phone number" aria-label="phone number" class="block"><i class="fa fa-phone" aria-hidden="true"></i>08006250000</a>
+                    <a href="mailto:info@solarframe-direct.co.uk" title="Email" aria-label="Email" class="block"><i class="fa fa-envelope" aria-hidden="true"></i>info@solarframe-direct.co.uk</a>
+                </div>
+                <div class="col-span-2">
+                    <div class="grid grid-cols-2">
+                        <h6 class="col-span-2">Go to</h6>
+                    </div>
+                    <div class="grid grid-cols-2">
+                        <nav>
+                            <ul>
+                                <li><a href="#" title="Roof Replacements" aria-label="Roof Replacements">Roof Replacements</a></li>
+                                <li><a href="#" title="Conservatories" aria-label="Conservatories">Conservatories</a></li>
+                                <li><a href="#" title="Orangeries" aria-label="Orangeries">Orangeries</a></li>
+                                <li><a href="#" title="Windows" aria-label="Windows">Roof Replacements</a></li>
+                                <li><a href="#" title="Doors" aria-label="Doors">Doors</a></li>
+                            </ul>
+                        </nav>
+                        <nav>
+                            <ul>
+                                <li><a href="#" title="Garden Studios" aria-label="Garden Studios">Garden Studios</a></li>
+                                <li><a href="#" title="Showrooms" aria-label="Showrooms">Showrooms</a></li>
+                                <li><a href="#" title="Finance Options" aria-label="Finance Options">Finance Options</a></li>
+                                <li><a href="#" title="Inspiration" aria-label="Inspiration">Inspiration</a></li>
+                                <li><a href="#" title="About" aria-label="About">About</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div>
+                    <h6>Legal</h6>
+                    <nav>
+                        <ul>
+                            <li><a href="#" title="Accessibility" aria-label="Accessibility">Accessibility</a></li>
+                            <li><a href="#" title="Terms &amp; Conditions" aria-label="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+                            <li><a href="#" title="Privacy Policy" aria-label="Privacy Policy">Privacy Policy</a></li>
+                            <li><a href="#" title="Site Map" aria-label="Site Map">Site Map</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <h6>Stay Informed</h6>
+                    <a href="#" title="subscribe to newsletter" aria-label="subscribe to newsletter"><p class="inline">Subscribe to newsletter</p><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="grid grid-cols-12">
+                <div class="col-span-9">
+                    <p>&copy; SolarFrame 2023, Company Registration No. 06990167 - Registered in England & Wales.</p>
+                </div>
+                <div class="col-span-3">
+                    <a href="#" title="website by bluestorm" aria-label="website by bluestorm" class="inline">Website designed by <img src="images/bluestorm.svg" alt="bluestorm logo" class="inline" </a>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
