@@ -134,7 +134,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="explore">
             <div class="container">
                 <div class="grid grid-cols-12">
                     <div class="col-span-4 row-span-2 bg-brand-orange">
@@ -154,7 +154,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="image-grid">
             <div class="container">
                 <div class="grid grid-cols-12">
                     <div class="col-span-4">
@@ -182,9 +182,190 @@
                         </a>
                     </div>
                 </div>
+                <div class="grid grid-cols-12">
+                    <div class="col-span-6 row-span-2">
+                        <a href="#" title="Roof Replacements" aria-label="Roof Replacements">
+                            <img src="images/Roof-Replacement.jpeg" alt="Roof Replacements">
+                            <h3>Roof Replacements</h3>
+                            <p></p>
+                            <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span> More information
+                        </a>
+                    </div>
+                    <div class="col-span-3 row-span-1">
+                        <a href="#" title="Windows" aria-label="Windows">
+                            <img src="images/windows.jpeg" alt="Windows">
+                            <h3>Windows</h3>
+                            <p></p>
+                            <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span> More information
+                        </a>
+                    </div>
+                    <div class="col-span-3 row-span-1">
+                        <a href="#" title="Doors" aria-label="Doors">
+                            <img src="images/doors.jpeg" alt="Doors">
+                            <h3>Orangeries</h3>
+                            <p></p>
+                            <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span> More information
+                        </a>
+                    </div>
+                    <div class="col-span-3 row-span-1">
+                        <a href="#" title="Garden Studios" aria-label="Garden Studios">
+                            <img src="images/garden-studios.png" alt="Garden Studios">
+                            <h3>Orangeries</h3>
+                            <p></p>
+                            <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span> More information
+                        </a>
+                    </div>
+                    <div class="col-span-3 row-span-1">
+                        <a href="#" title="Glazed roof" aria-label="Glazed roof">
+                            <img src="images/Glazed-Roof-Conservatory-Banner.jpeg" alt="Glazed roof">
+                            <h3>Orangeries</h3>
+                            <p></p>
+                            <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span> More information
+                        </a>
+                    </div>
+                </div>
+                <div class="grid grid-cols-12">
+                    <div class="col-span-12">
+                        <img src="images/Internal-View-Orangery-3.webp" alt="Inside Orangery">
+                        <div class="grid grid-cols-12">
+                            <div class="col-span-6">
+                                <h3>Request your free quote today</h3>
+                                <p>We have transformed homes throughout Yorkshire, North Nottinghamshire and Derbyshire over the last 12 years and look forward to starting a project with you.</p>
+                                <a href="#" title="request a quote" aria-label="request a quote">Request a quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="case-studies">
+            <div class="container">
+                <div class="grid-cols-12">
+                    <div class="col-span-12">
+                        <h4>Take a look at our recent case studies</h4>
+                    </div>
+                    <div class="col-span-12">
+                        <a href="#" title="Case Study 1" aria-label="Case Study 1">
+                            <img src="images/case-study-1.jpeg" alt="Case Study 1">
+                            <h5>"We used our new conservatory more than our living room"</h5>
+                            <p></p>
+                            <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span> View case study
+                        </a>
+                    </div>
+                    <div class="col-span-12 hidden">
+                        <a href="#" title="Case Study 2" aria-label="Case Study 2">
+                            <img src="images/case-study-2.jpeg" alt="Case Study 2">
+                            <h5>"With the addition of the new roof we have a great space that we can use all year round!"</h5>
+                            <p></p>
+                            <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span> View case study
+                        </a>
+                    </div>
+                    <div class="col-span-12 hidden">
+                        <a href="#" title="Case Study 3" aria-label="Case Study 3">
+                            <img src="images/case-study-1.jpeg" alt="Case Study 3">
+                            <h5>"Without exception, everyone we dealt with was polite and efficient."</h5>
+                            <p></p>
+                            <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span> View case study
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <div class="container">
+                <div class="grid grid-cols-12">
+                    <div class="col-span-10">
+                        <h4>Our customers' feedback is important to us!</h4>
+                        <p>Here's what a few of them have said about us</p>
+                    </div>
+                    <div class="col-span-2">
+                        <button><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+                        <button><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+                <div class="grid grid-cols-12">
+                    <div class="col-span-3 border">
+                        <div class="grid grid-cols-2">
+                            <div class="col-span-1">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-span-1">
+                                <img src="images/which-logo-small.png" alt="which logo">
+                            </div>
+                            <div class="col-span-2">
+                                <h5>Customer in North Yorkshire</h5>
+                                <p>Very satisfied with all aspects of work. Workmen arrived on time and worked extremely hard and were very unobtrusive. Quality of work is first class.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-3 border">
+                        <div class="grid grid-cols-2">
+                            <div class="col-span-1">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-span-1">
+                                <img src="images/trust-pilot-small.png" alt="trust pilot logo">
+                            </div>
+                            <div class="col-span-2">
+                                <h5>Norma Sykes</h5>
+                                <p>We could not praise solarframe more highly and will definitely recommend them to others. And we are highly delighted with our new garden room.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-3 border">
+                        <div class="grid grid-cols-2">
+                            <div class="col-span-1">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-span-1">
+                                <img src="images/google-small.png" alt="Google logo">
+                            </div>
+                            <div class="col-span-2">
+                                <h5>Leanne</h5>
+                                <p>The fitters were on time, friendly and professional. The quality of work outstanding. Wouldn't hesitate to recommend this company.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-3 border">
+                        <div class="grid grid-cols-2">
+                            <div class="col-span-1">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-span-1">
+                                <img src="images/google-small.png" alt="Google logo">
+                            </div>
+                            <div class="col-span-2">
+                                <h5>Leanne</h5>
+                                <p>The fitters were on time, friendly and professional. The quality of work outstanding. Wouldn't hesitate to recommend this company.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
+
+    <footer>
+
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="./scripts/scripts.js"></script>
