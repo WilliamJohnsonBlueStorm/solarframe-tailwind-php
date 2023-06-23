@@ -19,48 +19,52 @@
     <meta name="description" content="Take a look at our conservatories, including our amazing lightweight solid roof replacements, and orangeries. You can’t beat the quality of our windows...">
 
 </head>
-<body class="font-Manrope">
+<body class="font-Manrope text-p">
     <a class="skip-to-the-main-content hidden" href="#content" title="Skip to the main content" aria-label="Skip to the main content" tabindex="0">Skip to main content</a>
     <header id="site header">
-        <div class="grid grid-cols-12">
-            <div class="col-span-2">
-                <a href="#" title="Home" aria-label="Home">
-                    <img src="/images/logo.svg" alt="SolarFrame Logo" class="w-full h-auto">
-                </a>
-            </div>
-            <div class="col-span-2">
-                <a href="tel:08006250000" title="Phone" aria-label="Phone" class="block"><i class="fa fa-phone" aria-hidden="true"></i>0800 6250000</a>
-                <a href="mailto:info@solarframe-direct.co.uk" title="Email" aria-label="Email" class="block"><i class="fa fa-phone" aria-hidden="true"></i>info@solarframe-direct.co.uk</a>
-            </div>
-            <div class="col-span-1 col-start-8">
-                <a href="https://trustedtraders.which.co.uk/businesses/solarframe-direct-limited/" title="which review" aria-label="which review" target="_blank"><img src="/images/which-logo.jpeg" alt="which review"></a>
-            </div>
-            <div class="col-span-1">
-                <a href="#" title="request a quote" aria-label="request a quote">Request a quote</a>
-            </div>
-            <div class="col-span-1">
-                <a href="#" title="Book a survey" aria-label="Book a survey">Book a survey</a>
-            </div>
-            <div class="col-span-1">
-                <a href="#" title="Visit showroom" aria-label="Visit showroom">Visit showroom</a>
-            </div>
-            <div class="col-span-1">
-                <a href="#" title="Search" aria-label="Search"><i class="fa fa-search" aria-hidden="true"></i></a>
+        <div class="container">
+            <div class="grid grid-cols-12">
+                <div class="col-span-2">
+                    <a href="#" title="Home" aria-label="Home">
+                        <img src="/images/logo.svg" alt="SolarFrame Logo" class="w-full h-auto">
+                    </a>
+                </div>
+                <div class="col-span-2">
+                    <a href="tel:08006250000" title="Phone" aria-label="Phone" class="block"><i class="fa fa-phone" aria-hidden="true"></i>0800 6250000</a>
+                    <a href="mailto:info@solarframe-direct.co.uk" title="Email" aria-label="Email" class="block"><i class="fa fa-phone" aria-hidden="true"></i>info@solarframe-direct.co.uk</a>
+                </div>
+                <div class="col-span-1 col-start-8">
+                    <a href="https://trustedtraders.which.co.uk/businesses/solarframe-direct-limited/" title="which review" aria-label="which review" target="_blank"><img src="/images/which-logo.jpeg" alt="which review"></a>
+                </div>
+                <div class="col-span-1">
+                    <a href="#" title="request a quote" aria-label="request a quote">Request a quote</a>
+                </div>
+                <div class="col-span-1">
+                    <a href="#" title="Book a survey" aria-label="Book a survey">Book a survey</a>
+                </div>
+                <div class="col-span-1">
+                    <a href="#" title="Visit showroom" aria-label="Visit showroom">Visit showroom</a>
+                </div>
+                <div class="col-span-1">
+                    <a href="#" title="Search" aria-label="Search"><i class="fa fa-search" aria-hidden="true"></i></a>
+                </div>
             </div>
         </div>
-        <div class="container">
-            <ul class="grid grid-cols-10">
-                <li><a class="inline" href="#" title="Roof Replacements" aria-label="Roof Replacements">Roof Replacements</a></li>
-                <li><a class="inline" href="#" title="Conservatories" aria-label="Conservatories">Conservatories</a></li>
-                <li><a class="inline" href="#" title="Orangeries" aria-label="Orangeries">Orangeries</a></li>
-                <li><a class="inline" href="#" title="Windows" aria-label="Windows">Windows</a></li>
-                <li><a class="inline" href="#" title="Doors" aria-label="Doors">Doors</a></li>
-                <li><a class="inline" href="#" title="Garden Studios" aria-label="Garden Studios">Garden Studios</a></li>
-                <li><a class="inline" href="#" title="Showrooms" aria-label="Showrooms">Showrooms</a></li>
-                <li><a class="inline" href="#" title="Finance Options" aria-label="Finance Options">Finance Options</a></li>
-                <li><a class="inline" href="#" title="Inspiration" aria-label="Inspiration">Inspiration</a></li>
-                <li><a class="inline" href="#" title="About" aria-label="About">About</a></li>
-            </ul>
+        <div>
+            <nav class="container" role="navigation">
+                <ul class="grid grid-cols-12">
+                    <li class="inline col-start-2"><a href="#" title="Roof Replacements" aria-label="Roof Replacements">Roof Replacements</a></li>
+                    <li class="inline"><a href="#" title="Conservatories" aria-label="Conservatories">Conservatories</a></li>
+                    <li class="inline"><a href="#" title="Orangeries" aria-label="Orangeries">Orangeries</a></li>
+                    <li class="inline"><a href="#" title="Windows" aria-label="Windows">Windows</a></li>
+                    <li class="inline"><a href="#" title="Doors" aria-label="Doors">Doors</a></li>
+                    <li class="inline"><a href="#" title="Garden Studios" aria-label="Garden Studios">Garden Studios</a></li>
+                    <li class="inline"><a href="#" title="Showrooms" aria-label="Showrooms">Showrooms</a></li>
+                    <li class="inline"><a href="#" title="Finance Options" aria-label="Finance Options">Finance Options</a></li>
+                    <li class="inline"><a href="#" title="Inspiration" aria-label="Inspiration">Inspiration</a></li>
+                    <li class="inline"><a href="#" title="About" aria-label="About">About</a></li>
+                </ul>
+            </nav>
         </div>
         <div class="grid grid-cols-1">
             <div class="col-span-1">
@@ -68,10 +72,10 @@
             </div>
         </div>
     </header>
-    <section id="banner">
+    <section id="banner" role="banner">
         <div class="grid grid-cols-1 swiper-slide">
             <div class="col-span-1">
-                <div role="banner">
+                <div>
                     <img src="/images/main-banner-img.jpeg" alt="banner image" class="w-full h-auto"/>
                 </div>
             </div>
@@ -87,7 +91,7 @@
         </div>
         <div class="grid grid-cols-1 swiper-slide hidden">
             <div class="col-span-1">
-                <div role="banner">
+                <div>
                     <img src="/images/main-banner-img.jpeg" alt="banner image" class="w-full h-auto"/>
                 </div>
             </div>
@@ -103,7 +107,7 @@
         </div>
         <div class="grid grid-cols-1 swiper-slide hidden">
             <div class="col-span-1">
-                <div role="banner">
+                <div>
                     <img src="/images/main-banner-img.jpeg" alt="banner image" class="w-full h-auto"/>
                 </div>
             </div>
@@ -281,8 +285,8 @@
                         <p>Here's what a few of them have said about us</p>
                     </div>
                     <div class="col-span-2">
-                        <button><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
-                        <button><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                        <button title="carousel left"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+                        <button title="carousel right"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
                     </div>
                 </div>
                 <div class="grid grid-cols-12">
@@ -363,10 +367,10 @@
         </section>
     </main>
 
-    <footer class="bg-brand-black text-brand-white">
+    <footer role="contentinfo" class="bg-brand-black text-brand-white">
         <div class="container">
             <div class="grid grid-cols-5">
-                <div>
+                <div class="col-span-1">
                     <img src="images/solarframe-footer%20logo%20.png" alt="SolarFrame logo">
                     <address>Unit 3 Davey Road, Fields End Business Park, Goldthorpe , South Yorkshire , S63 0JF</address>
                     <a href="tel:08006250000" title="phone number" aria-label="phone number" class="block"><i class="fa fa-phone" aria-hidden="true"></i>08006250000</a>
@@ -374,10 +378,10 @@
                 </div>
                 <div class="col-span-2">
                     <div class="grid grid-cols-2">
-                        <h6 class="col-span-2">Go to</h6>
+                        <h6>Go to</h6>
                     </div>
                     <div class="grid grid-cols-2">
-                        <nav>
+                        <nav role="navigation">
                             <ul>
                                 <li><a href="#" title="Roof Replacements" aria-label="Roof Replacements">Roof Replacements</a></li>
                                 <li><a href="#" title="Conservatories" aria-label="Conservatories">Conservatories</a></li>
@@ -386,7 +390,7 @@
                                 <li><a href="#" title="Doors" aria-label="Doors">Doors</a></li>
                             </ul>
                         </nav>
-                        <nav>
+                        <nav role="navigation">
                             <ul>
                                 <li><a href="#" title="Garden Studios" aria-label="Garden Studios">Garden Studios</a></li>
                                 <li><a href="#" title="Showrooms" aria-label="Showrooms">Showrooms</a></li>
@@ -397,7 +401,7 @@
                         </nav>
                     </div>
                 </div>
-                <div>
+                <div class="col-span-1">
                     <h6>Legal</h6>
                     <nav>
                         <ul>
@@ -408,9 +412,15 @@
                         </ul>
                     </nav>
                 </div>
-                <div>
+                <div class="col-span-1">
                     <h6>Stay Informed</h6>
                     <a href="#" title="subscribe to newsletter" aria-label="subscribe to newsletter"><p class="inline">Subscribe to newsletter</p><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    <ul>
+                        <li class="inline"><a href="#" title="facebook" aria-label="facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li class="inline"><a href="#" title="linkedin" aria-label="linkedin" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li class="inline"><a href="#" title="instagram" aria-label="instagram" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li class="inline"><a href="#" title="youtube" aria-label="youtube" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    </ul>
                 </div>
             </div>
             <div class="grid grid-cols-12">
@@ -418,7 +428,14 @@
                     <p>&copy; SolarFrame 2023, Company Registration No. 06990167 - Registered in England & Wales.</p>
                 </div>
                 <div class="col-span-3">
-                    <a href="#" title="website by bluestorm" aria-label="website by bluestorm" class="inline">Website designed by <img src="images/bluestorm.svg" alt="bluestorm logo" class="inline" </a>
+                    <a href="#" title="website by bluestorm" aria-label="website by bluestorm" class="inline">Website designed by <img src="images/bluestorm.svg" alt="bluestorm logo" class="inline"></a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-brand-darkgrey">
+            <div class="container">
+                <div class="col-span-12">
+                    <p>Credit is subject to status and affordability. Terms & Conditions Apply. Solarframe Direct Limited FRN: 747702 Unit 3 Davey Road Fields End Business Park Goldthorpe Rotherham South Yorkshire S63 0JF is an appointed representative of Solarframe Direct Limited which is authorised and regulated by the Financial Conduct Authority as a credit broker, not the lender. Credit is provided by a panel of lenders with whom we have a commercial relationship. Company No. 06990167; Registered in England and Wales, VAT registered no. 115 0728 44</p>
                 </div>
             </div>
         </div>
