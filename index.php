@@ -44,22 +44,22 @@
                             </a>
                         </li>
                         <li class="flex items-stretch">
-                            <a class="uppercase bg-brand-orange text-white p-5 flex items-center" href="#" title="request a quote" aria-label="request a quote">
+                            <a class="uppercase bg-brand-orange text-white p-5 flex items-center hover:brightness-110 transition-all duration-500" href="#" title="request a quote" aria-label="request a quote">
                                 Request a quote
                             </a>
                         </li>
                         <li class="flex items-stretch">
-                            <a class="uppercase bg-brand-lightgrey text-white p-5 flex items-center" href="#" title="Book a survey" aria-label="Book a survey">
+                            <a class="uppercase bg-brand-lightgrey text-white p-5 flex items-center hover:brightness-110 transition-all duration-500" href="#" title="Book a survey" aria-label="Book a survey">
                                 Book a survey
                             </a>
                         </li>
                         <li class="flex items-stretch">
-                            <a class="uppercase bg-brand-black text-white p-5 flex items-center" href="#" title="Visit showroom" aria-label="Visit showroom">
+                            <a class="uppercase bg-brand-black text-white p-5 flex items-center hover:brightness-110 transition-all duration-500" href="#" title="Visit showroom" aria-label="Visit showroom">
                                 Visit showroom
                             </a>
                         </li>
                         <li class="flex items-stretch">
-                            <a class="bg-brand-grey p-5 text-white flex items-center" href="#" title="Search" aria-label="Search">
+                            <a class="bg-brand-grey p-5 text-white flex items-center hover:brightness-110 transition-all duration-500" href="#" title="Search" aria-label="Search">
                                 <i class="fa fa-search" aria-hidden="true"></i>
                             </a>
                         </li>
@@ -87,8 +87,12 @@
                 </div>
             </div>
         </div>
-        <div class="grid grid-cols-1">
-            <p>Up to 60% off the entire solarframe range - interest free credit available - transform your home in time for summer - up to 60% off the entire solarframe range - interest free credit available - transform your home in time for summer -</p>
+        <div class="bg-brand-orange">
+            <div class="scroll">
+                <div class="uppercase text-brand-darkgrey text-5xl animation">
+                    <p class="py-2">Up to 60% off the entire solarframe range - interest free credit available - transform your home in time for summer - up to 60% off the entire solarframe range - interest free credit available - transform your home in time for summer</></p>
+                </div>
+            </div>
         </div>
     </header>
     <section id="banner" role="banner">
