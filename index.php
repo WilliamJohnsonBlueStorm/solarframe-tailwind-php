@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="/dist/tailwind.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -72,16 +73,56 @@
                 <div class="grid grid-cols-12">
                     <nav class="col-span-12">
                         <ul class="flex flex-row justify-center gap-4">
-                            <li class="inline"><a href="#" title="Roof Replacements" aria-label="Roof Replacements" class="p-4 inline-block hover:text-brand-orange transition-all duration-300">Roof Replacements</a></li>
-                            <li class="inline"><a href="#" title="Conservatories" aria-label="Conservatories" class="p-4 inline-block hover:text-brand-orange transition-all duration-300">Conservatories</a></li>
-                            <li class="inline"><a href="#" title="Orangeries" aria-label="Orangeries" class="p-4 inline-block hover:text-brand-orange transition-all duration-300">Orangeries</a></li>
-                            <li class="inline"><a href="#" title="Windows" aria-label="Windows" class="p-4 inline-block hover:text-brand-orange transition-all duration-300">Windows</a></li>
-                            <li class="inline"><a href="#" title="Doors" aria-label="Doors" class="p-4 inline-block hover:text-brand-orange transition-all duration-300">Doors</a></li>
-                            <li class="inline"><a href="#" title="Garden Studios" aria-label="Garden Studios" class="p-4 inline-block hover:text-brand-orange transition-all duration-300">Garden Studios</a></li>
-                            <li class="inline"><a href="#" title="Showrooms" aria-label="Showrooms" class="p-4 inline-block hover:text-brand-orange transition-all duration-300">Showrooms</a></li>
-                            <li class="inline"><a href="#" title="Finance Options" aria-label="Finance Options" class="p-4 inline-block hover:text-brand-orange transition-all duration-300">Finance Options</a></li>
-                            <li class="inline"><a href="#" title="Inspiration" aria-label="Inspiration" class="p-4 inline-block hover:text-brand-orange transition-all duration-300">Inspiration</a></li>
-                            <li class="inline"><a href="#" title="About" aria-label="About" class="p-4 inline-block hover:text-brand-orange transition-all duration-300">About</a></li>
+                            <li class="inline">
+                                <a href="#" title="Roof Replacements" aria-label="Roof Replacements" class="p-4 inline-block hover:text-brand-orange transition-all duration-300">
+                                    Roof Replacements
+                                </a>
+                            </li>
+                            <li class="inline">
+                                <a href="#" title="Conservatories" aria-label="Conservatories" class="p-4 inline-block hover:text-brand-orange transition-all duration-300">
+                                    Conservatories
+                                </a>
+                            </li>
+                            <li class="inline">
+                                <a href="#" title="Orangeries" aria-label="Orangeries" class="p-4 inline-block hover:text-brand-orange transition-all duration-300">
+                                    Orangeries
+                                </a>
+                            </li>
+                            <li class="inline">
+                                <a href="#" title="Windows" aria-label="Windows" class="p-4 inline-block hover:text-brand-orange transition-all duration-300">
+                                    Windows
+                                </a>
+                            </li>
+                            <li class="inline">
+                                <a href="#" title="Doors" aria-label="Doors" class="p-4 inline-block hover:text-brand-orange transition-all duration-300">
+                                    Doors
+                                </a>
+                            </li>
+                            <li class="inline">
+                                <a href="#" title="Garden Studios" aria-label="Garden Studios" class="p-4 inline-block hover:text-brand-orange transition-all duration-300">
+                                    Garden Studios
+                                </a>
+                            </li>
+                            <li class="inline">
+                                <a href="#" title="Showrooms" aria-label="Showrooms" class="p-4 inline-block hover:text-brand-orange transition-all duration-300">
+                                    Showrooms
+                                </a>
+                            </li>
+                            <li class="inline">
+                                <a href="#" title="Finance Options" aria-label="Finance Options" class="p-4 inline-block hover:text-brand-orange transition-all duration-300">
+                                    Finance Options
+                                </a>
+                            </li>
+                            <li class="inline">
+                                <a href="#" title="Inspiration" aria-label="Inspiration" class="p-4 inline-block hover:text-brand-orange transition-all duration-300">
+                                    Inspiration
+                                </a>
+                            </li>
+                            <li class="inline">
+                                <a href="#" title="About" aria-label="About" class="p-4 inline-block hover:text-brand-orange transition-all duration-300">
+                                    About
+                                </a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -90,50 +131,85 @@
         <div class="bg-brand-orange">
             <div class="scroll">
                 <div class="uppercase text-brand-darkgrey text-5xl animation">
-                    <p class="py-2">Up to 60% off the entire solarframe range - interest free credit available - transform your home in time for summer - up to 60% off the entire solarframe range - interest free credit available - transform your home in time for summer</></p>
+                    <p class="py-2">Up to 60% off the entire solarframe range - interest free credit available - transform your home in time for summer - up to 60% off the entire solarframe range - interest free credit available - transform your home in time for summer - </p>
                 </div>
             </div>
         </div>
     </header>
+
     <section id="banner" role="banner">
-        <div class="grid grid-cols-1 swiper-slide">
-            <div class="col-span-1">
-                <img src="/images/main-banner-img.jpeg" alt="banner image" class="w-full h-auto"/>
-            </div>
-            <div class="container">
-                <div class="grid grid-cols-12">
-                    <div class="col-span-6 h-full">
-                        <h2>up tp 60% off!</h2>
-                        <p>Huge Summer Savings! Transform </p>
-                        <a href="#" title="request a quote" aria-label="request a quote">Request a quote</a>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="relative">
+                        <img src="/images/main-banner-img.jpeg" alt="banner image" class="w-full h-auto max-h-[900px]"/>
+                        <div class="bg-gradient-to-r from-brand-black opacity-70 absolute inset-0 h-full w-full"></div>
+                        <div class="container absolute inset-0">
+                            <div class="grid grid-cols-12 h-full items-center absolute">
+                                <div class="col-span-6 text-brand-white">
+                                    <h2 class="text-banner-h2 uppercase mb-4">Up to 60% off!</h2>
+                                    <p class="mb-2 text-banner-p">Huge Summer Savings! Transform your home in time for summer<br>
+                                        with huge savings across our entire range! </p>
+                                    <a href="#" title="request a quote" aria-label="request a quote" class="inline-block p-4 bg-brand-orange uppercase">Request a quote</a>
+                                </div>
+                                <div class="flex absolute inset-x-0 bottom-0 gap-1 text-2xl">
+                                    <div class="button-prev bg-brand-white text-brand-black h-[75px] w-[75px] flex justify-center items-center">
+                                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="button-next bg-brand-white text-brand-black h-[75px] w-[75px] flex justify-center items-center">
+                                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="grid grid-cols-1 swiper-slide hidden">
-            <div class="col-span-1">
-                <img src="/images/main-banner-img.jpeg" alt="banner image" class="w-full h-auto"/>
-            </div>
-            <div class="container">
-                <div class="grid grid-cols-12">
-                    <div class="col-span-6 h-full">
-                        <h2>New showroom is now open!</h2>
-                        <p>Our new showroom at Kirkstall shopping centre is now open. Can’t get there today? Take a look at our tour online by clicking the button below.</p>
-                        <a href="#" title="See the showroom" aria-label="See the showroom">See the showroom</a>
+                <div class="swiper-slide">
+                    <div class="relative">
+                        <img src="/images/slide2.jpeg" alt="banner image 2" class="w-full h-auto max-h-[900px] object-cover object-center"/>
+                        <div class="bg-gradient-to-r from-brand-black opacity-70 absolute inset-0 h-full w-full"></div>
+                        <div class="container absolute inset-0">
+                            <div class="grid grid-cols-12 h-full items-center absolute">
+                                <div class="col-span-6 text-brand-white">
+                                    <h2 class="text-banner-h2 uppercase mb-4">New showroom is now open!</h2>
+                                    <p class="mb-2 text-banner-p">Our new showroom at Kirkstall shopping centre is now open. Can’t get there today? Take a look at our tour online by clicking the button below.</p>
+                                    <a href="#" title="See the showroom" aria-label="See the showroom" class="inline-block p-4 bg-brand-orange uppercase">See the showroom</a>
+                                </div>
+                                <div class="flex absolute inset-x-0 bottom-0 gap-1 text-2xl">
+                                    <div class="button-prev bg-brand-white text-brand-black h-[75px] w-[75px] flex justify-center items-center">
+                                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="button-next bg-brand-white text-brand-black h-[75px] w-[75px] flex justify-center items-center">
+                                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="grid grid-cols-1 swiper-slide hidden">
-            <div class="col-span-1">
-                <img src="/images/main-banner-img.jpeg" alt="banner image" class="w-full h-auto"/>
-            </div>
-            <div class="container">
-                <div class="grid grid-cols-12">
-                    <div class="col-span-6 h-full">
-                        <h2>Transform your conservatory</h2>
-                        <p>Conservatory roof replacement is the current no.1 home improvement trend. Upgrade your old glazed or polycarbonate roof, to get a year-round room with an ambient temperature.</p>
-                        <a href="#" title="Find out more" aria-label="Find out more">Find out more</a>
+                <div class="swiper-slide">
+                    <div class="grid grid-cols-1">
+                        <div class="relative">
+                            <img src="/images/slide3.webp" alt="banner image 3" class="w-full h-auto min-h-[900px] max-h-[900px] object-cover object-center"/>
+                            <div class="bg-gradient-to-r from-brand-black opacity-70 absolute inset-0 h-full w-full"></div>
+                            <div class="container absolute inset-0">
+                                <div class="grid grid-cols-12 h-full items-center absolute">
+                                    <div class="col-span-6 text-brand-white">
+                                        <h2 class="text-banner-h2 uppercase mb-4">Transform your conservatory</h2>
+                                        <p class="mb-2 text-banner-p">Conservatory roof replacement is the current no.1 home improvement trend. Upgrade your old glazed or polycarbonate roof, to get a year-round room with an ambient temperature.</p>
+                                        <a href="#" title="Find out more" aria-label="Find out more" class="inline-block p-4 bg-brand-orange uppercase">Find out more</a>
+                                    </div>
+                                    <div class="flex absolute inset-x-0 bottom-0 gap-1 text-2xl">
+                                        <div class="button-prev bg-brand-white text-brand-black h-[75px] w-[75px] flex justify-center items-center">
+                                            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="button-next bg-brand-white text-brand-black h-[75px] w-[75px] flex justify-center items-center">
+                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -142,14 +218,14 @@
     <main id="content" role="main">
         <section aria-labelledby="main-title" class="py-10">
             <div class="container">
-                <div class="grid grid-cols-12">
+                <div class="grid grid-cols-12 gap-8">
                     <div class="col-span-6">
-                        <h1 id="main-title">Welcome To SolarFrame, your local Yorkshire experts in all things home improvement!</h1>
+                        <h1 id="main-title" class="text-h1">Welcome To SolarFrame, your local Yorkshire experts in all things home improvement!</h1>
                     </div>
                     <div class="col-span-6">
-                        <p><span class="font-bold">We are Yorkshire's leading conservatory roof replacement specialists, transforming old and tired conservatories into state of the art, versatile living spaces.</span><br>
+                        <p class="mb-4"><span class="font-bold">We are Yorkshire's leading conservatory roof replacement specialists, transforming old and tired conservatories into state of the art, versatile living spaces.</span class="font-bold"><br>
                         Browse our range of solid tiles roofs, orangeries, windows and doors. In addition, if you are looking for something quite different then browse our garden studio section.</p>
-                        <p>We hope you find everything you need. Please don’t hesitate to <a href="#" title="contact" aria-label="contact">get in touch.</a></p>
+                        <p>We hope you find everything you need. Please don’t hesitate to <a href="#" title="contact" aria-label="contact" class="text-brand-orange hover:text-brand-black transition-all duration-300">get in touch</a>.</p>
                     </div>
                 </div>
             </div>
@@ -158,18 +234,24 @@
         <section id="explore">
             <div class="container">
                 <div class="grid grid-cols-12">
-                    <div class="col-span-4 row-span-2 bg-brand-orange">
-                        <h2>Our brand new showroom at Kirkstall Bridge Shopping Park in Leeds is now open!</h2>
-                        <p><span class="font-bold">Open 7 days a week</span>, we welcome you to come and have a look at our vast range of solid tiled roofs, conservatories, orangeries, windows and doors!</p>
-                        <a href="#" title="Explore our new leeds showroom" aria-label="Explore our new leeds showroom">Explore our new leeds showroom</a>
-                        <br>
-                        <a href="#" title="Explore our south yorkshire showroom" aria-label="Explore our south yorkshire showroom">Explore our south yorkshire showroom</a>
+                    <div class="col-span-4 row-span-2 bg-brand-orange p-10 flex flex-col justify-center gap-4 border border-brand-white">
+                        <h2 class="text-h2 text-brand-white">Our brand new showroom at Kirkstall Bridge Shopping Park in Leeds is now open!</h2>
+                        <p class="text-brand-white"><span class="font-bold text-brand-white">Open 7 days a week</span>, we welcome you to come and have a look at our vast range of solid tiled roofs, conservatories, orangeries, windows and doors!</p>
+                        <div class="w-2/3 flex flex-col gap-4">
+                            <a href="#" title="Explore our new leeds showroom" aria-label="Explore our new leeds showroom" class="bg-brand-white text-brand-darkgrey text-center uppercase py-4 px-8 block">Explore our new Leeds showroom</a>
+                            <a href="#" title="Explore our south yorkshire showroom" aria-label="Explore our south yorkshire showroom" class="bg-brand-darkgrey text-brand-white uppercase text-center py-4 px-8 block">Explore our south yorkshire showroom</a>
+                        </div>
                     </div>
-                    <div class="col-span-8 row-span-1">
-                        <img src="images/sf-solarframe-showroom-kirkstall-bridge-shopping-centre.jpeg" alt="Kirkstall shopping center showroom">
+                    <div class="col-span-8 border border-brand-white">
+                        <img src="images/sf-solarframe-showroom-kirkstall-bridge-shopping-centre.jpeg" alt="Kirkstall shopping center showroom" class="w-full h-[500px] object-cover">
                     </div>
-                    <div class="col-span-8 row-span-1">
-                        <img src="images/solar-panels.jpeg" alt="solar panels">
+                    <div class="col-span-8 border border-brand-white relative">
+                        <img src="images/solar-panels.jpeg" alt="solar panels" class="w-full h-[300px] object-cover">
+                        <div class="absolute inset-0 h-full w-1/3 flex flex-col p-4 gap-4 justify-center text-brand-white text-p">
+                            <h3 class="text-h3">Solar PV Now Available!</h3>
+                            <p>Take control of your energy bills with Solar PV and Battery Storage!</p>
+                            <a href="/" title="Find out more" aria-label="Find out more" class="text-brand-orange self-start hover:text-brand-black transition-all duration-300">Find out more</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -178,7 +260,7 @@
         <section id="image-grid">
             <div class="container">
                 <div class="grid grid-cols-12">
-                    <div class="col-span-4">
+                    <div class="col-span-4 border border-brand-white">
                         <a href="#" title="Conservatories" aria-label="Conservatories">
                             <img src="images/conservatories.webp" alt="Conservatories">
                             <h3>Conservatories</h3>
@@ -186,7 +268,7 @@
                             <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span> More information
                         </a>
                     </div>
-                    <div class="col-span-4">
+                    <div class="col-span-4 border border-brand-white">
                         <a href="#" title="Orangeries" aria-label="Orangeries">
                             <img src="images/orangeries.jpeg" alt="Orangeries">
                             <h3>Orangeries</h3>
@@ -194,7 +276,7 @@
                             <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span> More information
                         </a>
                     </div>
-                    <div class="col-span-4">
+                    <div class="col-span-4 border border-brand-white">
                         <a href="#" title="Extensions" aria-label="Extensions">
                             <img src="images/extensions.jpeg" alt="Extensions">
                             <h3>Conservatories</h3>
@@ -459,7 +541,9 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="/scripts/scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-    <script src="./scripts/scripts.js"></script>
+
 </body>
 </html>
