@@ -231,10 +231,10 @@
             </div>
         </section>
 
-        <section id="explore">
+        <section id="image-grid">
             <div class="container">
-                <div class="grid grid-cols-12">
-                    <div class="col-span-4 row-span-2 bg-brand-orange p-10 flex flex-col justify-center gap-4 border border-brand-white">
+                <div class="grid grid-cols-3">
+                    <div class="col-span-1 row-span-2 bg-brand-orange p-10 flex flex-col justify-center gap-4 border border-brand-white">
                         <h2 class="text-h2 text-brand-white">Our brand new showroom at Kirkstall Bridge Shopping Park in Leeds is now open!</h2>
                         <p class="text-brand-white"><span class="font-bold text-brand-white">Open 7 days a week</span>, we welcome you to come and have a look at our vast range of solid tiled roofs, conservatories, orangeries, windows and doors!</p>
                         <div class="w-2/3 flex flex-col gap-4">
@@ -242,88 +242,121 @@
                             <a href="#" title="Explore our south yorkshire showroom" aria-label="Explore our south yorkshire showroom" class="bg-brand-darkgrey text-brand-white uppercase text-center py-4 px-8 block">Explore our south yorkshire showroom</a>
                         </div>
                     </div>
-                    <div class="col-span-8 border border-brand-white">
-                        <img src="images/sf-solarframe-showroom-kirkstall-bridge-shopping-centre.jpeg" alt="Kirkstall shopping center showroom" class="w-full h-[500px] object-cover">
+                    <div class="col-span-2 border border-brand-white">
+                        <img src="images/sf-solarframe-showroom-kirkstall-bridge-shopping-centre.jpeg" alt="Kirkstall shopping center showroom" class="max-h-[500px] w-full object-cover">
                     </div>
-                    <div class="col-span-8 border border-brand-white relative">
-                        <img src="images/solar-panels.jpeg" alt="solar panels" class="w-full h-[300px] object-cover">
-                        <div class="absolute inset-0 h-full w-1/3 flex flex-col p-4 gap-4 justify-center text-brand-white text-p">
+                    <div class="col-span-2 border border-brand-white relative">
+                        <img src="images/solar-panels.jpeg" alt="solar panels" class="object-cover max-h-[300px] w-full">
+                        <div class="absolute inset-0 h-full w-1/3 flex flex-col p-8 gap-4 justify-center text-brand-white text-p">
                             <h3 class="text-h3">Solar PV Now Available!</h3>
                             <p>Take control of your energy bills with Solar PV and Battery Storage!</p>
                             <a href="/" title="Find out more" aria-label="Find out more" class="text-brand-orange self-start hover:text-brand-black transition-all duration-300">Find out more</a>
                         </div>
                     </div>
+                    <div class="col-span-1 border border-brand-white overflow-hidden">
+                        <a href="#" title="Conservatories" aria-label="Conservatories" class="relative group">
+                            <img src="images/conservatories.webp" alt="Conservatories" class="brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
+                            <div class="absolute bottom-0 p-4 text-brand-white">
+                                <h3 class="text-h3 mb-4">Conservatories</h3>
+                                <p class="hidden mb-4 group-hover:block transition-all duration-300">Conservatories provide a comfortable and stylish addition to any home.</p>
+                                <div class="flex">
+                                    <i class="fa fa-arrow-right h-[35px] w-[35px] border border-brand-orange rounded-full !flex items-center justify-center mr-2 group-hover:bg-brand-orange transition-all duration-300" aria-hidden="true"></i>
+                                    <p class="flex items-center">More information</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-span-1 border border-brand-white overflow-hidden">
+                        <a href="#" title="Orangeries" aria-label="Orangeries" class="relative group">
+                            <img src="images/orangeries.jpeg" alt="Orangeries" class="brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
+                            <div class="absolute bottom-0 p-4 text-brand-white">
+                                <h3 class="text-h3 mb-4">Orangeries</h3>
+                                <p class="hidden mb-4 group-hover:block transition-all duration-300">State-of-the-Art Orangeries - Make an instant impression</p>
+                                <div class="flex">
+                                    <i class="fa fa-arrow-right h-[35px] w-[35px] border border-brand-orange rounded-full !flex items-center justify-center mr-2 group-hover:bg-brand-orange transition-all duration-300" aria-hidden="true"></i>
+                                    <p class="flex items-center">More information</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-span-1 border border-brand-white overflow-hidden">
+                        <a href="#" title="Extensions" aria-label="Extensions" class="relative group">
+                            <img src="images/extensions.jpeg" alt="Extensions" class="brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
+                            <div class="absolute bottom-0 p-4 text-brand-white">
+                                <h3 class="text-h3 mb-4">Conservatories</h3>
+                                <p class="hidden mb-4 group-hover:block transition-all duration-300">Conservatories provide a comfortable and stylish addition to any home.</p>
+                                <div class="flex">
+                                    <i class="fa fa-arrow-right h-[35px] w-[35px] border border-brand-orange rounded-full !flex items-center justify-center mr-2 group-hover:bg-brand-orange transition-all duration-300" aria-hidden="true"></i>
+                                    <p class="flex items-center">More information</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </div>
-        </section>
-
-        <section id="image-grid">
-            <div class="container">
-                <div class="grid grid-cols-12">
-                    <div class="col-span-4 border border-brand-white">
-                        <a href="#" title="Conservatories" aria-label="Conservatories">
-                            <img src="images/conservatories.webp" alt="Conservatories">
-                            <h3>Conservatories</h3>
-                            <p>Conservatories provide a comfortable and stylish addition to any home.</p>
-                            <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span> More information
+                <div class="grid grid-cols-4 grid-rows-2">
+                    <div class="col-span-2 row-span-2 border border-brand-white overflow-hidden">
+                        <a href="#" title="Roof Replacements" aria-label="Roof Replacements" class="relative group">
+                            <img src="images/Roof-Replacement.jpeg" alt="Roof Replacements" class="h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
+                            <div class="absolute bottom-0 p-4 text-brand-white">
+                                <h3 class="text-h3 mb-4">Roof Replacements</h3>
+                                <p></p>
+                                <div class="flex">
+                                    <i class="fa fa-arrow-right h-[35px] w-[35px] border border-brand-orange rounded-full !flex items-center justify-center mr-2 group-hover:bg-brand-orange transition-all duration-300" aria-hidden="true"></i>
+                                    <p class="flex items-center">More information</p>
+                                </div>
+                            </div>
                         </a>
                     </div>
-                    <div class="col-span-4 border border-brand-white">
-                        <a href="#" title="Orangeries" aria-label="Orangeries">
-                            <img src="images/orangeries.jpeg" alt="Orangeries">
-                            <h3>Orangeries</h3>
-                            <p>State-of-the-Art Orangeries - Make an instant impression</p>
-                            <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span> More information
+                    <div class="border border-brand-white overflow-hidden">
+                        <a href="#" title="Windows" aria-label="Windows" class="relative group">
+                            <img src="images/windows.jpeg" alt="Windows" class="h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
+                            <div class="absolute bottom-0 p-4 text-brand-white">
+                                <h3 class="text-h3 mb-4">Windows</h3>
+                                <p></p>
+                                <div class="flex">
+                                    <i class="fa fa-arrow-right h-[35px] w-[35px] border border-brand-orange rounded-full !flex items-center justify-center mr-2 group-hover:bg-brand-orange transition-all duration-300" aria-hidden="true"></i>
+                                    <p class="flex items-center">More information</p>
+                                </div>
+                            </div>
                         </a>
                     </div>
-                    <div class="col-span-4 border border-brand-white">
-                        <a href="#" title="Extensions" aria-label="Extensions">
-                            <img src="images/extensions.jpeg" alt="Extensions">
-                            <h3>Conservatories</h3>
-                            <p>Conservatories provide a comfortable and stylish addition to any home.</p>
-                            <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span> More information
+                    <div class="border border-brand-white overflow-hidden">
+                        <a href="#" title="Doors" aria-label="Doors" class="relative group">
+                            <img src="images/doors.jpeg" alt="Doors" class="h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
+                            <div class="absolute bottom-0 p-4 text-brand-white">
+                                <h3 class="text-h3 mb-4">Doors</h3>
+                                <p></p>
+                                <div class="flex">
+                                    <i class="fa fa-arrow-right h-[35px] w-[35px] border border-brand-orange rounded-full !flex items-center justify-center mr-2 group-hover:bg-brand-orange transition-all duration-300" aria-hidden="true"></i>
+                                    <p class="flex items-center">More information</p>
+                                </div>
+                            </div>
                         </a>
                     </div>
-                </div>
-                <div class="grid grid-cols-12">
-                    <div class="col-span-6 row-span-2">
-                        <a href="#" title="Roof Replacements" aria-label="Roof Replacements">
-                            <img src="images/Roof-Replacement.jpeg" alt="Roof Replacements">
-                            <h3>Roof Replacements</h3>
-                            <p></p>
-                            <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span> More information
+                    <div class="border border-brand-white overflow-hidden">
+                        <a href="#" title="Garden Studios" aria-label="Garden Studios" class="relative group">
+                            <img src="images/garden-studios.png" alt="Garden Studios" class="h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
+                            <div class="absolute bottom-0 p-4 text-brand-white">
+                                <h3 class="text-h3 mb-4">Garden Studio</h3>
+                                <p class="hidden group-hover:block">A garden studio is becoming increasingly popular garden addition as people recognise the benefits of having extra living space.</p>
+                                <div class="flex">
+                                    <i class="fa fa-arrow-right h-[35px] w-[35px] border border-brand-orange rounded-full !flex items-center justify-center mr-2 group-hover:bg-brand-orange transition-all duration-300" aria-hidden="true"></i>
+                                    <p class="flex items-center">More information</p>
+                                </div>
+                            </div>
                         </a>
                     </div>
-                    <div class="col-span-3 row-span-1">
-                        <a href="#" title="Windows" aria-label="Windows">
-                            <img src="images/windows.jpeg" alt="Windows">
-                            <h3>Windows</h3>
-                            <p></p>
-                            <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span> More information
-                        </a>
-                    </div>
-                    <div class="col-span-3 row-span-1">
-                        <a href="#" title="Doors" aria-label="Doors">
-                            <img src="images/doors.jpeg" alt="Doors">
-                            <h3>Orangeries</h3>
-                            <p></p>
-                            <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span> More information
-                        </a>
-                    </div>
-                    <div class="col-span-3 row-span-1">
-                        <a href="#" title="Garden Studios" aria-label="Garden Studios">
-                            <img src="images/garden-studios.png" alt="Garden Studios">
-                            <h3>Orangeries</h3>
-                            <p></p>
-                            <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span> More information
-                        </a>
-                    </div>
-                    <div class="col-span-3 row-span-1">
-                        <a href="#" title="Glazed roof" aria-label="Glazed roof">
-                            <img src="images/Glazed-Roof-Conservatory-Banner.jpeg" alt="Glazed roof">
-                            <h3>Orangeries</h3>
-                            <p></p>
-                            <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span> More information
+                    <div class="border border-brand-white overflow-hidden">
+                        <a href="#" title="Glazed roof" aria-label="Glazed roof" class="relative group">
+                            <img src="images/Glazed-Roof-Conservatory-Banner.jpeg" alt="Glazed roof" class="h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
+                            <div class="absolute bottom-0 p-4 text-brand-white">
+                                <h3 class="text-h3 mb-4">Orangeries</h3>
+                                <p></p>
+                                <div class="flex">
+                                    <i class="fa fa-arrow-right h-[35px] w-[35px] border border-brand-orange rounded-full !flex items-center justify-center mr-2 group-hover:bg-brand-orange transition-all duration-300" aria-hidden="true"></i>
+                                    <p class="flex items-center">More information</p>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </div>
