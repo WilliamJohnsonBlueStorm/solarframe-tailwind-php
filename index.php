@@ -138,7 +138,7 @@
     </header>
 
     <section id="banner" role="banner">
-        <div class="swiper">
+        <div class="swiper" id="banner-swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="relative">
@@ -231,10 +231,10 @@
             </div>
         </section>
 
-        <section id="image-grid">
+        <section id="image-grid" class="mb-10">
             <div class="container">
-                <div class="grid grid-cols-3">
-                    <div class="col-span-1 row-span-2 bg-brand-orange p-10 flex flex-col justify-center gap-4 border border-brand-white">
+                <div class="grid grid-cols-3 grid-rows-3">
+                    <div class="col-span-1 row-span-3 bg-brand-orange p-10 flex flex-col justify-center gap-4 border border-brand-white">
                         <h2 class="text-h2 text-brand-white">Our brand new showroom at Kirkstall Bridge Shopping Park in Leeds is now open!</h2>
                         <p class="text-brand-white"><span class="font-bold text-brand-white">Open 7 days a week</span>, we welcome you to come and have a look at our vast range of solid tiled roofs, conservatories, orangeries, windows and doors!</p>
                         <div class="w-2/3 flex flex-col gap-4">
@@ -242,17 +242,19 @@
                             <a href="#" title="Explore our south yorkshire showroom" aria-label="Explore our south yorkshire showroom" class="bg-brand-darkgrey text-brand-white uppercase text-center py-4 px-8 block">Explore our south yorkshire showroom</a>
                         </div>
                     </div>
-                    <div class="col-span-2 border border-brand-white">
-                        <img src="images/sf-solarframe-showroom-kirkstall-bridge-shopping-centre.jpeg" alt="Kirkstall shopping center showroom" class="max-h-[500px] w-full object-cover">
+                    <div class="col-span-2 row-span-2 border border-brand-white">
+                        <img src="images/sf-solarframe-showroom-kirkstall-bridge-shopping-centre.jpeg" alt="Kirkstall shopping center showroom" class="h-full w-auto object-cover">
                     </div>
-                    <div class="col-span-2 border border-brand-white relative">
-                        <img src="images/solar-panels.jpeg" alt="solar panels" class="object-cover max-h-[300px] w-full">
+                    <div class="col-span-2 row-span-1 border border-brand-white relative">
+                        <img src="images/solar-panels.jpeg" alt="solar panels" class="h-full w-auto object-cover">
                         <div class="absolute inset-0 h-full w-1/3 flex flex-col p-8 gap-4 justify-center text-brand-white text-p">
                             <h3 class="text-h3">Solar PV Now Available!</h3>
                             <p>Take control of your energy bills with Solar PV and Battery Storage!</p>
                             <a href="/" title="Find out more" aria-label="Find out more" class="text-brand-orange self-start hover:text-brand-black transition-all duration-300">Find out more</a>
                         </div>
                     </div>
+                </div>
+                <div class="grid grid-cols-3">
                     <div class="col-span-1 border border-brand-white overflow-hidden">
                         <a href="#" title="Conservatories" aria-label="Conservatories" class="relative group">
                             <img src="images/conservatories.webp" alt="Conservatories" class="brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
@@ -322,7 +324,7 @@
                     </div>
                     <div class="border border-brand-white overflow-hidden">
                         <a href="#" title="Doors" aria-label="Doors" class="relative group">
-                            <img src="images/doors.jpeg" alt="Doors" class="h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
+                            <img src="images/doors.jpeg" alt="Doors" class="w-full h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
                             <div class="absolute bottom-0 p-4 text-brand-white">
                                 <h3 class="text-h3 mb-4">Doors</h3>
                                 <p></p>
@@ -335,7 +337,7 @@
                     </div>
                     <div class="border border-brand-white overflow-hidden">
                         <a href="#" title="Garden Studios" aria-label="Garden Studios" class="relative group">
-                            <img src="images/garden-studios.png" alt="Garden Studios" class="h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
+                            <img src="images/garden-studios.png" alt="Garden Studios" class="w-full h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
                             <div class="absolute bottom-0 p-4 text-brand-white">
                                 <h3 class="text-h3 mb-4">Garden Studio</h3>
                                 <p class="hidden group-hover:block">A garden studio is becoming increasingly popular garden addition as people recognise the benefits of having extra living space.</p>
@@ -347,10 +349,10 @@
                         </a>
                     </div>
                     <div class="border border-brand-white overflow-hidden">
-                        <a href="#" title="Glazed roof" aria-label="Glazed roof" class="relative group">
-                            <img src="images/Glazed-Roof-Conservatory-Banner.jpeg" alt="Glazed roof" class="h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
+                        <a href="#" title="Glazed Roofs" aria-label="Glazed Roofs" class="relative group">
+                            <img src="images/Glazed-Roof-Conservatory-Banner.jpeg" alt="Glazed roof" class="w-full h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
                             <div class="absolute bottom-0 p-4 text-brand-white">
-                                <h3 class="text-h3 mb-4">Orangeries</h3>
+                                <h3 class="text-h3 mb-4">Glazed Roofs</h3>
                                 <p></p>
                                 <div class="flex">
                                     <i class="fa fa-arrow-right h-[35px] w-[35px] border border-brand-orange rounded-full !flex items-center justify-center mr-2 group-hover:bg-brand-orange transition-all duration-300" aria-hidden="true"></i>
@@ -361,13 +363,21 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-12">
-                    <div class="col-span-12">
-                        <img src="images/Internal-View-Orangery-3.webp" alt="Inside Orangery">
-                        <div class="grid grid-cols-12">
-                            <div class="col-span-6">
-                                <h3>Request your free quote today</h3>
-                                <p>We have transformed homes throughout Yorkshire, North Nottinghamshire and Derbyshire over the last 12 years and look forward to starting a project with you.</p>
-                                <a href="#" title="request a quote" aria-label="request a quote">Request a quote</a>
+                    <div class="col-span-12 border border-brand-white">
+                        <div class="relative">
+                            <img src="images/Internal-View-Orangery-3.webp" alt="Inside Orangery">
+                            <div class="grid grid-cols-12">
+                                <div class="col-span-6 absolute bottom-0">
+                                    <div class="container">
+                                        <div class="grid grid-cols-12">
+                                            <div class="col-span-6 p-5 bg-brand-white">
+                                                <h3 class="text-h3 mb-4">Request your free quote today</h3>
+                                                <p class="text-p mb-4">We have transformed homes throughout Yorkshire, North Nottinghamshire and Derbyshire over the last 12 years and look forward to starting a project with you.</p>
+                                                <a href="#" title="request a quote" aria-label="request a quote" class="text-brand-white bg-brand-orange p-4 inline-block hover:brightness-110 transition-all duration-300">Request a quote</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -375,35 +385,54 @@
             </div>
         </section>
 
-        <section id="case-studies">
+        <section id="case-studies" class="mb-10">
             <div class="container">
                 <div class="grid-cols-12">
-                    <div class="col-span-12">
-                        <h4>Take a look at our recent case studies</h4>
+                    <div class="col-span-12 py-10">
+                        <h2 class="text-h2 text-center">Take a look at our recent case studies</h2>
                     </div>
-                    <div class="col-span-12">
-                        <a href="#" title="Case Study 1" aria-label="Case Study 1">
-                            <img src="images/case-study-1.jpeg" alt="Case Study 1">
-                            <h5>"We used our new conservatory more than our living room"</h5>
-                            <p></p>
-                            <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span> View case study
-                        </a>
-                    </div>
-                    <div class="col-span-12 hidden">
-                        <a href="#" title="Case Study 2" aria-label="Case Study 2">
-                            <img src="images/case-study-2.jpeg" alt="Case Study 2">
-                            <h5>"With the addition of the new roof we have a great space that we can use all year round!"</h5>
-                            <p></p>
-                            <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span> View case study
-                        </a>
-                    </div>
-                    <div class="col-span-12 hidden">
-                        <a href="#" title="Case Study 3" aria-label="Case Study 3">
-                            <img src="images/case-study-1.jpeg" alt="Case Study 3">
-                            <h5>"Without exception, everyone we dealt with was polite and efficient."</h5>
-                            <p></p>
-                            <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span> View case study
-                        </a>
+                    <div id="case-study-swiper" class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide relative overflow-hidden group">
+                                <a href="#" title="Case Study 1" aria-label="Case Study 1">
+                                    <img src="images/case-study-1.jpeg" alt="Case Study 1" class="w-full h-auto object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
+                                    <div class="absolute bottom-0 text-brand-white p-4">
+                                        <h3 class="text-h3 mb-4">"After the transformation the conservatory definitely retains its heat better"</h3>
+                                        <p></p>
+                                        <div class="flex">
+                                            <i class="fa fa-arrow-right h-[35px] w-[35px] border border-brand-orange rounded-full !flex items-center justify-center mr-2 group-hover:bg-brand-orange transition-all duration-300" aria-hidden="true"></i>
+                                            <p class="flex items-center">More information</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide relative overflow-hidden group">
+                                <a href="#" title="Case Study 2" aria-label="Case Study 2">
+                                    <img src="images/case-study-2.jpeg" alt="Case Study 1" class="w-full h-auto object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
+                                    <div class="absolute bottom-0 text-brand-white p-4">
+                                        <h3 class="text-h3 mb-4">"We are not quite into summer yet but the temperature difference is unbelievable"</h3>
+                                        <p></p>
+                                        <div class="flex">
+                                            <i class="fa fa-arrow-right h-[35px] w-[35px] border border-brand-orange rounded-full !flex items-center justify-center mr-2 group-hover:bg-brand-orange transition-all duration-300" aria-hidden="true"></i>
+                                            <p class="flex items-center">More information</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide relative overflow-hidden group">
+                                <a href="#" title="Case Study 3" aria-label="Case Study 3">
+                                    <img src="images/case-study-3.jpeg" alt="Case Study 3" class="w-full h-auto object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
+                                    <div class="absolute bottom-0 text-brand-white p-4">
+                                        <h3 class="text-h3 mb-4">"The conservatory roof replacement has really changed the way that we use the space!"</h3>
+                                        <p></p>
+                                        <div class="flex">
+                                            <i class="fa fa-arrow-right h-[35px] w-[35px] border border-brand-orange rounded-full !flex items-center justify-center mr-2 group-hover:bg-brand-orange transition-all duration-300" aria-hidden="true"></i>
+                                            <p class="flex items-center">More information</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -412,11 +441,11 @@
         <section id="testimonials">
             <div class="container">
                 <div class="grid grid-cols-12">
-                    <div class="col-span-10">
-                        <h4>Our customers' feedback is important to us!</h4>
-                        <p>Here's what a few of them have said about us</p>
+                    <div class="col-span-8 col-start-2">
+                        <h2 class="text-h2 mb-4">Our customers' feedback is important to us!</h2>
+                        <p class="mb-4">Here's what a few of them have said about us</p>
                     </div>
-                    <div class="col-span-2">
+                    <div class="col-span-2 col-start-10">
                         <button title="carousel left"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
                         <button title="carousel right"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
                     </div>
