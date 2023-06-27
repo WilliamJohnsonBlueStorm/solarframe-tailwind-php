@@ -19,6 +19,19 @@ $(function(){
         initialSlide: 1,
     });
 
+    const testimonial_swiper = new Swiper('#testimonial-swiper', {
+        // Optional parameters
+        slidesPerView: 3.5,
+        centeredSlides: true,
+        loop: true,
+        spaceBetween: 40,
+        // Navigation arrows
+        navigation: {
+            nextEl: '.testimonial-button-next',
+            prevEl: '.testimonial-button-prev',
+        },
+    });
+
     Fancybox.bind("[data-fancybox]", {
         // Your custom options
     });
