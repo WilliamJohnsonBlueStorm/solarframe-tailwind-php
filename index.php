@@ -25,15 +25,15 @@
         <div class="container">
             <div class="grid grid-cols-12">
                 <div class="col-span-4">
-                    <div class="grid grid-cols-2 items-center gap-8">
+                    <div class="grid grid-cols-2 items-center py-2 gap-8">
                         <div class="col-span-1">
-                            <a href="#" title="Home" aria-label="Home">
+                            <a href="#" title="Home" aria-label="Home" class="block">
                                 <img src="/images/logo.svg" alt="SolarFrame Logo" class="w-full h-auto">
                             </a>
                         </div>
                         <div class="col-span-1">
-                            <a href="tel:08006250000" title="Phone" aria-label="Phone" class="block py-2"><i class="fa fa-phone text-brand-orange mr-2" aria-hidden="true"></i>0800 6250000</a>
-                            <a href="mailto:info@solarframe-direct.co.uk" title="Email" aria-label="Email" class="block py-2"><i class="fa fa-envelope text-brand-orange mr-2" aria-hidden="true"></i>info@solarframe-direct.co.uk</a>
+                            <a href="tel:08006250000" title="Phone" aria-label="Phone" class="block mb-2"><i class="fa fa-phone text-brand-orange mr-2" aria-hidden="true"></i>0800 6250000</a>
+                            <a href="mailto:info@solarframe-direct.co.uk" title="Email" aria-label="Email" class="block"><i class="fa fa-envelope text-brand-orange mr-2" aria-hidden="true"></i>info@solarframe-direct.co.uk</a>
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
                             </a>
                         </li>
                         <li class="flex items-stretch">
-                            <a class="bg-brand-grey p-5 text-white flex items-center hover:brightness-110 transition-all duration-500" href="#" title="Search" aria-label="Search">
+                            <a class="bg-brand-grey p-8 text-white flex items-center hover:brightness-110 transition-all duration-500" href="#" title="Search" aria-label="Search">
                                 <i class="fa fa-search" aria-hidden="true"></i>
                             </a>
                         </li>
@@ -137,7 +137,7 @@
         </div>
     </header>
 
-    <section id="banner" role="banner">
+    <section id="banner" role="banner" class="relative">
         <div class="swiper" id="banner-swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -152,14 +152,7 @@
                                         with huge savings across our entire range! </p>
                                     <a href="#" title="request a quote" aria-label="request a quote" class="inline-block p-4 bg-brand-orange uppercase">Request a quote</a>
                                 </div>
-                                <div class="flex absolute inset-x-0 bottom-0 gap-1 text-2xl">
-                                    <div class="button-prev bg-brand-white text-brand-black h-[75px] w-[75px] flex justify-center items-center">
-                                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="button-next bg-brand-white text-brand-black h-[75px] w-[75px] flex justify-center items-center">
-                                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -174,14 +167,6 @@
                                     <h2 class="text-banner-h2 uppercase mb-4">New showroom is now open!</h2>
                                     <p class="mb-2 text-banner-p">Our new showroom at Kirkstall shopping centre is now open. Can’t get there today? Take a look at our tour online by clicking the button below.</p>
                                     <a href="#" title="See the showroom" aria-label="See the showroom" class="inline-block p-4 bg-brand-orange uppercase">See the showroom</a>
-                                </div>
-                                <div class="flex absolute inset-x-0 bottom-0 gap-1 text-2xl">
-                                    <div class="button-prev bg-brand-white text-brand-black h-[75px] w-[75px] flex justify-center items-center">
-                                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="button-next bg-brand-white text-brand-black h-[75px] w-[75px] flex justify-center items-center">
-                                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -199,17 +184,21 @@
                                         <p class="mb-2 text-banner-p">Conservatory roof replacement is the current no.1 home improvement trend. Upgrade your old glazed or polycarbonate roof, to get a year-round room with an ambient temperature.</p>
                                         <a href="#" title="Find out more" aria-label="Find out more" class="inline-block p-4 bg-brand-orange uppercase">Find out more</a>
                                     </div>
-                                    <div class="flex absolute inset-x-0 bottom-0 gap-1 text-2xl">
-                                        <div class="button-prev bg-brand-white text-brand-black h-[75px] w-[75px] flex justify-center items-center">
-                                            <i class="fa fa-arrow-left" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="button-next bg-brand-white text-brand-black h-[75px] w-[75px] flex justify-center items-center">
-                                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container z-50 absolute inset-x-0 bottom-0">
+            <div class="grid">
+                <div class="flex gap-1 text-2xl">
+                    <div class="button-prev bg-brand-white text-brand-black h-[75px] w-[75px] flex justify-center items-center">
+                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                    </div>
+                    <div class="button-next bg-brand-white text-brand-black h-[75px] w-[75px] flex justify-center items-center">
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
                     </div>
                 </div>
             </div>
