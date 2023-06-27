@@ -41,6 +41,7 @@ module.exports = {
         h1: ['45px', '53px'],
         h2: ['35px', '40px'],
         h3: ['30px', '35px'],
+        h4: ['25px', '30px'],
         p: ['16px', '25px'],
         'banner-h2': ['55px', '63px'],
         'banner-p': ['20px', '30px'],

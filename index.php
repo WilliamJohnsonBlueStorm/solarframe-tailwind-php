@@ -238,8 +238,8 @@
                         <h2 class="text-h2 text-brand-white">Our brand new showroom at Kirkstall Bridge Shopping Park in Leeds is now open!</h2>
                         <p class="text-brand-white"><span class="font-bold text-brand-white">Open 7 days a week</span>, we welcome you to come and have a look at our vast range of solid tiled roofs, conservatories, orangeries, windows and doors!</p>
                         <div class="w-2/3 flex flex-col gap-4">
-                            <a href="#" title="Explore our new leeds showroom" aria-label="Explore our new leeds showroom" class="bg-brand-white text-brand-darkgrey text-center uppercase py-4 px-8 block">Explore our new Leeds showroom</a>
-                            <a href="#" title="Explore our south yorkshire showroom" aria-label="Explore our south yorkshire showroom" class="bg-brand-darkgrey text-brand-white uppercase text-center py-4 px-8 block">Explore our south yorkshire showroom</a>
+                            <a href="#" title="Explore our new leeds showroom" aria-label="Explore our new leeds showroom" class="bg-brand-white text-brand-darkgrey text-center uppercase py-4 px-8 block hover:brightness-110 transition-all duration-300">Explore our new Leeds showroom</a>
+                            <a href="#" title="Explore our south yorkshire showroom" aria-label="Explore our south yorkshire showroom" class="bg-brand-darkgrey text-brand-white uppercase text-center py-4 px-8 block hover:brightness-110 transition-all duration-300">Explore our south yorkshire showroom</a>
                         </div>
                     </div>
                     <div class="col-span-2 row-span-2 border border-brand-white">
@@ -365,7 +365,7 @@
                 <div class="grid grid-cols-12">
                     <div class="col-span-12 border border-brand-white">
                         <div class="relative">
-                            <img src="images/Internal-View-Orangery-3.webp" alt="Inside Orangery">
+                            <img src="images/Internal-View-Orangery-3.webp" alt="Inside Orangery" class="max-h-[800px] w-full">
                             <div class="grid grid-cols-12">
                                 <div class="col-span-6 absolute bottom-0">
                                     <div class="container">
@@ -597,58 +597,58 @@
     </main>
 
     <footer role="contentinfo" class="bg-brand-black text-brand-white">
-        <div class="container">
-            <div class="grid grid-cols-5">
+        <div class="container py-10">
+            <div class="grid grid-cols-5 gap-8 mb-4">
                 <div class="col-span-1">
-                    <img src="images/solarframe-footer%20logo%20.png" alt="SolarFrame logo">
-                    <address>Unit 3 Davey Road, Fields End Business Park, Goldthorpe , South Yorkshire , S63 0JF</address>
-                    <a href="tel:08006250000" title="phone number" aria-label="phone number" class="block"><i class="fa fa-phone" aria-hidden="true"></i>08006250000</a>
-                    <a href="mailto:info@solarframe-direct.co.uk" title="Email" aria-label="Email" class="block"><i class="fa fa-envelope" aria-hidden="true"></i>info@solarframe-direct.co.uk</a>
+                    <img src="images/solarframe-footer%20logo%20.png" alt="SolarFrame logo" class="mb-4">
+                    <address class="mb-4 not-italic">Unit 3 Davey Road, Fields End Business Park, Goldthorpe , South Yorkshire , S63 0JF</address>
+                    <a href="tel:08006250000" title="phone number" aria-label="phone number" class="block mb-2 hover:text-brand-orange transition-all duration-300 "><i class="fa fa-phone text-brand-orange mr-2" aria-hidden="true"></i>0800 6250000</a>
+                    <a href="mailto:info@solarframe-direct.co.uk" title="Email" aria-label="Email" class="block hover:text-brand-orange transition-all duration-300"><i class="fa fa-envelope text-brand-orange mr-2" aria-hidden="true"></i>info@solarframe-direct.co.uk</a>
                 </div>
                 <div class="col-span-2">
                     <div class="grid grid-cols-2">
-                        <h6>Go to</h6>
+                        <h4 class="text-h4 mb-4">Go to</h4>
                     </div>
                     <div class="grid grid-cols-2">
                         <nav role="navigation">
                             <ul>
-                                <li><a href="#" title="Roof Replacements" aria-label="Roof Replacements">Roof Replacements</a></li>
-                                <li><a href="#" title="Conservatories" aria-label="Conservatories">Conservatories</a></li>
-                                <li><a href="#" title="Orangeries" aria-label="Orangeries">Orangeries</a></li>
-                                <li><a href="#" title="Windows" aria-label="Windows">Roof Replacements</a></li>
-                                <li><a href="#" title="Doors" aria-label="Doors">Doors</a></li>
+                                <li class="mb-2"><a href="#" title="Roof Replacements" aria-label="Roof Replacements" class="hover:text-brand-orange transition-all duration-300">Roof Replacements</a></li>
+                                <li class="mb-2"><a href="#" title="Conservatories" aria-label="Conservatories" class="hover:text-brand-orange transition-all duration-300">Conservatories</a></li>
+                                <li class="mb-2"><a href="#" title="Orangeries" aria-label="Orangeries" class="hover:text-brand-orange transition-all duration-300">Orangeries</a></li>
+                                <li class="mb-2"><a href="#" title="Windows" aria-label="Windows" class="hover:text-brand-orange transition-all duration-300">Roof Replacements</a></li>
+                                <li class="mb-2"><a href="#" title="Doors" aria-label="Doors" class="hover:text-brand-orange transition-all duration-300">Doors</a></li>
                             </ul>
                         </nav>
                         <nav role="navigation">
                             <ul>
-                                <li><a href="#" title="Garden Studios" aria-label="Garden Studios">Garden Studios</a></li>
-                                <li><a href="#" title="Showrooms" aria-label="Showrooms">Showrooms</a></li>
-                                <li><a href="#" title="Finance Options" aria-label="Finance Options">Finance Options</a></li>
-                                <li><a href="#" title="Inspiration" aria-label="Inspiration">Inspiration</a></li>
-                                <li><a href="#" title="About" aria-label="About">About</a></li>
+                                <li class="mb-2"><a href="#" title="Garden Studios" aria-label="Garden Studios" class="hover:text-brand-orange transition-all duration-300">Garden Studios</a></li>
+                                <li class="mb-2"><a href="#" title="Showrooms" aria-label="Showrooms" class="hover:text-brand-orange transition-all duration-300">Showrooms</a></li>
+                                <li class="mb-2"><a href="#" title="Finance Options" aria-label="Finance Options" class="hover:text-brand-orange transition-all duration-300">Finance Options</a></li>
+                                <li class="mb-2"><a href="#" title="Inspiration" aria-label="Inspiration" class="hover:text-brand-orange transition-all duration-300">Inspiration</a></li>
+                                <li class="mb-2"><a href="#" title="About" aria-label="About" class="hover:text-brand-orange transition-all duration-300">About</a></li>
                             </ul>
                         </nav>
                     </div>
                 </div>
                 <div class="col-span-1">
-                    <h6>Legal</h6>
+                    <h4 class="text-h4 mb-4">Legal</h4>
                     <nav>
                         <ul>
-                            <li><a href="#" title="Accessibility" aria-label="Accessibility">Accessibility</a></li>
-                            <li><a href="#" title="Terms &amp; Conditions" aria-label="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
-                            <li><a href="#" title="Privacy Policy" aria-label="Privacy Policy">Privacy Policy</a></li>
-                            <li><a href="#" title="Site Map" aria-label="Site Map">Site Map</a></li>
+                            <li class="mb-2"><a href="#" title="Accessibility" aria-label="Accessibility" class="hover:text-brand-orange transition-all duration-300">Accessibility</a></li>
+                            <li class="mb-2"><a href="#" title="Terms &amp; Conditions" aria-label="Terms &amp; Conditions" class="hover:text-brand-orange transition-all duration-300">Terms &amp; Conditions</a></li>
+                            <li class="mb-2"><a href="#" title="Privacy Policy" aria-label="Privacy Policy" class="hover:text-brand-orange transition-all duration-300">Privacy Policy</a></li>
+                            <li class="mb-2"><a href="#" title="Site Map" aria-label="Site Map" class="hover:text-brand-orange transition-all duration-300">Site Map</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div class="col-span-1">
-                    <h6>Stay Informed</h6>
-                    <a href="#" title="subscribe to newsletter" aria-label="subscribe to newsletter"><p class="inline">Subscribe to newsletter</p><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                    <ul>
-                        <li class="inline"><a href="#" title="facebook" aria-label="facebook" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li class="inline"><a href="#" title="linkedin" aria-label="linkedin" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                        <li class="inline"><a href="#" title="instagram" aria-label="instagram" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        <li class="inline"><a href="#" title="youtube" aria-label="youtube" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    <h4 class="text-h4 mb-4">Stay Informed</h4>
+                    <a href="#" title="subscribe to newsletter" aria-label="subscribe to newsletter" class="p-4 bg-brand-grey flex justify-between w-full items-center hover:bg-brand-darkgrey transition-all duration-300 mb-4"><p class="inline">Subscribe to newsletter</p><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    <ul class="flex gap-4">
+                        <li class="inline"><a href="#" title="facebook" aria-label="facebook" target="_blank" class="w-[50px] h-[50px] border border-brand-lightgrey rounded-full flex justify-center items-center hover:bg-brand-grey transition-all duration-300"><i class="fa fa-facebook text-brand-orange" aria-hidden="true"></i></a></li>
+                        <li class="inline"><a href="#" title="linkedin" aria-label="linkedin" target="_blank" class="w-[50px] h-[50px] border border-brand-lightgrey rounded-full flex justify-center items-center hover:bg-brand-grey transition-all duration-300"><i class="fa fa-linkedin-square text-brand-orange" aria-hidden="true"></i></a></li>
+                        <li class="inline"><a href="#" title="instagram" aria-label="instagram" target="_blank" class="w-[50px] h-[50px] border border-brand-lightgrey rounded-full flex justify-center items-center hover:bg-brand-grey transition-all duration-300"><i class="fa fa-instagram text-brand-orange" aria-hidden="true"></i></a></li>
+                        <li class="inline"><a href="#" title="youtube" aria-label="youtube" target="_blank" class="w-[50px] h-[50px] border border-brand-lightgrey rounded-full flex justify-center items-center hover:bg-brand-grey transition-all duration-300"><i class="fa fa-youtube-play text-brand-orange" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -656,19 +656,31 @@
                 <div class="col-span-9">
                     <p>&copy; SolarFrame 2023, Company Registration No. 06990167 - Registered in England & Wales.</p>
                 </div>
-                <div class="col-span-3">
+                <div class="col-span-3 text-right">
                     <a href="#" title="website by bluestorm" aria-label="website by bluestorm" class="inline">Website designed by <img src="images/bluestorm.svg" alt="bluestorm logo" class="inline"></a>
                 </div>
             </div>
         </div>
-        <div class="bg-brand-darkgrey">
-            <div class="container">
+        <div class="bg-brand-darkgrey mb-16">
+            <div class="container py-8">
                 <div class="col-span-12">
                     <p>Credit is subject to status and affordability. Terms & Conditions Apply. Solarframe Direct Limited FRN: 747702 Unit 3 Davey Road Fields End Business Park Goldthorpe Rotherham South Yorkshire S63 0JF is an appointed representative of Solarframe Direct Limited which is authorised and regulated by the Financial Conduct Authority as a credit broker, not the lender. Credit is provided by a panel of lenders with whom we have a commercial relationship. Company No. 06990167; Registered in England and Wales, VAT registered no. 115 0728 44</p>
                 </div>
             </div>
         </div>
     </footer>
+
+    <div class="grid grid-cols-3 fixed inset-x-0 bottom-0 z-50">
+        <div class="border border-brand-white">
+            <a href="#" title="Request a quote" aria-label="Request a quote" class="text-center uppercase text-h4 py-4 bg-brand-orange text-brand-white block hover:brightness-110 transition-all duration-300">Request a quote</a>
+        </div>
+        <div class="border border-brand-white">
+            <a href="#" title="Request a brochure" aria-label="Request a brochure" class="text-center uppercase text-h4 py-4 bg-brand-darkgrey text-brand-white block hover:brightness-110 transition-all duration-300">Request a brochure</a>
+        </div>
+        <div class="border border-brand-white">
+            <a href="#" title="Visit our showroom" aria-label="Visit our showroom" class="text-center uppercase text-h4 py-4 bg-brand-grey text-brand-white block hover:brightness-110 transition-all duration-300">Visit our showroom</a>
+        </div>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
