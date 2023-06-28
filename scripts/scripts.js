@@ -36,4 +36,28 @@ $(function(){
         // Your custom options
     });
 
+    //Open brochure request form
+    $('#open-brochure-form').on('click', function(e){
+
+        e.preventDefault();
+        var brochurePopup = $('#brochure-popup');
+
+        if(brochurePopup) {
+            brochurePopup.show();
+        }
+
+    });
+
+    //Close brochure request form
+    $('#close-brochure-form').on('click', function(e){
+
+        e.preventDefault();
+        var brochurePopup = $('#brochure-popup');
+
+        if(brochurePopup) {
+            brochurePopup.hide();
+        }
+
+    });
+
 });
