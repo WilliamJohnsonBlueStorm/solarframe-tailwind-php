@@ -22,57 +22,64 @@
 <body class="font-Manrope text-p">
     <a class="skip-to-the-main-content hidden" href="#content" title="Skip to the main content" aria-label="Skip to the main content" tabindex="0">Skip to main content</a>
     <header id="site-header">
-        <div class="container">
+        <div class="xl:container">
             <div class="grid grid-cols-12">
-                <div class="col-span-4">
-                    <div class="grid grid-cols-2 items-center py-2 gap-8">
-                        <div class="col-span-1">
+                <div class="col-span-6 xl:col-span-4 flex items-center">
+                    <div class="grid grid-cols-3 items-center py-2 gap-8">
+                        <div class="col-span-2 xl:col-span-1">
                             <a href="#" title="Home" aria-label="Home" class="block">
                                 <img src="/images/logo.svg" alt="SolarFrame Logo" class="w-full h-auto">
                             </a>
                         </div>
-                        <div class="col-span-1">
+                        <div class="hidden xl:block col-span-2">
                             <a href="tel:08006250000" title="Phone" aria-label="Phone" class="block mb-2"><i class="fa fa-phone text-brand-orange mr-2" aria-hidden="true"></i>0800 6250000</a>
                             <a href="mailto:info@solarframe-direct.co.uk" title="Email" aria-label="Email" class="block"><i class="fa fa-envelope text-brand-orange mr-2" aria-hidden="true"></i>info@solarframe-direct.co.uk</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-span-8">
-                    <ul class="flex justify-end h-full">
-                        <li class="flex items-center align-middle">
+                <div class="col-span-6 xl:col-span-8">
+                    <ul class="flex xl:justify-end h-full">
+                        <li class="hidden xl:flex items-center align-middle">
                             <a href="https://trustedtraders.which.co.uk/businesses/solarframe-direct-limited/" title="which review" aria-label="which review" target="_blank" class="p-5 flex items-center">
                                 <img src="/images/which-logo.jpeg" alt="which review" class="max-h-[50px] inline" />
                             </a>
                         </li>
-                        <li class="flex items-stretch">
-                            <a class="uppercase bg-brand-orange text-white p-5 flex items-center hover:brightness-110 transition-all duration-500" href="#" title="request a quote" aria-label="request a quote">
-                                Request a quote
+                        <li class="flex flex-1 xl:flex-none items-stretch">
+                            <a class="w-full justify-center uppercase bg-brand-white text-brand-orange text-h3 xl:bg-brand-orange xl:text-white xl:p-5 xl:text-p flex items-center hover:brightness-110 transition-all duration-500" href="#" title="request a quote" aria-label="request a quote">
+                                <span class="hidden xl:block">Request a quote</span>
+                                <span class="xl:hidden"><i class="fa fa-phone" aria-hidden="true"></i></span>
                             </a>
                         </li>
-                        <li class="flex items-stretch">
-                            <a class="uppercase bg-brand-lightgrey text-white p-5 flex items-center hover:brightness-110 transition-all duration-500" href="#" title="Book a survey" aria-label="Book a survey">
-                                Book a survey
+                        <li class="flex flex-1 xl:flex-none items-stretch">
+                            <a class="w-full justify-center uppercase bg-brand-white text-brand-orange text-h3 xl:bg-brand-lightgrey xl:text-white xl:p-5 xl:text-p flex items-center hover:brightness-110 transition-all duration-500" href="#" title="Book a survey" aria-label="Book a survey">
+                                <span class="hidden xl:block">Book a survey</span>
+                                <span class="xl:hidden"><i class="fa fa-envelope" aria-hidden="true"></i></span>
                             </a>
                         </li>
-                        <li class="flex items-stretch">
-                            <a class="uppercase bg-brand-black text-white p-5 flex items-center hover:brightness-110 transition-all duration-500" href="#" title="Visit showroom" aria-label="Visit showroom">
+                        <li class="hidden xl:flex-none items-stretch">
+                            <a class="w-full justify-center uppercase bg-brand-black text-white p-5 flex items-center hover:brightness-110 transition-all duration-500" href="#" title="Visit showroom" aria-label="Visit showroom">
                                 Visit showroom
                             </a>
                         </li>
-                        <li class="flex items-stretch">
+                        <li class="hidden xl:flex items-stretch">
                             <a class="bg-brand-grey p-8 text-white flex items-center hover:brightness-110 transition-all duration-500" href="#" title="Search" aria-label="Search">
                                 <i class="fa fa-search" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="flex flex-1 xl:hidden">
+                            <a class="w-full justify-center uppercase bg-brand-darkgrey text-white text-h3 flex items-center hover:brightness-110 transition-all duration-500" href="#" title="Book a survey" aria-label="Book a survey">
+                                <span class="xl:hidden"><i class="fa fa-bars" aria-hidden="true"></i></span>
                             </a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="bg-brand-darkgrey text-brand-white">
+        <div class="hidden xl:block bg-brand-darkgrey text-brand-white">
             <div class="container" role="navigation">
                 <div class="grid grid-cols-12">
                     <nav class="col-span-12">
-                        <ul class="flex flex-row justify-center gap-4">
+                        <ul class="flex flex-row justify-center items-center gap-4">
                             <li class="inline">
                                 <a href="#" title="Roof Replacements" aria-label="Roof Replacements" class="p-4 inline-block hover:text-brand-orange transition-all duration-300">
                                     Roof Replacements
@@ -142,7 +149,7 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="relative">
-                        <img src="/images/main-banner-img.jpeg" alt="banner image" class="w-full h-auto max-h-[900px]"/>
+                        <img src="/images/main-banner-img.jpeg" alt="banner image" class="w-full min-h-[500px] max-h-[500px] 2xl:min-h-[900px] 2xl:max-h-[900px] object-cover object-center"/>
                         <div class="bg-gradient-to-r from-brand-black opacity-70 absolute inset-0 h-full w-full"></div>
                         <div class="container absolute inset-0">
                             <div class="grid grid-cols-12 h-full items-center absolute">
@@ -159,7 +166,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="relative">
-                        <img src="/images/slide2.jpeg" alt="banner image 2" class="w-full h-auto max-h-[900px] object-cover object-center"/>
+                        <img src="/images/slide2.jpeg" alt="banner image 2" class="w-full min-h-[500px] max-h-[500px] 2xl:min-h-[900px] 2xl:max-h-[900px] object-cover object-center"/>
                         <div class="bg-gradient-to-r from-brand-black opacity-70 absolute inset-0 h-full w-full"></div>
                         <div class="container absolute inset-0">
                             <div class="grid grid-cols-12 h-full items-center absolute">
@@ -175,7 +182,7 @@
                 <div class="swiper-slide">
                     <div class="grid grid-cols-1">
                         <div class="relative">
-                            <img src="/images/slide3.webp" alt="banner image 3" class="w-full h-auto min-h-[900px] max-h-[900px] object-cover object-center"/>
+                            <img src="/images/slide3.webp" alt="banner image 3" class="w-full min-h-[500px] max-h-[500px] 2xl:min-h-[900px] 2xl:max-h-[900px] object-cover object-center"/>
                             <div class="bg-gradient-to-r from-brand-black opacity-70 absolute inset-0 h-full w-full"></div>
                             <div class="container absolute inset-0">
                                 <div class="grid grid-cols-12 h-full items-center absolute">
