@@ -225,10 +225,10 @@
         <section aria-labelledby="main-title" class="py-10">
             <div class="container">
                 <div class="grid grid-cols-12 gap-8">
-                    <div class="col-span-6">
-                        <h1 id="main-title" class="text-h1">Welcome To SolarFrame, your local Yorkshire experts in all things home improvement!</h1>
+                    <div class="col-span-12 lg:col-span-6">
+                        <h1 id="main-title" class="text-h1 lg:text-lg-h1">Welcome To SolarFrame, your local Yorkshire experts in all things home improvement!</h1>
                     </div>
-                    <div class="col-span-6">
+                    <div class="col-span-12 lg:col-span-6">
                         <p class="mb-4"><span class="font-bold">We are Yorkshire's leading conservatory roof replacement specialists, transforming old and tired conservatories into state of the art, versatile living spaces.</span class="font-bold"><br>
                         Browse our range of solid tiles roofs, orangeries, windows and doors. In addition, if you are looking for something quite different then browse our garden studio section.</p>
                         <p>We hope you find everything you need. Please don’t hesitate to <a href="#" title="contact" aria-label="contact" class="text-brand-orange hover:text-brand-black transition-all duration-300">get in touch</a>.</p>
@@ -238,22 +238,22 @@
         </section>
 
         <section id="image-grid" class="mb-10">
-            <div class="container">
-                <div class="grid grid-cols-3 grid-rows-3">
-                    <div class="col-span-1 row-span-3 bg-brand-orange p-10 flex flex-col justify-center gap-4 border border-brand-white">
+            <div class="2xlx:container">
+                <div class="grid grid-cols-3 xl:grid-rows-3">
+                    <div class="col-span-3 xl:col-span-1 lg:row-span-3 bg-brand-orange p-10 flex flex-col justify-center gap-4 border border-brand-white">
                         <h2 class="text-h2 text-brand-white">Our brand new showroom at Kirkstall Bridge Shopping Park in Leeds is now open!</h2>
                         <p class="text-brand-white"><span class="font-bold text-brand-white">Open 7 days a week</span>, we welcome you to come and have a look at our vast range of solid tiled roofs, conservatories, orangeries, windows and doors!</p>
-                        <div class="w-2/3 flex flex-col gap-4">
+                        <div class="xl:w-2/3 flex flex-col gap-4">
                             <a href="#" title="Explore our new leeds showroom" aria-label="Explore our new leeds showroom" class="bg-brand-white text-brand-darkgrey text-center uppercase py-4 px-8 block hover:brightness-110 transition-all duration-300">Explore our new Leeds showroom</a>
                             <a href="#" title="Explore our south yorkshire showroom" aria-label="Explore our south yorkshire showroom" class="bg-brand-darkgrey text-brand-white uppercase text-center py-4 px-8 block hover:brightness-110 transition-all duration-300">Explore our south yorkshire showroom</a>
                         </div>
                     </div>
-                    <div class="col-span-2 row-span-2 border border-brand-white">
-                        <img src="images/sf-solarframe-showroom-kirkstall-bridge-shopping-centre.jpeg" alt="Kirkstall shopping center showroom" class="h-full w-auto object-cover">
+                    <div class="col-span-3 row-span-1 xl:col-span-2 xl:row-span-2 border border-brand-white">
+                        <img src="images/sf-solarframe-showroom-kirkstall-bridge-shopping-centre.jpeg" alt="Kirkstall shopping center showroom" class="max-h-[300px] xl:max-h-full w-full object-cover">
                     </div>
-                    <div class="col-span-2 row-span-1 border border-brand-white relative">
+                    <div class="col-span-3 xl:col-span-2 xl:row-span-1 border border-brand-white relative min-h-[300px]">
                         <img src="images/solar-panels.jpeg" alt="solar panels" class="h-full w-auto object-cover">
-                        <div class="absolute inset-0 h-full w-1/3 flex flex-col p-8 gap-4 justify-center text-brand-white text-p">
+                        <div class="absolute inset-0 h-full w-full lg:w-1/3 flex flex-col p-8 gap-4 justify-center text-brand-white text-p">
                             <h3 class="text-h3">Solar PV Now Available!</h3>
                             <p>Take control of your energy bills with Solar PV and Battery Storage!</p>
                             <a href="/" title="Find out more" aria-label="Find out more" class="text-brand-orange self-start hover:text-brand-black transition-all duration-300">Find out more</a>

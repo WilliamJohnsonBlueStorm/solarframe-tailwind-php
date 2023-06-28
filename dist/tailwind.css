@@ -679,10 +679,6 @@ video {
   grid-row: span 2 / span 2;
 }
 
-.row-span-3 {
-  grid-row: span 3 / span 3;
-}
-
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -739,10 +735,6 @@ video {
   height: 50px;
 }
 
-.h-\[75px\] {
-  height: 75px;
-}
-
 .h-auto {
   height: auto;
 }
@@ -753,6 +745,18 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[200px\] {
+  height: 200px;
+}
+
+.h-\[400px\] {
+  height: 400px;
+}
+
+.h-\[300px\] {
+  height: 300px;
 }
 
 .max-h-\[500px\] {
@@ -767,8 +771,16 @@ video {
   max-height: 800px;
 }
 
+.max-h-\[300px\] {
+  max-height: 300px;
+}
+
 .min-h-\[500px\] {
   min-height: 500px;
+}
+
+.min-h-\[300px\] {
+  min-height: 300px;
 }
 
 .w-1\/3 {
@@ -785,10 +797,6 @@ video {
 
 .w-\[50px\] {
   width: 50px;
-}
-
-.w-\[75px\] {
-  width: 75px;
 }
 
 .w-auto {
@@ -1082,8 +1090,8 @@ video {
 }
 
 .text-h1 {
-  font-size: 45px;
-  line-height: 53px;
+  font-size: 35px;
+  line-height: 43px;
 }
 
 .text-h2 {
@@ -1451,6 +1459,10 @@ video {
     grid-column: span 9 / span 9;
   }
 
+  .md\:w-1\/3 {
+    width: 33.333333%;
+  }
+
   .md\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -1549,6 +1561,10 @@ video {
     grid-column: span 9 / span 9;
   }
 
+  .lg\:row-span-3 {
+    grid-row: span 3 / span 3;
+  }
+
   .lg\:inline-block {
     display: inline-block;
   }
@@ -1557,8 +1573,24 @@ video {
     height: 75px;
   }
 
+  .lg\:h-full {
+    height: 100%;
+  }
+
+  .lg\:max-h-full {
+    max-height: 100%;
+  }
+
   .lg\:w-\[75px\] {
     width: 75px;
+  }
+
+  .lg\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .lg\:w-1\/3 {
+    width: 33.333333%;
   }
 
   .lg\:grid-cols-1 {
@@ -1613,11 +1645,6 @@ video {
     text-align: left;
   }
 
-  .lg\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
   .lg\:text-lg-banner-h2 {
     font-size: 55px;
     line-height: 63px;
@@ -1626,6 +1653,11 @@ video {
   .lg\:text-lg-banner-p {
     font-size: 20px;
     line-height: 30px;
+  }
+
+  .lg\:text-lg-h1 {
+    font-size: 45px;
+    line-height: 53px;
   }
 }
 
@@ -1678,6 +1710,14 @@ video {
     grid-column: span 9 / span 9;
   }
 
+  .xl\:row-span-2 {
+    grid-row: span 2 / span 2;
+  }
+
+  .xl\:row-span-1 {
+    grid-row: span 1 / span 1;
+  }
+
   .xl\:block {
     display: block;
   }
@@ -1688,6 +1728,18 @@ video {
 
   .xl\:hidden {
     display: none;
+  }
+
+  .xl\:h-full {
+    height: 100%;
+  }
+
+  .xl\:max-h-full {
+    max-height: 100%;
+  }
+
+  .xl\:w-2\/3 {
+    width: 66.666667%;
   }
 
   .xl\:flex-none {
@@ -1740,6 +1792,10 @@ video {
 
   .xl\:grid-cols-9 {
     grid-template-columns: repeat(9, minmax(0, 1fr));
+  }
+
+  .xl\:grid-rows-3 {
+    grid-template-rows: repeat(3, minmax(0, 1fr));
   }
 
   .xl\:justify-end {
