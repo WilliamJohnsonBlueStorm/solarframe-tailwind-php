@@ -43,8 +43,10 @@ module.exports = {
         h3: ['30px', '35px'],
         h4: ['25px', '30px'],
         p: ['16px', '25px'],
-        'banner-h2': ['55px', '63px'],
-        'banner-p': ['20px', '30px'],
+        'lg-banner-h2': ['55px', '63px'],
+        'lg-banner-p': ['20px', '30px'],
+        'banner-h2': ['30px', '38px'],
+        'banner-p': ['16px', '25px'],
       },
       fontFamily: {
         'Manrope': "'Manrope', 'sans-serif'"

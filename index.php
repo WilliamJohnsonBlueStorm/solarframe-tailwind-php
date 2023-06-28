@@ -22,7 +22,7 @@
 <body class="font-Manrope text-p">
     <a class="skip-to-the-main-content hidden" href="#content" title="Skip to the main content" aria-label="Skip to the main content" tabindex="0">Skip to main content</a>
     <header id="site-header">
-        <div class="xl:container">
+        <div class="2xlx:container">
             <div class="grid grid-cols-12">
                 <div class="col-span-6 xl:col-span-4 flex items-center">
                     <div class="grid grid-cols-3 items-center py-2 gap-8">
@@ -151,15 +151,17 @@
                     <div class="relative">
                         <img src="/images/main-banner-img.jpeg" alt="banner image" class="w-full min-h-[500px] max-h-[500px] 2xl:min-h-[900px] 2xl:max-h-[900px] object-cover object-center"/>
                         <div class="bg-gradient-to-r from-brand-black opacity-70 absolute inset-0 h-full w-full"></div>
-                        <div class="container absolute inset-0">
-                            <div class="grid grid-cols-12 h-full items-center absolute">
-                                <div class="col-span-6 text-brand-white">
-                                    <h2 class="text-banner-h2 uppercase mb-4">Up to 60% off!</h2>
-                                    <p class="mb-2 text-banner-p">Huge Summer Savings! Transform your home in time for summer<br>
-                                        with huge savings across our entire range! </p>
-                                    <a href="#" title="request a quote" aria-label="request a quote" class="inline-block p-4 bg-brand-orange uppercase">Request a quote</a>
+                        <div class="absolute inset-0">
+                            <div class="h-full flex items-center">
+                                <div class="container">
+                                    <div class="grid grid-cols-12 items-center">
+                                        <div class="col-span-12 lg:col-span-6 text-brand-white">
+                                            <h2 class="text-banner-h2 lg:text-lg-banner-h2 uppercase mb-4">Up to 60% off!</h2>
+                                            <p class="mb-2 text-banner-p lg:text-lg-banner-p">Huge Summer Savings! Transform your home in time for summer with huge savings across our entire range! </p>
+                                            <a href="#" title="request a quote" aria-label="request a quote" class="block text-center lg:text-left lg:inline-block p-4 bg-brand-orange uppercase">Request a quote</a>
+                                        </div>
+                                    </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -168,12 +170,16 @@
                     <div class="relative">
                         <img src="/images/slide2.jpeg" alt="banner image 2" class="w-full min-h-[500px] max-h-[500px] 2xl:min-h-[900px] 2xl:max-h-[900px] object-cover object-center"/>
                         <div class="bg-gradient-to-r from-brand-black opacity-70 absolute inset-0 h-full w-full"></div>
-                        <div class="container absolute inset-0">
-                            <div class="grid grid-cols-12 h-full items-center absolute">
-                                <div class="col-span-6 text-brand-white">
-                                    <h2 class="text-banner-h2 uppercase mb-4">New showroom is now open!</h2>
-                                    <p class="mb-2 text-banner-p">Our new showroom at Kirkstall shopping centre is now open. Can’t get there today? Take a look at our tour online by clicking the button below.</p>
-                                    <a href="#" title="See the showroom" aria-label="See the showroom" class="inline-block p-4 bg-brand-orange uppercase">See the showroom</a>
+                        <div class="absolute inset-0">
+                            <div class="h-full flex items-center">
+                                <div class="container">
+                                    <div class="grid grid-cols-12 items-center">
+                                        <div class="col-span-12 lg:col-span-6 text-brand-white">
+                                            <h2 class="text-banner-h2 lg:text-lg-banner-h2 uppercase mb-4">New showroom is now open!</h2>
+                                            <p class="mb-2 text-banner-p lg:text-lg-banner-p">Our new showroom at Kirkstall shopping centre is now open. Can’t get there today? Take a look at our tour online by clicking the button below.</p>
+                                            <a href="#" title="See the showroom" aria-label="See the showroom" class="block text-center lg:text-left lg:inline-block p-4 bg-brand-orange uppercase">See the showroom</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -184,12 +190,16 @@
                         <div class="relative">
                             <img src="/images/slide3.webp" alt="banner image 3" class="w-full min-h-[500px] max-h-[500px] 2xl:min-h-[900px] 2xl:max-h-[900px] object-cover object-center"/>
                             <div class="bg-gradient-to-r from-brand-black opacity-70 absolute inset-0 h-full w-full"></div>
-                            <div class="container absolute inset-0">
-                                <div class="grid grid-cols-12 h-full items-center absolute">
-                                    <div class="col-span-6 text-brand-white">
-                                        <h2 class="text-banner-h2 uppercase mb-4">Transform your conservatory</h2>
-                                        <p class="mb-2 text-banner-p">Conservatory roof replacement is the current no.1 home improvement trend. Upgrade your old glazed or polycarbonate roof, to get a year-round room with an ambient temperature.</p>
-                                        <a href="#" title="Find out more" aria-label="Find out more" class="inline-block p-4 bg-brand-orange uppercase">Find out more</a>
+                            <div class="absolute inset-0">
+                                <div class="h-full flex items-center">
+                                    <div class="container">
+                                        <div class="grid grid-cols-12 items-center">
+                                            <div class="col-span-12 lg:col-span-6 text-brand-white">
+                                                <h2 class="text-banner-h2 lg:text-lg-banner-h2 uppercase mb-4">Transform your conservatory</h2>
+                                                <p class="mb-2 text-banner-p lg:text-lg-banner-p">Conservatory roof replacement is the current no.1 home improvement trend. Upgrade your old glazed or polycarbonate roof, to get a year-round room with an ambient temperature.</p>
+                                                <a href="#" title="Find out more" aria-label="Find out more" class="block text-center lg:text-left lg:inline-block p-4 bg-brand-orange uppercase">Find out more</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -201,10 +211,10 @@
         <div class="container z-40 absolute inset-x-0 bottom-0">
             <div class="grid">
                 <div class="flex gap-1 text-2xl">
-                    <div class="button-prev bg-brand-white text-brand-black h-[75px] w-[75px] flex justify-center items-center">
+                    <div class="button-prev bg-brand-white text-brand-black h-[50px] w-[50px] lg:h-[75px] lg:w-[75px] flex justify-center items-center">
                         <i class="fa fa-arrow-left" aria-hidden="true"></i>
                     </div>
-                    <div class="button-next bg-brand-white text-brand-black h-[75px] w-[75px] flex justify-center items-center">
+                    <div class="button-next bg-brand-white text-brand-black h-[50px] w-[50px] lg:h-[75px] lg:w-[75px] flex justify-center items-center">
                         <i class="fa fa-arrow-right" aria-hidden="true"></i>
                     </div>
                 </div>
