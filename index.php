@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/dist/tailwind.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!--Fancy Box -->
@@ -301,10 +301,10 @@
                         </a>
                     </div>
                 </div>
-                <div class="grid grid-cols-4 grid-rows-2">
-                    <div class="col-span-2 row-span-2 border border-brand-white overflow-hidden">
+                <div class="grid grid-cols-4 lg:grid-rows-2">
+                    <div class="col-span-4 lg:col-span-2 lg:row-span-2 border border-brand-white overflow-hidden">
                         <a href="#" title="Roof Replacements" aria-label="Roof Replacements" class="relative group">
-                            <img src="images/Roof-Replacement.jpeg" alt="Roof Replacements" class="h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
+                            <img src="images/Roof-Replacement.jpeg" alt="Roof Replacements" class="h-full brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300 max-h-[300px] w-full object-cover lg:max-h-full">
                             <div class="absolute bottom-0 p-4 text-brand-white">
                                 <h3 class="text-h3 mb-4">Roof Replacements</h3>
                                 <p></p>
@@ -315,9 +315,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="border border-brand-white overflow-hidden">
+                    <div class="col-span-4 lg:col-span-1 border border-brand-white overflow-hidden">
                         <a href="#" title="Windows" aria-label="Windows" class="relative group">
-                            <img src="images/windows.jpeg" alt="Windows" class="h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
+                            <img src="images/windows.jpeg" alt="Windows" class="h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300 max-h-[300px] w-full object-cover lg:max-h-full">
                             <div class="absolute bottom-0 p-4 text-brand-white">
                                 <h3 class="text-h3 mb-4">Windows</h3>
                                 <p></p>
@@ -328,9 +328,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="border border-brand-white overflow-hidden">
+                    <div class="col-span-4 lg:col-span-1 border border-brand-white overflow-hidden">
                         <a href="#" title="Doors" aria-label="Doors" class="relative group">
-                            <img src="images/doors.jpeg" alt="Doors" class="w-full h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
+                            <img src="images/doors.jpeg" alt="Doors" class="w-full h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300 max-h-[300px] w-full object-cover lg:max-h-full">
                             <div class="absolute bottom-0 p-4 text-brand-white">
                                 <h3 class="text-h3 mb-4">Doors</h3>
                                 <p></p>
@@ -341,9 +341,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="border border-brand-white overflow-hidden">
+                    <div class="col-span-4 lg:col-span-1 border border-brand-white overflow-hidden">
                         <a href="#" title="Garden Studios" aria-label="Garden Studios" class="relative group">
-                            <img src="images/garden-studios.png" alt="Garden Studios" class="w-full h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
+                            <img src="images/garden-studios.png" alt="Garden Studios" class="w-full h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300 max-h-[300px] w-full object-cover lg:max-h-full">
                             <div class="absolute bottom-0 p-4 text-brand-white">
                                 <h3 class="text-h3 mb-4">Garden Studio</h3>
                                 <p class="hidden group-hover:block">A garden studio is becoming increasingly popular garden addition as people recognise the benefits of having extra living space.</p>
@@ -354,9 +354,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="border border-brand-white overflow-hidden">
+                    <div class="col-span-4 lg:col-span-1 border border-brand-white overflow-hidden">
                         <a href="#" title="Glazed Roofs" aria-label="Glazed Roofs" class="relative group">
-                            <img src="images/Glazed-Roof-Conservatory-Banner.jpeg" alt="Glazed roof" class="w-full h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300">
+                            <img src="images/Glazed-Roof-Conservatory-Banner.jpeg" alt="Glazed roof" class="w-full h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300 max-h-[300px] w-full object-cover lg:max-h-full">
                             <div class="absolute bottom-0 p-4 text-brand-white">
                                 <h3 class="text-h3 mb-4">Glazed Roofs</h3>
                                 <p></p>
@@ -369,20 +369,14 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-12">
-                    <div class="col-span-12 border border-brand-white">
-                        <div class="relative">
-                            <img src="images/Internal-View-Orangery-3.webp" alt="Inside Orangery" class="max-h-[800px] w-full">
-                            <div class="grid grid-cols-12">
-                                <div class="col-span-6 absolute bottom-0">
-                                    <div class="container">
-                                        <div class="grid grid-cols-12">
-                                            <div class="col-span-6 p-5 bg-brand-white">
-                                                <h3 class="text-h3 mb-4">Request your free quote today</h3>
-                                                <p class="text-p mb-4">We have transformed homes throughout Yorkshire, North Nottinghamshire and Derbyshire over the last 12 years and look forward to starting a project with you.</p>
-                                                <a href="#" title="request a quote" aria-label="request a quote" class="text-brand-white bg-brand-orange p-4 inline-block hover:brightness-110 transition-all duration-300">Request a quote</a>
-                                            </div>
-                                        </div>
-                                    </div>
+                    <div class="col-span-12 relative">
+                        <img src="images/Internal-View-Orangery-3.webp" alt="Inside Orangery" class="max-h-[600px] w-full border border-brand-white object-cover">
+                        <div class="grid grid-cols-2 absolute bottom-0">
+                            <div class="col-span-2 lg:col-span-1">
+                                <div class="p-8 bg-brand-white ml-4 mr-4">
+                                    <h3 class="text-h3 mb-4 font-bold text-brand-darkgrey">Request your free quote today!</h3>
+                                    <p class="text-p mb-4">We have transformed homes throughout Yorkshire, North Nottinghamshire and Derbyshire over the last 12 years and look forward to starting a project with you.</p>
+                                    <a href="#" title="request a quote" aria-label="request a quote" class="text-brand-white bg-brand-orange p-4 inline-block font-bold hover:brightness-110 transition-all duration-300">Request a quote</a>
                                 </div>
                             </div>
                         </div>
