@@ -145,101 +145,40 @@
 </header>
 
 <section id="banner" role="banner" class="relative">
-    <div class="swiper" id="banner-swiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="relative">
-                    <img src="/images/main-banner-img.jpeg" alt="banner image" class="w-full min-h-[500px] max-h-[500px] 2xl:min-h-[900px] 2xl:max-h-[900px] object-cover object-center"/>
-                    <div class="bg-gradient-to-r from-brand-black opacity-70 absolute inset-0 h-full w-full"></div>
-                    <div class="absolute inset-0">
-                        <div class="h-full flex items-center">
-                            <div class="container">
-                                <div class="grid grid-cols-12 items-center">
-                                    <div class="col-span-12 lg:col-span-6 text-brand-white">
-                                        <h2 class="text-banner-h2 lg:text-lg-banner-h2 uppercase mb-4 font-bold">Up to 60% off!</h2>
-                                        <p class="mb-2 text-banner-p lg:text-lg-banner-p">Huge Summer Savings! Transform your home in time for summer with huge savings across our entire range! </p>
-                                        <a href="#" title="request a quote" aria-label="request a quote" class="block text-center lg:text-left lg:inline-block p-4 bg-brand-orange uppercase font-bold">Request a quote</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="relative">
-                    <img src="/images/slide2.jpeg" alt="banner image 2" class="w-full min-h-[500px] max-h-[500px] 2xl:min-h-[900px] 2xl:max-h-[900px] object-cover object-center"/>
-                    <div class="bg-gradient-to-r from-brand-black opacity-70 absolute inset-0 h-full w-full"></div>
-                    <div class="absolute inset-0">
-                        <div class="h-full flex items-center">
-                            <div class="container">
-                                <div class="grid grid-cols-12 items-center">
-                                    <div class="col-span-12 lg:col-span-6 text-brand-white">
-                                        <h2 class="text-banner-h2 lg:text-lg-banner-h2 uppercase mb-4">New showroom is now open!</h2>
-                                        <p class="mb-2 text-banner-p lg:text-lg-banner-p">Our new showroom at Kirkstall shopping centre is now open. Can’t get there today? Take a look at our tour online by clicking the button below.</p>
-                                        <a href="#" title="See the showroom" aria-label="See the showroom" class="block text-center lg:text-left lg:inline-block p-4 bg-brand-orange uppercase">See the showroom</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="grid grid-cols-1">
-                    <div class="relative">
-                        <img src="/images/slide3.webp" alt="banner image 3" class="w-full min-h-[500px] max-h-[500px] 2xl:min-h-[900px] 2xl:max-h-[900px] object-cover object-center"/>
-                        <div class="bg-gradient-to-r from-brand-black opacity-70 absolute inset-0 h-full w-full"></div>
-                        <div class="absolute inset-0">
-                            <div class="h-full flex items-center">
-                                <div class="container">
-                                    <div class="grid grid-cols-12 items-center">
-                                        <div class="col-span-12 lg:col-span-6 text-brand-white">
-                                            <h2 class="text-banner-h2 lg:text-lg-banner-h2 uppercase mb-4">Transform your conservatory</h2>
-                                            <p class="mb-2 text-banner-p lg:text-lg-banner-p">Conservatory roof replacement is the current no.1 home improvement trend. Upgrade your old glazed or polycarbonate roof, to get a year-round room with an ambient temperature.</p>
-                                            <a href="#" title="Find out more" aria-label="Find out more" class="block text-center lg:text-left lg:inline-block p-4 bg-brand-orange uppercase">Find out more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container z-40 absolute inset-x-0 bottom-0">
-        <div class="grid">
-            <div class="flex gap-1 text-2xl">
-                <div class="button-prev bg-brand-white text-brand-black h-[50px] w-[50px] lg:h-[75px] lg:w-[75px] flex justify-center items-center">
-                    <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
-                </div>
-                <div class="button-next bg-brand-white text-brand-black h-[50px] w-[50px] lg:h-[75px] lg:w-[75px] flex justify-center items-center">
-                    <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                </div>
-            </div>
-        </div>
-    </div>
+
 </section>
 
 <main id="content" role="main">
     <section aria-labelledby="main-title" class="py-14">
         <div class="container">
             <div class="grid grid-cols-12 gap-8">
-                <div class="col-span-5 lg:col-start-2">
-                    <h1 id="main-title" class="text-h1 lg:text-lg-h1 font-bold text-brand-darkgrey">Roof Replacements</h1>
+                <div class="col-span-7">
+                    <span class="mb-5 inline-block"><a href="/" title="home" aria-label="home" class="underline">Home</a> - Roof Replacements</span>
+                    <h1 id="main-title" class="text-h1 lg:text-lg-h1 font-bold text-brand-darkgrey mb-5">Roof Replacements</h1>
+                    <p class="mb-5 font-bold">Solid Tiled Roofs allow you to transform your conservatory by replacing your old glass or polycarbonate roof, and swapping it with our insulated, thermally efficient, solid tiled roof.</p>
+                    <p class="mb-5">Overnight, your old and tired conservatory will become a comfortable, versatile room that you can use all year round, much like every other room in your home.</p>
+                    <p class="mb-5">Call into one of our showrooms to see how our roof system is manufactured. It is completely unique to SolarFrame and has been developed over several years to become one of the best roofs available in the market.</p>
+                    <h2 class="text-h2 font-bold text-brand-darkgrey mb-5">Key Features</h2>
+                    <ul class="list-disc list-inside ml-5">
+                        <li>Completely unique, tried and tested system</li>
+                        <li>The perfect solution for a conservatory roof replacement</li>
+                        <li>Thermally efficient, saving you money on your energy bills</li>
+                        <li>Finishing options tailored to the style of your home</li>
+                        <li>25 year guarantee on tiles</li>
+                        <li>U-value of 0.14 W/m2K</li>
+                    </ul>
                 </div>
                 <div class="col-span-5">
                     <div class="border border-brand-black p-6">
-                        <h3 class="text-h3 text-brand-orange font-bold mb-4">Request a Quote</h3>
-                        <p class="mb-4">Simply fill in your details below for your <span class="font-bold">free, no obligation quote</span> today!</p>
+                        <h3 class="text-h3 text-brand-orange font-bold mb-5">Request a Quote</h3>
+                        <p class="mb-5">Simply fill in your details below for your <span class="font-bold">free, no obligation quote</span> today!</p>
                         <form>
                             <label for="postcode" class="font-bold block mb-2">Postcode <span class="text-red-600">*</span></label>
                             <div class="grid grid-cols-2 gap-4"
                             <div class="col-span-2">
                                 <input type="text" id="postcode" name="postcode" class="border border-brand-lightgrey py-2 px-6 w-full focus:border-brand-orange">
                                 <div>
-                                    <input type="submit" value="Lookup" class="py-2 text-brand-white px-6 bg-brand-orange uppercase cursor-pointer border border-brand-orange inline-block">
+                                    <input type="submit" value="Lookup" class="py-2 text-brand-white px-6 bg-brand-orange uppercase cursor-pointer border border-brand-orange inline-block font-bold">
                                 </div>
                             </div>
                         </form>
@@ -248,8 +187,99 @@
             </div>
         </div>
     </section>
+    <section class="bg-brand-darkgrey py-10">
+        <div class="container">
+            <div class="grid grid-cols-12 gap-8">
+                <div class="col-span-12">
+                    <!--Image slider-->
+                </div>
+                    <div class="col-span-4">
+                        <h3 class="text-h3 text-brand-white font-bold mb-5">Increased Value</h3>
+                        <p class="text-brand-white">Solid roofs increase the value to your home. They also add a new level of kerb appeal to house buyers looking to move up the ladder.</p>
+                    </div>
+                    <div class="col-span-4">
+                        <h3 class="text-h3 text-brand-white font-bold mb-5">Ambient Temperature</h3>
+                        <p class="text-brand-white">Gone are the days of being too hot in summer and too cold in winter. Above all, a SolarFrame roof maintains an ambient temperature all year round.</p>
+                    </div>
+                    <div class="col-span-4">
+                        <h3 class="text-h3 text-brand-white font-bold mb-5">Lower Energy Bills</h3>
+                        <p class="text-brand-white">They are also far more thermally efficient than an old polycarbonate roof - 15 times in fact! In other words, they keep energy bills low.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="bg-brand-orange py-10">
+        <div class="container">
+            <div class="grid grid-cols-2">
+                <div class="col-span-1">
+                    <p class="uppercase text-brand-white mb-5">Energy efficient and secure</p>
+                    <h2 class="text-h2 font-bold text-brand-white mb-5">Why Choose a Solarframe conservatory roof replacement</h2>
+                    <p class="text-brand-white mb-5">We are your local experts, transforming conservatories throughout Yorkshire into beautiful living spaces.</p>
+                    <p class="text-brand-white mb-5">In addition, we take care of everything from start to finish, including building regulations, design, installation and finishing touches.</p>
+                    <p class="text-brand-white mb-5">Our flexible finance options mean you can spread the cost of your home improvements across a flexible period of time. That way, you can happily invest in transforming your home without any stress or worry!</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <section class="how-to-find-us">
+    <section class="bg-brand-white py-10">
+        <div class="container">
+            <div class="grid grid-cols-2 gap-8">
+                <div class="col-span-1 bg-brand-orange p-8">
+                    <h3 class="text-h3 text-brand-white font-bold mb-5">Need new windows too?</h3>
+                    <p class="text-brand-white mb-5">Checkout of our stunning range of windows in a wide variety of colours and styles</p>
+                    <a href="#" title="find out more" aria-label="find out more" class="uppercase font-bold py-5 px-8 bg-brand-darkgrey text-brand-white inline-block">Find out more</a>
+                </div>
+                <div class="col-span-1 bg-brand-darkgrey p-8">
+                    <h3 class="text-h3 text-brand-white font-bold mb-5">Request a Brochure</h3>
+                    <p class="text-brand-white mb-5">Find out more about conservatory roof replacement and discover the rest of our range.</p>
+                    <a href="#" title="Fill in your request here" aria-label="Fill in your request here" class="uppercase font-bold py-5 px-8 bg-brand-orange text-brand-white inline-block">Fill in your request here</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="compliment-your-home" class="bg-brand-off-white py-10">
+        <div class="container">
+            <div class="grid grid-cols-4 gap-8">
+                <div class="col-span-4 text-center">
+                    <h2 class="text-h2 font-bold text-brand-darkgrey mb-5">Perfectly Complements Your Home</h2>
+                    <p class="mb-5">We know you want your new roof to blend seamlessly into your property, so because of that, we offer a wide range of tile options, colours and styles.</p>
+                </div>
+                <div class="justify-between">
+                    <h3 class="text-h3 text-brand-darkgrey col-span-2 mb-5">Tile Options</h3>
+                    <div><!-- Image Slider buttons --></div>
+                </div>
+                <div class="col-span-4">
+                    <!-- image slider -->
+                </div>
+                <div class="col-span-1">
+                    <p class="font-bold mb-5">Glazing Options</p>
+                    <p class="mb-5">You can rest assured your conservatory will still be a light and bright room, but if you still want that extra bit of light or to sit and gaze at the night’s sky, there are options for additional glazing.</p>
+                    <p class="mb-5">Choose our Velux rooflights to add extra light and ventilation or open up an area of your roof with a SkyPod lantern.</p>
+                    <p class="mb-5">Whichever you choose, don’t worry, neither will compromise the thermal benefits of your brand new roof!</p>
+                </div>
+                <div class="col-span-1">
+                    <img src="images/Glazing-Options.jpeg" alt="open window" class="w-full h-auto object-cover">
+                </div>
+                <div class="col-span-1">
+                    <p class="font-bold mb-5">Finishing Options</p>
+                    <p class="mb-5">Our expert team will finish your solid roof conservatory to the highest standards.</p>
+                    <p class="mb-5">Whether you choose plaster or cladding your conservatory will have the feel of an extension.</p>
+                    <p class="mb-5">Whichever you choose, you’re guaranteed an energy efficient room, which you can use all year round!</p>
+                    <p class="mb-5">And don’t forget lights and electrics, our skilled electricians will sort all of that for you too.</p>
+                </div>
+                <div class="col-span-1">
+                    <img src="images/Finishing-Options.jpeg" alt="finishing options" class="w-full h-auto object-cover">
+                </div>
+                <div class="col-span-4">
+                    <p class="font-bold mb-5 text-center">Options are for illustrative purposes only. Please ask your salesperson for samples.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-to-find-us" class="py-10">
         <div class="container">
             <div class="grid grid-cols-12">
                 <div class="col-span-12 relative">
@@ -268,7 +298,29 @@
         </div>
     </section>
 
-    <section id="testimonials" class="mb-10">
+    <section id="why-choose-solar-frame" class="bg-brand-orange py-10">
+        <div class="container">
+            <div class="grid grid-cols-3 gap-8">
+                <div class="col-span-3 text-center">
+                    <h2 class="text-h2 text-brand-white font-bold mb-5">Why Choose Solarframe</h2>
+                    <p class="text-brand-white mb-5">Our team are based in the heart of South Yorkshire in our own state-of-the-art factory.</p>
+                </div>
+                <div class="col-span-1">
+                    <h3 class="text-h3 text-brand-white font-bold mb-5">Bespoke Design</h3>
+                    <p class="text-brand-white mb-5">Our experts are on hand to listen to your requirements. We will help you to create the perfect space for you and your family.</p>
+                </div>
+                <div class="col-span-1">
+                    <h3 class="text-h3 text-brand-white font-bold mb-5">Hassle-Free</h3>
+                    <p class="text-brand-white mb-5">Our team ensure every little detail is completed to the highest standards. Installers to electricians to plasterers, we look after you from start to finish.</p>
+                </div><div class="col-span-1">
+                    <h3 class="text-h3 text-brand-white font-bold mb-5">Manufactured in Yorkshire</h3>
+                    <p class="text-brand-white mb-5">All of your products are manufactured to exacting industry standards in our Rotherham and Barnsley factories. We use the highest quality components, all sourced from the UK.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-10">
         <div class="2xlx:container">
             <div class="grid grid-cols-12">
                 <div class="col-span-12 lg:col-span-10 lg:col-start-2 flex justify-between">

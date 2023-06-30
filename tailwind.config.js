@@ -36,6 +36,7 @@ module.exports = {
         'brand-darkgrey': '#343a40',
         'brand-black': '#222',
         'brand-white': '#fff',
+        'brand-off-white': '#f2f2f2',
       },
       fontSize: {
         h1: ['35px', '43px'],
