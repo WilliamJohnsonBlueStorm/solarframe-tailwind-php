@@ -40,14 +40,17 @@ module.exports = {
       fontSize: {
         h1: ['35px', '43px'],
         h2: ['35px', '40px'],
-        h3: ['30px', '35px'],
+        h3: ['25px', '33px'],
         h4: ['25px', '30px'],
         p: ['16px', '25px'],
         'lg-h1': ['45px', '53px'],
         'lg-banner-h2': ['55px', '63px'],
+        'lg-h3': ['30px', '35px'],
         'lg-banner-p': ['20px', '30px'],
         'banner-h2': ['30px', '38px'],
-        'banner-p': ['16px', '25px'],
+        'footer-sm-p': ['12px', '20px'],
+        'scrolling-lg': ['48px', '55px'],
+        'scrolling-sm': ['35px', '40px'],
       },
       fontFamily: {
         'Manrope': "'Manrope', 'sans-serif'"

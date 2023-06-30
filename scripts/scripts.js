@@ -21,15 +21,23 @@ $(function(){
 
     const testimonial_swiper = new Swiper('#testimonial-swiper', {
         // Optional parameters
-        slidesPerView: 3.5,
+        slidesPerView: 1.5,
         centeredSlides: true,
         loop: true,
-        spaceBetween: 40,
+        spaceBetween: 20,
         // Navigation arrows
         navigation: {
             nextEl: '.testimonial-button-next',
             prevEl: '.testimonial-button-prev',
         },
+
+        breakpoints: {
+            // when window width is >= 768px
+            768: {
+                slidesPerView: 3.5,
+                spaceBetween: 24
+            },
+        }
     });
 
     Fancybox.bind("[data-fancybox]", {
@@ -45,7 +53,6 @@ $(function(){
         if(brochurePopup) {
             brochurePopup.show();
         }
-
     });
 
     //Close brochure request form
