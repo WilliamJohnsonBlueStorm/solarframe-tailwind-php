@@ -58,6 +58,9 @@ module.exports = {
       },
       cursor: {
         'swiper-pointer': 'url(/images/hover-swipe.png), pointer'
+      },
+      maxWidth: {
+        '8xl': '1920px',
       }
     },
   },

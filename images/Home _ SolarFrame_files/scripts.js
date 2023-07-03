@@ -82,7 +82,7 @@ $(function(){
 
     const tileOptionsSwiper = new Swiper ('#tile-options-swiper', {
         // Optional parameters
-        slidesPerView: 2,
+        slidesPerView: 5,
         direction: 'horizontal',
         loop: true,
         spaceBetween: 30,
@@ -94,14 +94,6 @@ $(function(){
         pagination: {
             el: ".swiper-pagination",
         },
-        breakpoints: {
-            // when window width is >= 768px
-            1024: {
-                slidesPerView: 5,
-                spaceBetween: 24
-            },
-        }
-
     });
 
 });
