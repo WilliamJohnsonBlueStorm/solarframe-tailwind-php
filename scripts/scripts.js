@@ -67,4 +67,32 @@ $(function(){
 
     });
 
+    const solid_Roof_Swiper = new Swiper ('#solid-roof-swiper', {
+        // Optional parameters
+        slidesPerView: 3,
+        direction: 'horizontal',
+        loop: true,
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+
+    const tileOptionsSwiper = new Swiper ('#tile-options-swiper', {
+        // Optional parameters
+        slidesPerView: 5,
+        direction: 'horizontal',
+        loop: true,
+        spaceBetween: 30,
+        // Navigation arrows
+        navigation: {
+            nextEl: '.tile-swiper-next',
+            prevEl: '.tile-swiper-prev',
+        },
+        pagination: {
+            el: ".swiper-pagination",
+        },
+    });
+
 });

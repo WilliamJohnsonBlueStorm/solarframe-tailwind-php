@@ -42,7 +42,7 @@ module.exports = {
         h1: ['35px', '43px'],
         h2: ['35px', '40px'],
         h3: ['25px', '33px'],
-        h4: ['25px', '30px'],
+        h4: ['23px', '30px'],
         p: ['16px', '25px'],
         'lg-h1': ['45px', '53px'],
         'lg-banner-h2': ['55px', '63px'],
@@ -55,6 +55,9 @@ module.exports = {
       },
       fontFamily: {
         'Manrope': "'Manrope', 'sans-serif'"
+      },
+      cursor: {
+        'swiper-pointer': 'url(/images/hover-swipe.png), pointer'
       }
     },
   },

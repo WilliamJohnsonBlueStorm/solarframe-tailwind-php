@@ -14,6 +14,8 @@
 
     <!--Fancy Box -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"/>
+
 
     <title>Home | SolarFrame</title>
     <meta name="description" content="Take a look at our conservatories, including our amazing lightweight solid roof replacements, and orangeries. You can’t beat the quality of our windows...">
@@ -144,8 +146,22 @@
     </div>
 </header>
 
-<section id="banner" role="banner" class="relative">
-
+<section id="banner" role="banner">
+    <div class="grid grid-cols-12">
+        <a href="images/Roof-Replacement-banner.jpeg" data-fancybox data-caption="Roof Replacement" class="col-span-10 col-start-2 object-cover">
+            <img src="images/Roof-Replacement-banner.jpeg" alt="Roof Replacement banner" class="w-full h-auto"/>
+        </a>
+    </div>
+    <div class="container">
+        <div class="grid grid-cols-1 relative">
+            <div class="absolute bottom-0 right-0">
+                <div class="p-4 bg-brand-white absolute bottom-0 right-0 flex items-center text-[24px]">
+                    <i class="fa fa-picture-o mr-4" aria-hidden="true"></i>
+                    <span>1/1</span>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <main id="content" role="main">
@@ -174,11 +190,10 @@
                         <p class="mb-5">Simply fill in your details below for your <span class="font-bold">free, no obligation quote</span> today!</p>
                         <form>
                             <label for="postcode" class="font-bold block mb-2">Postcode <span class="text-red-600">*</span></label>
-                            <div class="grid grid-cols-2 gap-4"
-                            <div class="col-span-2">
-                                <input type="text" id="postcode" name="postcode" class="border border-brand-lightgrey py-2 px-6 w-full focus:border-brand-orange">
+                            <div class="grid grid-cols-2 gap-4">
+                                <input type="text" id="postcode" name="postcode" class="border border-brand-lightgrey p-2">
                                 <div>
-                                    <input type="submit" value="Lookup" class="py-2 text-brand-white px-6 bg-brand-orange uppercase cursor-pointer border border-brand-orange inline-block font-bold">
+                                    <input type="submit" value="Lookup" class="py-2 px-8 text-brand-white bg-brand-orange uppercase cursor-pointer border border-brand-orange inline font-bold">
                                 </div>
                             </div>
                         </form>
@@ -192,21 +207,62 @@
             <div class="grid grid-cols-12 gap-8">
                 <div class="col-span-12">
                     <!--Image slider-->
+                    <!-- Slider main container -->
+                    <div id="solid-roof-swiper" class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <a href="/images/roof-slide-1.jpeg" data-fancybox data-caption="roof slide 1" class="hover:cursor-swiper-pointer">
+                                    <img src="images/roof-slide-1.jpeg" alt="roof slide 1" class="w-full h-auto border border-brand-white">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="/images/roof-slide-2.jpeg" data-fancybox data-caption="roof slide 2" class="hover:cursor-swiper-pointer">
+                                    <img src="images/roof-slide-2.jpeg" alt="roof slide 2" class="w-full h-auto border border-brand-white">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="/images/roof-slide-3.webp" data-fancybox data-caption="roof slide 3" class="hover:cursor-swiper-pointer">
+                                    <img src="images/roof-slide-3.webp" alt="roof slide 3" class="w-full h-auto border border-brand-white">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="/images/roof-slide-4.jpeg" data-fancybox data-caption="roof slide 4" class="hover:cursor-swiper-pointer">
+                                    <img src="images/roof-slide-4.jpeg" alt="roof slide 4" class="w-full h-auto border border-brand-white">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="/images/roof-slide-5.jpeg" data-fancybox data-caption="roof slide 5" class="hover:cursor-swiper-pointer">
+                                    <img src="images/roof-slide-5.jpeg" alt="roof slide 5" class="w-full h-auto border border-brand-white">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="/images/roof-slide-6.jpeg" data-fancybox data-caption="roof slide 6" class="hover:cursor-swiper-pointer">
+                                    <img src="images/roof-slide-6.jpeg" alt="roof slide 6" class="w-full h-auto border border-brand-white">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                    <div class="col-span-4">
-                        <h3 class="text-h3 text-brand-white font-bold mb-5">Increased Value</h3>
-                        <p class="text-brand-white">Solid roofs increase the value to your home. They also add a new level of kerb appeal to house buyers looking to move up the ladder.</p>
-                    </div>
-                    <div class="col-span-4">
-                        <h3 class="text-h3 text-brand-white font-bold mb-5">Ambient Temperature</h3>
-                        <p class="text-brand-white">Gone are the days of being too hot in summer and too cold in winter. Above all, a SolarFrame roof maintains an ambient temperature all year round.</p>
-                    </div>
-                    <div class="col-span-4">
-                        <h3 class="text-h3 text-brand-white font-bold mb-5">Lower Energy Bills</h3>
-                        <p class="text-brand-white">They are also far more thermally efficient than an old polycarbonate roof - 15 times in fact! In other words, they keep energy bills low.</p>
-                    </div>
+
+                <div class="col-span-12 mx-4">
+                    <hr class="w-full border-4 border-brand-black">
+                </div>
+                <div class="col-span-4">
+                    <h3 class="text-h3 text-brand-white font-bold mb-5">Increased Value</h3>
+                    <p class="text-brand-white">Solid roofs increase the value to your home. They also add a new level of kerb appeal to house buyers looking to move up the ladder.</p>
+                </div>
+                <div class="col-span-4">
+                    <h3 class="text-h3 text-brand-white font-bold mb-5">Ambient Temperature</h3>
+                    <p class="text-brand-white">Gone are the days of being too hot in summer and too cold in winter. Above all, a SolarFrame roof maintains an ambient temperature all year round.</p>
+                </div>
+                <div class="col-span-4">
+                    <h3 class="text-h3 text-brand-white font-bold mb-5">Lower Energy Bills</h3>
+                    <p class="text-brand-white">They are also far more thermally efficient than an old polycarbonate roof - 15 times in fact! In other words, they keep energy bills low.</p>
                 </div>
             </div>
+        </div>
     </section>
     <section class="bg-brand-orange py-10">
         <div class="container">
@@ -217,6 +273,9 @@
                     <p class="text-brand-white mb-5">We are your local experts, transforming conservatories throughout Yorkshire into beautiful living spaces.</p>
                     <p class="text-brand-white mb-5">In addition, we take care of everything from start to finish, including building regulations, design, installation and finishing touches.</p>
                     <p class="text-brand-white mb-5">Our flexible finance options mean you can spread the cost of your home improvements across a flexible period of time. That way, you can happily invest in transforming your home without any stress or worry!</p>
+                </div>
+                <div class="col-span-1">
+                    <img src="images/why-choose-img.webp" alt="why choose image" class="w-full h-auto object-cover">
                 </div>
             </div>
         </div>
@@ -246,15 +305,92 @@
                     <h2 class="text-h2 font-bold text-brand-darkgrey mb-5">Perfectly Complements Your Home</h2>
                     <p class="mb-5">We know you want your new roof to blend seamlessly into your property, so because of that, we offer a wide range of tile options, colours and styles.</p>
                 </div>
-                <div class="justify-between">
-                    <h3 class="text-h3 text-brand-darkgrey col-span-2 mb-5">Tile Options</h3>
-                    <div><!-- Image Slider buttons --></div>
-                </div>
-                <div class="col-span-4">
-                    <!-- image slider -->
-                </div>
-                <div class="col-span-1">
-                    <p class="font-bold mb-5">Glazing Options</p>
+
+                    <div class="col-span-4 justify-between flex">
+                        <h3 class="text-h3 text-brand-darkgrey font-bold">Tile Options</h3>
+                        <div class="flex gap-1 text-lg-banner-p">
+                            <!-- If we need navigation buttons -->
+                            <div class="tile-swiper-prev h-[50px] w-[50px] bg-brand-orange text-brand-white flex justify-center items-center">
+                                <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="tile-swiper-next h-[50px] w-[50px] bg-brand-orange text-brand-white flex justify-center items-center">
+                                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-4">
+                        <!-- Slider main container -->
+                        <div class="swiper pb-10" id="tile-options-swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <img src="images/Amethyst.jpeg" alt="amethyst" class="w-full h-auto">
+                                    <div>
+                                        <p class="px-4 pt-4 pb-10 border border-black bg-white font-bold">Amethyst</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/Sunset.jpeg" alt="Sunset" class="w-full h-auto">
+                                    <div>
+                                        <p class="px-4 pt-4 pb-10 border border-black bg-white font-bold">Sunset</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/Sunshine.jpeg" alt="Sunshine" class="w-full h-auto">
+                                    <div>
+                                        <p class="px-4 pt-4 pb-10 border border-black bg-white font-bold">Sunshine</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/Titanium-Grey-Shingle.png" alt="Titanium Grey Shingle" class="w-full h-auto">
+                                    <div>
+                                        <p class="px-4 pt-4 pb-10 border border-black bg-white font-bold">Titanium Grey Shingle</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/Smoked-Oak-Shingle.png" alt="Smoked Oak-Shingle" class="w-full h-auto">
+                                    <div>
+                                        <p class="px-4 pt-4 pb-10 border border-black bg-white font-bold">Smoked Oak-Shingle</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/Slate-Grey.jpeg" alt="Slate Grey" class="w-full h-auto">
+                                    <div>
+                                        <p class="px-4 pt-4 pb-10 border border-black bg-white font-bold">Slate Grey</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/Rustic-Terracotta-Shingle.png" alt="Rustic Terracotta Shingle.png" class="w-full h-auto">
+                                    <div>
+                                        <p class="px-4 pt-4 pb-10 border border-black bg-white font-bold">Rustic Terracotta Shingle</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/Oak.jpeg" alt="Oak" class="w-full h-auto">
+                                    <div>
+                                        <p class="px-4 pt-4 pb-10 border border-black bg-white font-bold">Oak</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/Rustic-Brown-Shingle.png" alt="Rustic Brown Shingle" class="w-full h-auto">
+                                    <div>
+                                        <p class="px-4 pt-4 pb-10 border border-black bg-white font-bold">Rustic Brown Shingle</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/Rustic-Red-Shingle.png" alt="Rustic Red Shingle" class="w-full h-auto">
+                                    <div>
+                                        <p class="px-4 pt-4 pb-10 border border-black bg-white font-bold">Rustic Red Shingle</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-span-1">
+                    <p class="font-bold mb-5 text-[20px]">Glazing Options</p>
                     <p class="mb-5">You can rest assured your conservatory will still be a light and bright room, but if you still want that extra bit of light or to sit and gaze at the night’s sky, there are options for additional glazing.</p>
                     <p class="mb-5">Choose our Velux rooflights to add extra light and ventilation or open up an area of your roof with a SkyPod lantern.</p>
                     <p class="mb-5">Whichever you choose, don’t worry, neither will compromise the thermal benefits of your brand new roof!</p>
@@ -263,7 +399,7 @@
                     <img src="images/Glazing-Options.jpeg" alt="open window" class="w-full h-auto object-cover">
                 </div>
                 <div class="col-span-1">
-                    <p class="font-bold mb-5">Finishing Options</p>
+                    <p class="font-bold mb-5 text-[20px]">Finishing Options</p>
                     <p class="mb-5">Our expert team will finish your solid roof conservatory to the highest standards.</p>
                     <p class="mb-5">Whether you choose plaster or cladding your conservatory will have the feel of an extension.</p>
                     <p class="mb-5">Whichever you choose, you’re guaranteed an energy efficient room, which you can use all year round!</p>
@@ -289,7 +425,7 @@
                             <div class="p-8 bg-brand-white ml-4 mr-4">
                                 <h3 class="text-h3 mb-4 font-bold text-brand-darkgrey">Come and see for yourself</h3>
                                 <p class="text-p mb-4">Our outdoor showsite is the largest in Yorkshire with a number of full size conservatories and garden studios available to browse. We also have an indoor showroom with a stunning range of windows and doors.</p>
-                                <a href="#" title="request a quote" aria-label="request a quote" class="text-brand-white bg-brand-orange p-4 block text-center sm:inline-block hover:brightness-110 transition-all duration-300 font-bold">How to find us</a>
+                                <a href="#" title="request a quote" aria-label="request a quote" class="text-brand-white bg-brand-orange p-4 block text-center uppercase sm:inline-block hover:brightness-110 transition-all duration-300 font-bold">How to find us</a>
                             </div>
                         </div>
                     </div>
@@ -663,48 +799,48 @@
                                     </select>
                                 </span>
                             <span>
-                                    <label for="first-name" class="sr-only">First Name</label>
-                                    <input type="text" id="first-name" name="details[]" role="textbox" placeholder="First Name *" required class="block w-full p-4 bg-brand-darkgrey text-brand-white border border-brand-white placeholder-brand-white">
-                                </span>
+                                <label for="first-name" class="sr-only">First Name</label>
+                                <input type="text" id="first-name" name="details[]" role="textbox" placeholder="First Name *" required class="block w-full p-4 bg-brand-darkgrey text-brand-white border border-brand-white placeholder-brand-white">
+                            </span>
                             <span>
-                                    <label for="last-name" class="sr-only">Last Name</label>
-                                    <input type="text" id="last-name" name="details[]" role="textbox" placeholder="Last Name *" required class="block w-full p-4 bg-brand-darkgrey text-brand-white border border-brand-white placeholder-brand-white">
-                                </span>
+                                <label for="last-name" class="sr-only">Last Name</label>
+                                <input type="text" id="last-name" name="details[]" role="textbox" placeholder="Last Name *" required class="block w-full p-4 bg-brand-darkgrey text-brand-white border border-brand-white placeholder-brand-white">
+                            </span>
                             <span>
-                                    <label for="contact-number" class="sr-only">Contact Number</label>
-                                    <input type="text" id="contact-number" name="details[]" role="textbox" placeholder="Contact Number" class="block w-full p-4 bg-brand-darkgrey text-brand-white border border-brand-white placeholder-brand-white">
-                                </span>
+                                <label for="contact-number" class="sr-only">Contact Number</label>
+                                <input type="text" id="contact-number" name="details[]" role="textbox" placeholder="Contact Number" class="block w-full p-4 bg-brand-darkgrey text-brand-white border border-brand-white placeholder-brand-white">
+                            </span>
                             <span>
-                                    <label for="email" class="sr-only">Email</label>
-                                    <input type="text" id="email" name="details[]" role="textbox" placeholder="Email *" required class="block w-full p-4 bg-brand-darkgrey text-brand-white border border-brand-white placeholder-brand-white">
-                                </span>
+                                <label for="email" class="sr-only">Email</label>
+                                <input type="text" id="email" name="details[]" role="textbox" placeholder="Email *" required class="block w-full p-4 bg-brand-darkgrey text-brand-white border border-brand-white placeholder-brand-white">
+                            </span>
                             <span>
-                                    <label for="address" class="sr-only">Address</label>
-                                    <input type="text" id="address" name="details[]" role="textbox" placeholder="address *" required class="block w-full p-4 bg-brand-darkgrey text-brand-white border border-brand-white placeholder-brand-white">
-                                </span>
+                                <label for="address" class="sr-only">Address</label>
+                                <input type="text" id="address" name="details[]" role="textbox" placeholder="address *" required class="block w-full p-4 bg-brand-darkgrey text-brand-white border border-brand-white placeholder-brand-white">
+                            </span>
                             <span>
-                                    <label for="address-2" class="sr-only">Address 2</label>
-                                    <input type="text" id="address-2" name="details[]" role="textbox" placeholder="address 2 *" required class="block w-full p-4 bg-brand-darkgrey text-brand-white border border-brand-white placeholder-brand-white">
-                                </span>
+                                <label for="address-2" class="sr-only">Address 2</label>
+                                <input type="text" id="address-2" name="details[]" role="textbox" placeholder="address 2 *" required class="block w-full p-4 bg-brand-darkgrey text-brand-white border border-brand-white placeholder-brand-white">
+                            </span>
                             <span>
-                                    <label for="city" class="sr-only">City</label>
-                                    <input type="text" id="city" name="details[]" role="textbox" placeholder="City *" required class="block w-full p-4 bg-brand-darkgrey text-brand-white border border-brand-white placeholder-brand-white">
-                                </span>
+                                <label for="city" class="sr-only">City</label>
+                                <input type="text" id="city" name="details[]" role="textbox" placeholder="City *" required class="block w-full p-4 bg-brand-darkgrey text-brand-white border border-brand-white placeholder-brand-white">
+                            </span>
                             <span>
-                                    <label for="county" class="sr-only">County</label>
-                                    <input type="text" id="county" name="details[]" role="textbox" placeholder="County *" required class="block w-full p-4 bg-brand-darkgrey text-brand-white border border-brand-white placeholder-brand-white">
-                                </span>
+                                <label for="county" class="sr-only">County</label>
+                                <input type="text" id="county" name="details[]" role="textbox" placeholder="County *" required class="block w-full p-4 bg-brand-darkgrey text-brand-white border border-brand-white placeholder-brand-white">
+                            </span>
                             <span>
-                                    <label for="postcode" class="sr-only">Postcode</label>
-                                    <input type="text" id="postcode" name="details[]" role="textbox" placeholder="Postcode *" required class="block w-full p-4 bg-brand-darkgrey text-brand-white border border-brand-white placeholder-brand-white">
-                                </span>
+                                <label for="postcode" class="sr-only">Postcode</label>
+                                <input type="text" id="postcode" name="details[]" role="textbox" placeholder="Postcode *" required class="block w-full p-4 bg-brand-darkgrey text-brand-white border border-brand-white placeholder-brand-white">
+                            </span>
                             <span>
-                                    <input type="checkbox" id="offers" name="offers" value="offers">
-                                    <label for="offers">Yes, I would like to receive exclusive offers, including useful tips on how to make best decision on my home improvement.</label>
-                                </span>
+                                <input type="checkbox" id="offers" name="offers" value="offers">
+                                <label for="offers">Yes, I would like to receive exclusive offers, including useful tips on how to make best decision on my home improvement.</label>
+                            </span>
                             <span>
-                                    <input type="submit" value="Submit" class="py-4 px-6 bg-brand-orange uppercase cursor-pointer inline">
-                                </span>
+                                <input type="submit" value="Submit" class="py-4 px-6 bg-brand-orange uppercase cursor-pointer inline">
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -717,6 +853,8 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script src="/scripts/scripts.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+
 
 </body>
 </html>

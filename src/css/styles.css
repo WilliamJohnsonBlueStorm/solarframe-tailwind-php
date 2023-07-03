@@ -19,3 +19,12 @@
         transform: translateX(-100%);
     }
 }
+
+.swiper-pagination-bullet {
+    width: 40px;
+    border-radius: 10px;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #fd8204 !important;
+}
