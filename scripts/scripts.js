@@ -1,4 +1,25 @@
 $(function(){
+
+    //Open mobile menu when open-mobile-menu is clicked
+    $('#open-mobile-menu').on('click', function(e){
+        e.preventDefault();
+        var mobileHeader = $('#mobile-header');
+
+        if(mobileHeader) {
+            $(this).find('i').toggleClass('fa-bars fa-times');
+            mobileHeader.toggleClass('hidden');
+        }
+
+    });
+
+    $('#conservatories-mobile').on('click', function()
+    {
+        $(this).next().toggle('open');
+        $(this).find('i').toggleClass('fa-plus fa-minus');
+
+    });
+
+
     const swiper = new Swiper('#banner-swiper', {
         // Optional parameters
         slidesPerView: 1,
