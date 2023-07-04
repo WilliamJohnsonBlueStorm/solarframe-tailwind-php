@@ -193,9 +193,9 @@
                         <h3 class="text-h3 text-brand-orange font-bold mb-5">Request a Quote</h3>
                         <p class="mb-5">Simply fill in your details below for your <span class="font-bold">free, no obligation quote</span> today!</p>
                         <form>
-                            <label for="postcode" class="font-bold block mb-2">Postcode <span class="text-red-600">*</span></label>
+                            <label for="quote-postcode" class="font-bold block mb-2">Postcode <span class="text-red-600">*</span></label>
                             <div class="grid grid-cols-2 gap-4">
-                                <input type="text" id="postcode" name="postcode" class="border border-brand-lightgrey p-2 col-span-2 lg:col-span-1">
+                                <input type="text" id="quote-postcode" name="postcode" class="border border-brand-lightgrey p-2 col-span-2 lg:col-span-1">
                                 <div>
                                     <input type="submit" value="Lookup" class="py-2 px-8 text-brand-white bg-brand-orange uppercase cursor-pointer border border-brand-orange inline font-bold">
                                 </div>
@@ -392,25 +392,24 @@
                         <div class="lg:block swiper-pagination"></div>
                     </div>
                 </div>
-
-                <div class="col-span-2 lg:col-span-1">
+                <div class="col-span-3 sm:col-span-2 lg:col-span-1">
                     <p class="font-bold mb-5 text-[20px]">Glazing Options</p>
                     <p class="mb-5">You can rest assured your conservatory will still be a light and bright room, but if you still want that extra bit of light or to sit and gaze at the night’s sky, there are options for additional glazing.</p>
                     <p class="mb-5">Choose our Velux rooflights to add extra light and ventilation or open up an area of your roof with a SkyPod lantern.</p>
                     <p class="mb-5">Whichever you choose, don’t worry, neither will compromise the thermal benefits of your brand new roof!</p>
                 </div>
-                <div class="col-span-2 lg:col-span-1">
-                    <img src="images/Glazing-Options.jpeg" alt="open window" class="w-full h-auto object-cover">
+                <div class="col-span-4 sm:col-span-2 lg:col-span-1">
+                    <img src="images/Glazing-Options.jpeg" alt="open window" class="max-h-[350px] sm:max-h-none w-full h-auto object-cover">
                 </div>
-                <div class="col-span-2 lg:col-span-1">
+                <div class="col-span-4 sm:col-span-2 lg:col-span-1">
                     <p class="font-bold mb-5 text-[20px]">Finishing Options</p>
                     <p class="mb-5">Our expert team will finish your solid roof conservatory to the highest standards.</p>
                     <p class="mb-5">Whether you choose plaster or cladding your conservatory will have the feel of an extension.</p>
                     <p class="mb-5">Whichever you choose, you’re guaranteed an energy efficient room, which you can use all year round!</p>
                     <p class="mb-5">And don’t forget lights and electrics, our skilled electricians will sort all of that for you too.</p>
                 </div>
-                <div class="col-span-2 lg:col-span-1">
-                    <img src="images/Finishing-Options.jpeg" alt="finishing options" class="w-full h-auto object-cover">
+                <div class="col-span-4 sm:col-span-2 lg:col-span-1">
+                    <img src="images/Finishing-Options.jpeg" alt="finishing options" class="max-h-[350px] sm:max-h-none w-full h-auto object-cover">
                 </div>
                 <div class="col-span-4">
                     <p class="font-bold mb-5 text-center">Options are for illustrative purposes only. Please ask your salesperson for samples.</p>
@@ -423,10 +422,10 @@
         <div class="container">
             <div class="grid grid-cols-12">
                 <div class="col-span-12 relative">
-                    <img src="images/find-us.jpeg" alt="Inside Orangery" class="max-h-[600px] w-full border border-brand-white object-cover">
-                    <div class="grid grid-cols-2 sm:absolute sm:bottom-0">
-                        <div class="col-span-2 lg:col-span-1">
-                            <div class="p-8 bg-brand-white ml-4 mr-4">
+                    <img src="images/find-us.jpeg" alt="find us" class="max-h-[600px] w-full border border-brand-white object-cover">
+                    <div class="lg:grid lg:grid-cols-2 lg:absolute lg:bottom-0">
+                        <div class="lg:col-span-1">
+                            <div class="py-4 lg:p-8 bg-brand-white lg:ml-4 lg:mr-4">
                                 <h3 class="text-h3 mb-4 font-bold text-brand-darkgrey">Come and see for yourself</h3>
                                 <p class="text-p mb-4">Our outdoor showsite is the largest in Yorkshire with a number of full size conservatories and garden studios available to browse. We also have an indoor showroom with a stunning range of windows and doors.</p>
                                 <a href="#" title="request a quote" aria-label="request a quote" class="text-brand-white bg-brand-orange p-4 block text-center uppercase sm:inline-block hover:brightness-110 transition-all duration-300 font-bold">How to find us</a>
@@ -698,7 +697,7 @@
         <a href="#" title="Request a quote" aria-label="Request a quote" class="text-center uppercase text-p lg:text-h4 py-4 bg-brand-orange text-brand-white hover:brightness-110 transition-all duration-300 flex justify-center items-center h-full font-bold">Request a quote</a>
     </div>
     <div class="border border-brand-white">
-        <a href="" title="Request a brochure" aria-label="Request a brochure" id="open-brochure-form" class="text-center uppercase text-p lg:text-h4 py-4 bg-brand-darkgrey text-brand-white hover:brightness-110 transition-all duration-300 flex justify-center items-center h-full font-bold">Request a brochure</a>
+        <a href="#" title="Request a brochure" aria-label="Request a brochure" id="open-brochure-form" class="text-center uppercase text-p lg:text-h4 py-4 bg-brand-darkgrey text-brand-white hover:brightness-110 transition-all duration-300 flex justify-center items-center h-full font-bold">Request a brochure</a>
     </div>
     <div class="border border-brand-white hidden md:block">
         <a href="#" title="Visit our showroom" aria-label="Visit our showroom" class="text-center uppercase lg:text-h4 py-4 bg-brand-grey text-p text-brand-white hover:brightness-110 transition-all duration-300 flex justify-center items-center h-full font-bold">Visit our showroom</a>

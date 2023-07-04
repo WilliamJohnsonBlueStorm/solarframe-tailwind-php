@@ -80,7 +80,7 @@ $(function(){
 
     const tileOptionsSwiper = new Swiper ('#tile-options-swiper', {
         // Optional parameters
-        slidesPerView: 2,
+        slidesPerView: 1,
         direction: 'horizontal',
         loop: true,
         spaceBetween: 30,
@@ -97,6 +97,10 @@ $(function(){
             1024: {
                 slidesPerView: 5,
                 spaceBetween: 24
+            },
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 30
             },
         }
     });
