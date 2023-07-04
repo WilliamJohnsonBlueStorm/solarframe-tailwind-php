@@ -44,29 +44,6 @@ $(function(){
         // Your custom options
     });
 
-    //Open brochure request form
-    $('#open-brochure-form').on('click', function(e){
-
-        e.preventDefault();
-        var brochurePopup = $('#brochure-popup');
-
-        if(brochurePopup) {
-            brochurePopup.show();
-        }
-    });
-
-    //Close brochure request form
-    $('#close-brochure-form').on('click', function(e){
-
-        e.preventDefault();
-        var brochurePopup = $('#brochure-popup');
-
-        if(brochurePopup) {
-            brochurePopup.hide();
-        }
-
-    });
-
     const solid_Roof_Swiper = new Swiper ('#solid-roof-swiper', {
         // Optional parameters
         slidesPerView: 2.5,
@@ -101,7 +78,47 @@ $(function(){
                 spaceBetween: 24
             },
         }
+    });
 
+    //Brochure Form Scripts
+
+    //Open brochure request form
+    $('#open-brochure-form').on('click', function(e){
+
+        e.preventDefault();
+        var brochurePopup = $('#brochure-popup');
+
+        if(brochurePopup) {
+            brochurePopup.show();
+        }
+    });
+
+    //Close brochure request form
+    $('#close-brochure-form').on('click', function(e){
+        e.preventDefault();
+        var brochurePopup = $('#brochure-popup');
+
+        if(brochurePopup) {
+            brochurePopup.hide();
+        }
+    });
+
+    //Show Post options
+    $('#post,#both').on('click', function(){
+        var showAddress = $('.post-only');
+
+        if(showAddress) {
+            showAddress.show();
+        }
+    });
+
+    //Show Post options
+    $('#download').on('click', function(){
+        var hideAddress = $('.post-only');
+
+        if(hideAddress) {
+            hideAddress.hide();
+        }
     });
 
 });
