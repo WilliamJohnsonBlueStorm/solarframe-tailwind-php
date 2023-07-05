@@ -1,3 +1,7 @@
+<?php
+    include 'data/benefit-slider.php';
+?>
+
 <section class="bg-brand-darkgrey py-10">
     <div class="container">
         <div class="grid grid-cols-12 gap-8">
@@ -8,36 +12,13 @@
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
                         <!-- Slides -->
-                        <div class="swiper-slide">
-                            <a href="/images/roof-slide-1.jpeg" data-fancybox data-caption="roof slide 1" class="hover:cursor-swiper-pointer">
-                                <img src="images/roof-slide-1.jpeg" alt="roof slide 1" class="w-full h-auto border border-brand-white">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="/images/roof-slide-2.jpeg" data-fancybox data-caption="roof slide 2" class="hover:cursor-swiper-pointer">
-                                <img src="images/roof-slide-2.jpeg" alt="roof slide 2" class="w-full h-auto border border-brand-white">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="/images/roof-slide-3.webp" data-fancybox data-caption="roof slide 3" class="hover:cursor-swiper-pointer">
-                                <img src="images/roof-slide-3.webp" alt="roof slide 3" class="w-full h-auto border border-brand-white">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="/images/roof-slide-4.jpeg" data-fancybox data-caption="roof slide 4" class="hover:cursor-swiper-pointer">
-                                <img src="images/roof-slide-4.jpeg" alt="roof slide 4" class="w-full h-auto border border-brand-white">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="/images/roof-slide-5.jpeg" data-fancybox data-caption="roof slide 5" class="hover:cursor-swiper-pointer">
-                                <img src="images/roof-slide-5.jpeg" alt="roof slide 5" class="w-full h-auto border border-brand-white">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="/images/roof-slide-6.jpeg" data-fancybox data-caption="roof slide 6" class="hover:cursor-swiper-pointer">
-                                <img src="images/roof-slide-6.jpeg" alt="roof slide 6" class="w-full h-auto border border-brand-white">
-                            </a>
-                        </div>
+                        <?php foreach ($benefitSlides as $benefitSlide) {?>
+                            <div class="swiper-slide">
+                                <a href="<?php echo $benefitSlide['img']; ?>" data-fancybox data-caption="<?php echo $benefitSlide['title']; ?>" class="hover:cursor-swiper-pointer">
+                                    <img src="<?php echo $benefitSlide['img']; ?>" alt="<?php echo $benefitSlide['title']; ?>" class="w-full h-auto border border-brand-white">
+                                </a>
+                            </div>
+                        <?php } ?>
                     </div>
                 </div>
             </div>

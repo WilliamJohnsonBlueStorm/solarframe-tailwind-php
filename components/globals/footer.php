@@ -8,31 +8,9 @@
                 <?php include ('components/contact-info.php') ?>
 
             </div>
-            <div class="col-span-5 lg:col-span-2">
-                <div class="grid grid-cols-2">
-                    <h4 class="text-h4 mb-4 font-bold">Go to</h4>
-                </div>
-                <div class="grid grid-cols-2">
-                    <nav role="navigation">
-                        <ul>
-                            <li class="mb-2"><a href="#" title="Roof Replacements" aria-label="Roof Replacements" class="hover:text-brand-orange transition-all duration-300">Roof Replacements</a></li>
-                            <li class="mb-2"><a href="#" title="Conservatories" aria-label="Conservatories" class="hover:text-brand-orange transition-all duration-300">Conservatories</a></li>
-                            <li class="mb-2"><a href="#" title="Orangeries" aria-label="Orangeries" class="hover:text-brand-orange transition-all duration-300">Orangeries</a></li>
-                            <li class="mb-2"><a href="#" title="Windows" aria-label="Windows" class="hover:text-brand-orange transition-all duration-300">Roof Replacements</a></li>
-                            <li class="mb-2"><a href="#" title="Doors" aria-label="Doors" class="hover:text-brand-orange transition-all duration-300">Doors</a></li>
-                        </ul>
-                    </nav>
-                    <nav role="navigation">
-                        <ul>
-                            <li class="mb-2"><a href="#" title="Garden Studios" aria-label="Garden Studios" class="hover:text-brand-orange transition-all duration-300">Garden Studios</a></li>
-                            <li class="mb-2"><a href="#" title="Showrooms" aria-label="Showrooms" class="hover:text-brand-orange transition-all duration-300">Showrooms</a></li>
-                            <li class="mb-2"><a href="#" title="Finance Options" aria-label="Finance Options" class="hover:text-brand-orange transition-all duration-300">Finance Options</a></li>
-                            <li class="mb-2"><a href="#" title="Inspiration" aria-label="Inspiration" class="hover:text-brand-orange transition-all duration-300">Inspiration</a></li>
-                            <li class="mb-2"><a href="#" title="About" aria-label="About" class="hover:text-brand-orange transition-all duration-300">About</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+
+            <?php include ('components/footer-nav.php') ?>
+
             <div class="col-span-5 lg:col-span-1">
                 <h4 class="text-h4 mb-4 font-bold">Legal</h4>
                 <nav>
@@ -47,12 +25,7 @@
             <div class="col-span-5 lg:col-span-1">
                 <h4 class="text-h4 mb-4 font-bold">Stay Informed</h4>
                 <a href="#" title="subscribe to newsletter" aria-label="subscribe to newsletter" class="p-4 bg-brand-grey flex justify-between w-full items-center hover:bg-brand-darkgrey transition-all duration-300 mb-4"><p class="inline">Subscribe to newsletter</p><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                <ul class="flex gap-4 flex-wrap">
-                    <li class="inline"><a href="#" title="facebook" aria-label="facebook" target="_blank" class="w-[50px] h-[50px] border border-brand-lightgrey rounded-full flex justify-center items-center hover:bg-brand-grey transition-all duration-300"><i class="fa fa-facebook text-brand-orange" aria-hidden="true"></i></a></li>
-                    <li class="inline"><a href="#" title="linkedin" aria-label="linkedin" target="_blank" class="w-[50px] h-[50px] border border-brand-lightgrey rounded-full flex justify-center items-center hover:bg-brand-grey transition-all duration-300"><i class="fa fa-linkedin-square text-brand-orange" aria-hidden="true"></i></a></li>
-                    <li class="inline"><a href="#" title="instagram" aria-label="instagram" target="_blank" class="w-[50px] h-[50px] border border-brand-lightgrey rounded-full flex justify-center items-center hover:bg-brand-grey transition-all duration-300"><i class="fa fa-instagram text-brand-orange" aria-hidden="true"></i></a></li>
-                    <li class="inline"><a href="#" title="youtube" aria-label="youtube" target="_blank" class="w-[50px] h-[50px] border border-brand-lightgrey rounded-full flex justify-center items-center hover:bg-brand-grey transition-all duration-300"><i class="fa fa-youtube-play text-brand-orange" aria-hidden="true"></i></a></li>
-                </ul>
+                <?php include ('components/social-links.php'); ?>
             </div>
         </div>
         <div class="grid grid-cols-12 gap-4">

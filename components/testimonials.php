@@ -1,3 +1,5 @@
+<?php include ('data/testimonials.php') ?>
+
 <section id="testimonials" class="py-10">
     <div class="2xlx:container">
         <div class="grid grid-cols-12">
@@ -16,138 +18,30 @@
             <div class="col-span-12">
                 <div id="testimonial-swiper" class="swiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="border p-4">
-                                <div class="grid grid-cols-2 mb-2">
-                                    <div class="col-span-1 flex items-center text-yellow-400">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <?php foreach ($testimonials as $testimonial) {?>
+                            <div class="swiper-slide">
+                                <div class="border p-4">
+                                    <div class="grid grid-cols-2 mb-2">
+                                        <div class="col-span-1 flex items-center text-yellow-400">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="col-span-1 flex justify-end">
+                                            <img src="<?php echo $testimonial['img']; ?>" alt="<?php echo $testimonial['img-title']; ?>">
+                                        </div>
                                     </div>
-                                    <div class="col-span-1 flex justify-end">
-                                        <img src="images/which-logo-small.png" alt="which logo">
-                                    </div>
-                                </div>
-                                <div class="grid grid-cols-2">
-                                    <div class="col-span-2">
-                                        <p class="font-bold mb-4">Customer in North Yorkshire</p>
-                                        <p>Very satisfied with all aspects of work. Workmen arrived on time and worked extremely hard and were very unobtrusive. Quality of work is first class.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="border p-4">
-                                <div class="grid grid-cols-2 mb-2">
-                                    <div class="col-span-1 flex items-center text-yellow-400">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="col-span-1 flex justify-end">
-                                        <img src="images/trust-pilot-small.png" alt="trust pilot logo">
-                                    </div>
-                                </div>
-                                <div class="grid grid-cols-2">
-                                    <div class="col-span-2">
-                                        <p class="font-bold mb-4">Norma Sykes</p>
-                                        <p>We could not praise solarframe more highly and will definitely recommend them to others. And we are highly delighted with our new garden room.</p>
+                                    <div class="grid grid-cols-2">
+                                        <div class="col-span-2">
+                                            <p class="font-bold mb-4"><?php echo $testimonial['customer']; ?></p>
+                                            <p><?php echo $testimonial['comment']; ?></p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="border p-4">
-                                <div class="grid grid-cols-2 mb-2">
-                                    <div class="col-span-1 flex items-center text-yellow-400">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="col-span-1 flex justify-end">
-                                        <img src="images/google-small.png" alt="Google logo">
-                                    </div>
-                                </div>
-                                <div class="grid grid-cols-2">
-                                    <div class="col-span-2">
-                                        <p class="font-bold mb-4">Leanne</p>
-                                        <p>The fitters were on time, friendly and professional. The quality of work outstanding. Wouldn't hesitate to recommend this company.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="border p-4">
-                                <div class="grid grid-cols-2 mb-2">
-                                    <div class="col-span-1 flex items-center text-yellow-400">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="col-span-1 flex justify-end">
-                                        <img src="images/which-logo-small.png" alt="which logo">
-                                    </div>
-                                </div>
-                                <div class="grid grid-cols-2">
-                                    <div class="col-span-2">
-                                        <p class="font-bold mb-4">Customer in North Yorkshire</p>
-                                        <p>Very satisfied with all aspects of work. Workmen arrived on time and worked extremely hard and were very unobtrusive. Quality of work is first class.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="border p-4">
-                                <div class="grid grid-cols-2 mb-2">
-                                    <div class="col-span-1 flex items-center text-yellow-400">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="col-span-1 flex justify-end">
-                                        <img src="images/google-small.png" alt="Google logo">
-                                    </div>
-                                </div>
-                                <div class="grid grid-cols-2">
-                                    <div class="col-span-2">
-                                        <p class="font-bold mb-4">Leanne</p>
-                                        <p>The fitters were on time, friendly and professional. The quality of work outstanding. Wouldn't hesitate to recommend this company.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="border p-4">
-                                <div class="grid grid-cols-2 mb-2">
-                                    <div class="col-span-1 flex items-center text-yellow-400">
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                        <i class="fa fa-star" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="col-span-1 flex justify-end">
-                                        <img src="images/trust-pilot-small.png" alt="trust pilot logo">
-                                    </div>
-                                </div>
-                                <div class="grid grid-cols-2">
-                                    <div class="col-span-2">
-                                        <p class="font-bold mb-4">Norma Sykes</p>
-                                        <p>We could not praise solarframe more highly and will definitely recommend them to others. And we are highly delighted with our new garden room.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <?php } ?>
                     </div>
                 </div>
             </div>
