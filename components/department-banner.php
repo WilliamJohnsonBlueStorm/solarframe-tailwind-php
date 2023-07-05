@@ -1,7 +1,9 @@
 <section id="banner" role="banner">
-    <a href="images/Roof-Replacement-banner.jpeg" data-fancybox data-caption="Roof Replacement">
-        <img src="images/Roof-Replacement-banner.jpeg" alt="Roof Replacement banner" class="man-w-8xl h-auto mx-auto object-cover"/>
-    </a>
+    <div class="max-w-8xl mx-auto">
+        <a href="images/Roof-Replacement-banner.jpeg" data-fancybox data-caption="Roof Replacement">
+            <img src="images/Roof-Replacement-banner.jpeg" alt="Roof Replacement banner" class="h-auto object-cover"/>
+        </a>
+    </div>
     <div class="container">
         <div class="grid grid-cols-1 relative">
             <div class="absolute bottom-0 right-0">
