@@ -6,8 +6,7 @@
                     <img src="/images/logo.svg" alt="SolarFrame Logo" class="max-h-[40px] xl:w-full xl:max-h-none">
                 </a>
                 <div class="hidden xl:block">
-                    <a href="tel:08006250000" title="Phone" aria-label="Phone" class="block mb-2"><i class="fa fa-phone text-brand-orange mr-2" aria-hidden="true"></i>0800 6250000</a>
-                    <a href="mailto:info@solarframe-direct.co.uk" title="Email" aria-label="Email" class="block"><i class="fa fa-envelope text-brand-orange mr-2" aria-hidden="true"></i>info@solarframe-direct.co.uk</a>
+                    <?php include ('components/contact-info.php') ?>
                 </div>
             </div>
             <div class="col-span-3">
@@ -48,81 +47,9 @@
             </div>
         </div>
     </div>
-    <div class="hidden xl:block bg-brand-darkgrey text-brand-white relative">
-        <div class="container" role="navigation">
-            <div class="grid grid-cols-12">
-                <nav class="col-span-12">
-                    <ul class="flex flex-row justify-center items-center gap-4">
-                        <li class="inline">
-                            <a href="#" title="Roof Replacements" aria-label="Roof Replacements" class="p-4 inline-block hover:text-brand-orange transition-all duration-300 font-bold">Roof Replacements</a>
-                        </li>
-                        <li class="inline group">
-                            <a href="#" title="Conservatories" aria-label="Conservatories" class="p-4 inline-block hover:text-brand-orange transition-all duration-300 font-bold">Conservatories</a>
-                            <div class="children hidden absolute bg-brand-off-white w-[100vw] group-hover:block transition ease-in duration-300 group-focus-within:block z-20 right-0">
-                                <div class="container">
-                                    <ul class="grid grid-cols-4 py-8 gap-8">
-                                        <li>
-                                            <a href="#" title="Single-Storey Extensions" aria-label="Single-Storey Extensions" class="block bg-brand-white text-brand-black group hover:text-brand-orange">
-                                                <img src="images/single-storey-extension.jpeg" alt="Single-Storey Extensions" class="w-full h-auto">
-                                                <p class="font-bold p-4 transition-all duration-300">Single-Storey Extensions</p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="Solid Roof Conservatories" aria-label="Solid Roof Conservatories" class="block bg-brand-white text-brand-black group hover:text-brand-orange">
-                                                <img src="images/solid-roof-conservatory.jpeg" alt="Solid Roof Conservatories" class="w-full h-auto">
-                                                <p class="font-bold p-4 transition-all duration-300">Solid Roof Conservatories</p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="Glazed Roof Conservatories" aria-label="Glazed Roof Conservatories" class="block bg-brand-white text-brand-black group hover:text-brand-orange">
-                                                <img src="images/Glazed-Roof-Conservatory.jpeg" alt="Glazed Roof Conservatories" class="w-full h-auto">
-                                                <p class="font-bold p-4 transition-all duration-300">Glazed Roof Conservatories</p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" title="Combination Conservatories" aria-label="Combination Conservatories" class="block bg-brand-white text-brand-black group hover:text-brand-orange">
-                                                <img src="images/Combination-Conservatory.jpeg" alt="Combination Conservatories" class="w-full h-auto">
-                                                <p class="font-bold p-4 transition-all duration-300">Combination Conservatories</p>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="inline">
-                            <a href="#" title="Orangeries" aria-label="Orangeries" class="p-4 inline-block hover:text-brand-orange transition-all duration-300 font-bold">Orangeries</a>
-                        </li>
-                        <li class="inline">
-                            <a href="#" title="Windows" aria-label="Windows" class="p-4 inline-block hover:text-brand-orange transition-all duration-300 font-bold">Windows</a>
-                        </li>
-                        <li class="inline">
-                            <a href="#" title="Doors" aria-label="Doors" class="p-4 inline-block hover:text-brand-orange transition-all duration-300 font-bold">Doors</a>
-                        </li>
-                        <li class="inline">
-                            <a href="#" title="Garden Studios" aria-label="Garden Studios" class="p-4 inline-block hover:text-brand-orange transition-all duration-300 font-bold">Garden Studios</a>
-                        </li>
-                        <li class="inline">
-                            <a href="#" title="Showrooms" aria-label="Showrooms" class="p-4 inline-block hover:text-brand-orange transition-all duration-300 font-bold">Showrooms</a>
-                        </li>
-                        <li class="inline">
-                            <a href="#" title="Finance Options" aria-label="Finance Options" class="p-4 inline-block hover:text-brand-orange transition-all duration-300 font-bold">Finance Options</a>
-                        </li>
-                        <li class="inline">
-                            <a href="#" title="Inspiration" aria-label="Inspiration" class="p-4 inline-block hover:text-brand-orange transition-all duration-300 font-bold">Inspiration</a>
-                        </li>
-                        <li class="inline">
-                            <a href="#" title="About" aria-label="About" class="p-4 inline-block hover:text-brand-orange transition-all duration-300 font-bold">About</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </div>
-    <div class="bg-brand-orange pt-[70px] xl:pt-0">
-        <div class="scroll">
-            <div class="uppercase text-brand-darkgrey text-scrolling-sm lg:text-scrolling-lg animation">
-                <p class="py-2 font-bold">Up to 60% off the entire solarframe range - interest free credit available - transform your home in time for summer - up to 60% off the entire solarframe range - interest free credit available - transform your home in time for summer - </p>
-            </div>
-        </div>
-    </div>
+
+    <?php include ('components/top-navigation.php') ?>
+
+    <?php include ('components/scrolling-header.php') ?>
+
 </header>

@@ -1,0 +1,2 @@
+<a href="tel:08006250000" title="phone number" aria-label="phone number" class="block mb-2 hover:text-brand-orange transition-all duration-300 "><i class="fa fa-phone text-brand-orange mr-2" aria-hidden="true"></i>0800 6250000</a>
+<a href="mailto:info@solarframe-direct.co.uk" title="Email" aria-label="Email" class="block hover:text-brand-orange transition-all duration-300"><i class="fa fa-envelope text-brand-orange mr-2" aria-hidden="true"></i>info@solarframe-direct.co.uk</a>
