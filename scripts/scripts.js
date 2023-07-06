@@ -12,7 +12,7 @@ $(function(){
 
     });
 
-    $('#conservatories-mobile').on('click', function()
+    $('.expand-mobile-nav').on('click', function()
     {
         $(this).next().toggle('open');
         $(this).find('i').toggleClass('fa-plus fa-minus');

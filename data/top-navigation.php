@@ -3,10 +3,12 @@ $mainNavLinks = [
     [
         'url' => '#',
         'title' => 'Roof Replacements',
+        'mobile-id' => 'roof-mobile',
     ],
     [
         'url' => '#',
         'title' => 'Conservatories',
+        'mobile-id' => 'conservatories-mobile',
         'navDropdowns' => [
             ['url' => '#', 'title' => 'Single-Storey Extensions', 'img' => 'images/single-storey-extension.jpeg'],
             ['url' => '#', 'title' => 'Solid Roof Conservatories', 'img' => 'images/solid-roof-conservatory.jpeg'],
@@ -16,11 +18,13 @@ $mainNavLinks = [
     ],
     [
         'url' => '#',
-        'title' => 'Orangeries'
+        'title' => 'Orangeries',
+        'mobile-id' => 'Orangeries-mobile',
     ],
     [
         'url' => '#',
         'title' => 'Windows',
+        'mobile-id' => 'windows-mobile',
         'navDropdowns' => [
             ['url' => '#', 'title' => 'Casement Windows', 'img' => 'images/Casement-Windows.jpeg'],
             ['url' => '#', 'title' => 'The Residence Collection', 'img' => 'images/Residence-collection.jpeg'],
@@ -32,26 +36,32 @@ $mainNavLinks = [
     ],
     [
         'url' => '#',
-        'title' => 'Doors'
+        'title' => 'Doors',
+        'mobile-id' => 'doors-mobile'
     ],
     [
         'url' => '#',
-        'title' => 'Garden Studios'
+        'title' => 'Garden Studios',
+        'mobile-id' => 'garden-mobile'
     ],
     [
         'url' => '#',
-        'title' => 'Showrooms'
+        'title' => 'Showrooms',
+        'mobile-id' => 'showrooms-mobile'
     ],
     [
         'url' => '#',
-        'title' => 'Finance Options'
+        'title' => 'Finance Options',
+        'mobile-id' => 'finance-mobile'
     ],
     [
         'url' => '#',
-        'title' => 'Inspiration'
+        'title' => 'Inspiration',
+        'mobile-id' => 'inspiration-mobile'
     ],
     [
         'url' => '#',
-        'title' => 'About'
+        'title' => 'About',
+        'mobile-id' => 'about-mobile'
     ]
 ];

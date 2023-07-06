@@ -1,5 +1,5 @@
-<header id="site-header" class="relative z-[999]">
-    <div class="max-w-8xl mx-auto fixed w-full bg-brand-white xl:relative z-[998]">
+<header id="site-header" class="relative z-[997]">
+    <div class="max-w-8xl mx-auto fixed w-full bg-brand-white xl:relative">
         <div class="grid grid-cols-5">
             <div class="col-span-2 flex items-center gap-8">
                 <a href="#" title="Home" aria-label="Home" class="block p-4 xl:py-4 xl:pl-8">

@@ -16,7 +16,7 @@
                                         <ul class="grid grid-cols-4 py-8 gap-8">
                                             <?php foreach ($mainNavLink['navDropdowns'] as $navDropdown) {?>
                                                 <li>
-                                                    <a href="<?php echo $navDropdown['url']; ?>" title="<?php echo $navDropdown['title']; ?>" aria-label="Single-Storey Extensions" class="block bg-brand-white text-brand-black group hover:text-brand-orange">
+                                                    <a href="<?php echo $navDropdown['url']; ?>" title="<?php echo $navDropdown['title']; ?>" aria-label="<?php echo $navDropdown['title']; ?>" class="block bg-brand-white text-brand-black group hover:text-brand-orange">
                                                         <img src="<?php echo $navDropdown['img']; ?>" alt="<?php echo $navDropdown['title']; ?>" class="w-full h-auto">
                                                         <p class="font-bold p-4 transition-all duration-300"><?php echo $navDropdown['title']; ?></p>
                                                     </a>

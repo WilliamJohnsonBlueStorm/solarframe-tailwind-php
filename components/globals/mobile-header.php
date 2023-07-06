@@ -1,79 +1,30 @@
+<?php include ('data/top-navigation.php'); ?>
+
 <header id="mobile-header" role="banner" class="hidden bg-brand-darkgrey overflow-auto fixed w-full top-[70px] right-0 bottom-0 z-[999]">
     <div class="px-4">
         <nav id="mobile-nav" role="navigation" class="text-p py-8">
             <ul>
-                <li class="py-3">
-                    <a href="#" title="Holiday Homes" aria-label="Holiday Homes" accesskey="1" tabindex="0" class="font-bold text-brand-white flex justify-between">Roof Replacements
-                    </a>
-                </li>
-                <li class="py-3">
-                    <a href="#" title="Conservatories" aria-label="Conservatories" accesskey="1" tabindex="0" id="conservatories-mobile" class="font-bold text-brand-white flex justify-between">Conservatories
-                        <i class="fa fa-plus" aria-hidden="true"></i>
-                    </a>
-                    <div class="bg-brand-darkgrey hidden">
-                        <ul class="grid grid-cols-2 py-8 gap-8">
-                            <li>
-                                <a href="#" title="Single-Storey Extensions" aria-label="Single-Storey Extensions" class="block bg-brand-white text-brand-black group hover:text-brand-orange">
-                                    <img src="images/single-storey-extension.jpeg" alt="Single-Storey Extensions" class="w-full h-auto">
-                                    <p class="font-bold p-4 transition-all duration-300">Single-Storey Extensions</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" title="Solid Roof Conservatories" aria-label="Solid Roof Conservatories" class="block bg-brand-white text-brand-black group hover:text-brand-orange">
-                                    <img src="images/solid-roof-conservatory.jpeg" alt="Solid Roof Conservatories" class="w-full h-auto">
-                                    <p class="font-bold p-4 transition-all duration-300">Solid Roof Conservatories</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" title="Glazed Roof Conservatories" aria-label="Glazed Roof Conservatories" class="block bg-brand-white text-brand-black group hover:text-brand-orange">
-                                    <img src="images/Glazed-Roof-Conservatory.jpeg" alt="Glazed Roof Conservatories" class="w-full h-auto">
-                                    <p class="font-bold p-4 transition-all duration-300">Glazed Roof Conservatories</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" title="Combination Conservatories" aria-label="Combination Conservatories" class="block bg-brand-white text-brand-black group hover:text-brand-orange">
-                                    <img src="images/Combination-Conservatory.jpeg" alt="Combination Conservatories" class="w-full h-auto">
-                                    <p class="font-bold p-4 transition-all duration-300">Combination Conservatories</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="py-3">
-                    <a href="#" title="Orangeries" aria-label="Orangeries" accesskey="1" tabindex="0" class="font-bold text-brand-white flex justify-between">Orangeries
-                    </a>
-                </li>
-                <li class="py-3">
-                    <a href="#" title="Windows" aria-label="Windows" accesskey="1" tabindex="0" class="font-bold text-brand-white flex justify-between">Windows
-                        <i class="fa fa-plus" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="py-3"><a href="#" title="Doors" aria-label="Doors" accesskey="1" tabindex="0" class="font-bold text-brand-white flex justify-between">Doors
-                        <i class="fa fa-plus" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="py-3">
-                    <a href="#" title="Garden Studios" aria-label="Garden Studios" accesskey="1" tabindex="0" class="font-bold text-brand-white flex justify-between">Garden Studios
-                    </a>
-                </li>
-                <li class="py-3">
-                    <a href="#" title="Showrooms" aria-label="Showrooms" accesskey="1" tabindex="0" class="font-bold text-brand-white flex justify-between">Showrooms
-                        <i class="fa fa-plus" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="py-3"><a href="#" title="Finance Options" aria-label="Finance Options" accesskey="1" tabindex="0" class="font-bold text-brand-white flex justify-between">Finance Options
-                    </a>
-                </li>
-                <li class="py-3">
-                    <a href="#" title="Inspiration" aria-label="Inspiration" accesskey="1" tabindex="0" class="font-bold text-brand-white flex justify-between">Inspiration
-                        <i class="fa fa-plus" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li class="py-3">
-                    <a href="#" title="About" aria-label="About" accesskey="1" tabindex="0" class="font-bold text-brand-white flex justify-between">About
-                        <i class="fa fa-plus" aria-hidden="true"></i>
-                    </a>
-                </li>
+                <?php foreach ($mainNavLinks as $mainNavLink) {?>
+                    <li class="py-3">
+                        <a href="<?php echo $mainNavLink['url']; ?>" title="<?php echo $mainNavLink['title']; ?>" aria-label="<?php echo $mainNavLink['title']; ?>" id="<?php echo $mainNavLink['mobile-id']; ?>" class="expand-mobile-nav font-bold text-brand-white flex justify-between"><?php echo $mainNavLink['title']; ?>
+                            <?php if (isset($mainNavLink['navDropdowns'])) {?> <i class="fa fa-plus" aria-hidden="true"></i> <?php } ?>
+                        </a>
+                        <?php if (isset($mainNavLink['navDropdowns'])) {?>
+                            <div class="bg-brand-darkgrey hidden">
+                                <ul class="grid grid-cols-2 py-8 gap-8">
+                                    <?php foreach ($mainNavLink['navDropdowns'] as $navDropdown) {?>
+                                        <li>
+                                            <a href="<?php echo $navDropdown['url']; ?>" title="<?php echo $navDropdown['title']; ?>" aria-label="<?php echo $navDropdown['title']; ?>" class="block bg-brand-white text-brand-black group hover:text-brand-orange">
+                                                <img src="<?php echo $navDropdown['img']; ?>" alt="<?php echo $navDropdown['title']; ?>" class="w-full h-auto">
+                                                <p class="font-bold p-4 transition-all duration-300"><?php echo $navDropdown['title']; ?></p>
+                                            </a>
+                                        </li>
+                                    <?php } ?>
+                                </ul>
+                            </div>
+                        <?php } ?>
+                    </li>
+                <?php } ?>
             </ul>
         </nav>
         <div class="py-8 px- border-b border-t border-t-brand-grey border-b-brand-grey">
