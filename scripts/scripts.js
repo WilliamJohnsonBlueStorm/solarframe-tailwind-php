@@ -146,4 +146,14 @@ $(function(){
         }
     });
 
+    //Extension Overlay
+    $('.extension-overlay').on('click', function(){
+        $(this).fadeOut();
+    });
+
+    $('.extension-text').on('click', function(){
+        $(this).next('.extension-overlay').fadeIn();
+    });
+
+
 });

@@ -10,7 +10,7 @@ $mainNavLinks = [
         'title' => 'Conservatories',
         'mobile-id' => 'conservatories-mobile',
         'navDropdowns' => [
-            ['url' => '#', 'title' => 'Single-Storey Extensions', 'img' => 'images/single-storey-extension.jpeg'],
+            ['url' => '/extensions.php', 'title' => 'Single-Storey Extensions', 'img' => 'images/single-storey-extension.jpeg'],
             ['url' => '#', 'title' => 'Solid Roof Conservatories', 'img' => 'images/solid-roof-conservatory.jpeg'],
             ['url' => '#', 'title' => 'Glazed Roof Conservatories', 'img' => 'images/Glazed-Roof-Conservatory.jpeg'],
             ['url' => '#', 'title' => 'Combination Conservatories', 'img' => 'images/Combination-Conservatory.jpeg'],

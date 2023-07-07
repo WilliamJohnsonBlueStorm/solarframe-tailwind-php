@@ -1,0 +1,6 @@
+<?php
+$roofExtensionStyles = [
+    ['title' => 'SoLid extension', 'img' => '/images/solidroof.jpeg', 'description' => 'A SoLid extension has a lightweight solid roof and can be built in a variety of styles and shapes. They provide a cosy, yet bright space and are a world away from a conservatory. Not forgetting you can also add in bifold, sliding patio or French doors, you can truly make your extension into your own design to suit your needs.'],
+    ['title' => 'SolSirius extension', 'img' => '/images/solsirius.jpeg', 'description' => 'A SolSirius roof adds full height raised panels in to the solid roof, allowing natural light to flow through. They\'re often placed into lean-to extensions, where there\'s a long expanse of tiled roof but you can place them in any style of roof. You can have as few or as many as you like. '],
+    ['title' => 'SolApex extension', 'img' => '/images/solapex.jpeg', 'description' => 'A SolApex roof adds in a raised glass lantern to your solid roof. Similar to an orangery roof in style, the lantern is placed into the solid, tiled roof and creates a statement. The benefits being you still get most of the thermal efficiency, with the addition of natural light. A great option for kitchen/dining extensions.'],
+];

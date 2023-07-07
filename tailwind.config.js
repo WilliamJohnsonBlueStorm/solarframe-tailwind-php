@@ -30,7 +30,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        'brand-orange': '#fd8204',
+        'brand-orange': '#fd7e14',
         'brand-lightgrey': '#9fa2a5',
         'brand-grey': '#464f53',
         'brand-darkgrey': '#343a40',

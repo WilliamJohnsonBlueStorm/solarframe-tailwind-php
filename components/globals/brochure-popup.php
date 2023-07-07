@@ -14,6 +14,7 @@
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         // if the form has been submitted, post the values that have been entered if not, post empty values
+        $delivery =  isset($_POST['delivery']) ? $_POST['delivery'] : '';
         $firstName = isset($_POST['first_name']) ? $_POST['first_name'] : '';
         $lastName = isset($_POST['last_name']) ? $_POST['last_name'] : '';
         $contactNumber = isset($_POST['contact_number']) ? $_POST['contact_number'] : '';
@@ -26,49 +27,64 @@
         $brochure = isset($_POST['brochure']) ? $_POST['brochure'] : '';
         $offers = isset($_POST['offers']) ? $_POST['offers'] : '';
 
+        if($delivery == 'Download') {
+            if ($firstName == '') {
+                $errors[] = 'First name is required';
+                $invalid = true;
+            }
 
+            if ($lastName == '') {
+                $errors[] = 'Last name is required';
+                $invalid = true;
+            }
 
-        //if the fields are empty, display the error message in the array
-        if ($firstName == '') {
-            $errors[] = 'First name is required';
-            $invalid = true;
+            if ($email == '') {
+                $errors[] = 'Email is required';
+                $invalid = true;
+            }
+
+        } else {
+
+            if ($firstName == '') {
+                $errors[] = 'First name is required';
+                $invalid = true;
+            }
+
+            if ($lastName == '') {
+                $errors[] = 'Last name is required';
+                $invalid = true;
+            }
+
+            if ($email == '') {
+                $errors[] = 'Email is required';
+                $invalid = true;
+            }
+
+            if ($address1 == '') {
+                $errors[] = 'Address line 1 is required';
+                $invalid = true;
+            }
+
+            if ($address2 == '') {
+                $errors[] = 'Address line 2 is required';
+                $invalid = true;
+            }
+
+            if ($city == '') {
+                $errors[] = 'City is required';
+                $invalid = true;
+            }
+
+            if ($county == '') {
+                $errors[] = 'County name is required';
+                $invalid = true;
+            }
+
+            if ($postcode == '') {
+                $errors[] = 'Postcode is required';
+                $invalid = true;
+            }
         }
-
-        if ($lastName == '') {
-            $errors[] = 'Last name is required';
-            $invalid = true;
-        }
-
-        if ($email == '') {
-            $errors[] = 'Email is required';
-            $invalid = true;
-        }
-
-        if ($address1 == '') {
-            $errors[] = 'Address line 1 is required';
-            $invalid = true;
-        }
-
-        if ($address2 == '') {
-            $errors[] = 'Address line 2 is required';
-            $invalid = true;
-        }
-
-        if ($city == '') {
-            $errors[] = 'City is required';
-            $invalid = true;
-        }
-
-        if ($county == '') {
-            $errors[] = 'County name is required';
-            $invalid = true;
-        }
-
-        if ($postcode == '') {
-            $errors[] = 'Postcode is required';
-            $invalid = true;
-        }
-
 
         if(!$invalid) {
             $success = true;
@@ -85,7 +101,7 @@
             // Send admin email
             $msg = "Brochure: ".$brochureData."\n";
 
-
+            $msg .= "Delivery: ".$delivery."\n";
             $msg .= "First Name: ".$firstName."\n";
             $msg .= "Last Name: ".$lastName."\n";
             $msg .= "Contact Number: ".$contactNumber."\n";
@@ -96,6 +112,9 @@
             $msg .= "County: ".$county."\n";
             $msg .= "Postcode: ".$postcode."\n";
             $msg .= "Further Contact: ".$offers."\n";
+            $msg .= "Brochure Download: ".$brochureDownload."\n";
+            $msg .= "Brochure Post: ".$brochurePost."\n";
+            $msg .= "Brochure Both: ".$brochureBoth."\n";
 
             mail("william.johnson@bluestormdesign.co.uk","Website contact form", $msg);
 
@@ -189,15 +208,15 @@
                             <div class="text-brand-white flex flex-col gap-4">
                                 <div>
                                     <span class="mr-4">
-                                        <input type="radio" id="download" name="brochure_type[]" value="download" checked>
+                                        <input type="radio" id="download" name="delivery" value="Download" checked>
                                         <label for="download">Download</label>
                                     </span>
                                     <span class="mr-4">
-                                        <input type="radio" id="post" name="brochure_type[]" value="post">
+                                        <input type="radio" id="post" name="delivery" value="Post">
                                         <label for="post">By Post</label>
                                     </span>
                                     <span class="mr-4">
-                                        <input type="radio" id="both" name="brochure_type[]" value="post">
+                                        <input type="radio" id="both" name="delivery" value="Both">
                                         <label for="both">Both</label>
                                     </span>
                                 </div>
@@ -218,7 +237,7 @@
                                 <?php foreach ($formInputs as $formInput) {?>
                                     <span class="<?php if (isset($formInput['hidden'])) {?> <?php echo $formInput['hidden']; ?> <?php } ?>">
                                         <label for="<?php echo $formInput['id']; ?>" class="sr-only"><?php echo $formInput['label']; ?></label>
-                                        <input type="text" id="<?php echo $formInput['id']; ?>" name="<?php echo $formInput['name']; ?>" role="<?php echo $formInput['role']; ?>" placeholder="<?php echo $formInput['placeholder']; ?>" <?php if (isset($formInput['required'])) {?> required <?php } ?> class=" block w-full p-4 bg-brand-darkgrey text-brand-white border border-brand-white placeholder-brand-white">
+                                        <input type="text" id="<?php echo $formInput['id']; ?>" name="<?php echo $formInput['name']; ?>" role="<?php echo $formInput['role']; ?>" placeholder="<?php echo $formInput['placeholder']; ?>" <?php if (isset($formInput['required'])) {?> <?php echo $formInput['required']; ?> <?php } ?> class=" block w-full p-4 bg-brand-darkgrey text-brand-white border border-brand-white placeholder-brand-white">
                                     </span>
                                 <?php } ?>
                                 <span>

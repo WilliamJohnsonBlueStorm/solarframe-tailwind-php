@@ -82,6 +82,7 @@ $formInputs = [
         'role' => 'textbox',
         'placeholder' => 'Postcode *',
         'hidden' => 'hidden post-only',
+        'required' => 'required',
         'name' => 'postcode'
     ],
 ];
