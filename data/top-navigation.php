@@ -37,7 +37,15 @@ $mainNavLinks = [
     [
         'url' => '#',
         'title' => 'Doors',
-        'mobile-id' => 'doors-mobile'
+        'mobile-id' => 'doors-mobile',
+        'navDropdowns' => [
+            ['url' => '#', 'title' => 'Composite Doors', 'img' => 'images/compositedoor.jpeg'],
+            ['url' => '#', 'title' => 'Bi-fold Doors', 'img' => 'images/Bifolddoor.webp'],
+            ['url' => '#', 'title' => 'Patio Doors', 'img' => 'images/patiodoor.webp'],
+            ['url' => '#', 'title' => 'French Doors', 'img' => 'images/french-doors.jpeg'],
+            ['url' => '#', 'title' => 'PVCu Entrance', 'img' => 'images/pvcudoor.jpeg'],
+            ['url' => '#', 'title' => 'Door Designer', 'img' => 'images/doordesigner.jpeg'],
+        ]
     ],
     [
         'url' => '#',

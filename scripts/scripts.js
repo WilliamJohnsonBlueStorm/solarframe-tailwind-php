@@ -7,7 +7,7 @@ $(function(){
 
         if(mobileHeader) {
             $(this).find('i').toggleClass('fa-bars fa-times');
-            mobileHeader.toggleClass('hidden');
+            mobileHeader.fadeToggle('hidden');
         }
 
     });
@@ -105,6 +105,28 @@ $(function(){
         }
     });
 
+    const video_swiper = new Swiper('#video-swiper', {
+        // Optional parameters
+        slidesPerView: 1.2,
+        loop: true,
+        spaceBetween: 10,
+        centeredSlides: true,
+        // Navigation arrows
+        navigation: {
+            nextEl: '.vid-swiper-button-next',
+            prevEl: '.vid-swiper-button-prev',
+        },
+        breakpoints: {
+            // when window width is >= 768px
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+                centeredSlides: false,
+            },
+        }
+    });
+
+
     //Brochure Form Scripts
 
     //Open brochure request form
@@ -114,7 +136,7 @@ $(function(){
         var brochurePopup = $('#brochure-popup');
 
         if(brochurePopup) {
-            brochurePopup.show();
+            brochurePopup.fadeToggle();
         }
     });
 
@@ -124,7 +146,7 @@ $(function(){
         var brochurePopup = $('#brochure-popup');
 
         if(brochurePopup) {
-            brochurePopup.hide();
+            brochurePopup.fadeOut();
         }
     });
 

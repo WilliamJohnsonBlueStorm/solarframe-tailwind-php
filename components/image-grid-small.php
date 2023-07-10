@@ -1,7 +1,7 @@
-<section id="image-grid" class="mb-10">
+<section id="image-grid" class="py-10">
     <div class="2xlx:container">
         <div class="grid grid-cols-3">
-            <div class="col-span-3 lg:col-span-1 border border-brand-white overflow-hidden min-h-[545px]">
+            <div class="col-span-3 lg:col-span-1 border border-brand-white overflow-hidden max-h-[300px] lg:min-h-[545px]">
                 <a href="#" title="Conservatories" aria-label="Conservatories" class="relative group">
                     <img src="images/conservatories.webp" alt="Conservatories" class="brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300 w-full object-cover h-full">
                     <div class="absolute bottom-0 p-4 text-brand-white">
@@ -14,7 +14,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-span-3 lg:col-span-1 border border-brand-white overflow-hidden min-h-[545px]">
+            <div class="col-span-3 lg:col-span-1 border border-brand-white overflow-hidden max-h-[300px] lg:min-h-[545px]">
                 <a href="#" title="Orangeries" aria-label="Orangeries" class="relative group">
                     <img src="images/orangeries.jpeg" alt="Orangeries" class="brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300 w-full object-cover h-full">
                     <div class="absolute bottom-0 p-4 text-brand-white">
@@ -27,7 +27,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-span-3 lg:col-span-1 border border-brand-white overflow-hidden min-h-[545px]">
+            <div class="col-span-3 lg:col-span-1 border border-brand-white overflow-hidden max-h-[300px] lg:min-h-[545px]">
                 <a href="#" title="Extensions" aria-label="Extensions" class="relative group">
                     <img src="images/extensions.jpeg" alt="Extensions" class="brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300 w-full object-cover h-full">
                     <div class="absolute bottom-0 p-4 text-brand-white">
@@ -42,9 +42,9 @@
             </div>
         </div>
         <div class="grid grid-cols-4">
-            <div class="col-span-4 lg:col-span-4 border border-brand-white overflow-hidden max-h-[500px]">
+            <div class="col-span-4 lg:col-span-4 border border-brand-white overflow-hidden max-h-[300px] lg:max-h-[500px]">
                 <a href="#" title="Roof Replacements" aria-label="Roof Replacements" class="relative group">
-                    <img src="/images/showrooms.jpeg" alt="Roof Replacements" class="brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300 w-full object-cover lg:max-h-full">
+                    <img src="/images/showrooms.jpeg" alt="Roof Replacements" class="brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300 h-full w-full object-cover">
                     <div class="absolute bottom-0 p-4 text-brand-white">
                         <h3 class="text-h3 mb-4 font-bold">Showrooms</h3>
                         <p></p>

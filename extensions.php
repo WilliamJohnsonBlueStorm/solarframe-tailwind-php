@@ -19,8 +19,9 @@ $pageTitle = 'Single-Storey Extensions';
 
         <?php include ('components/case-studies.php') ?>
 
-        <?php include ('components/image-grid-small.php') ?>
+        <?php include ('components/video-slider.php') ?>
 
+        <?php include ('components/image-grid-small.php') ?>
 
     </main>
 

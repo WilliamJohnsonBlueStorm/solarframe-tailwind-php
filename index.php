@@ -20,16 +20,20 @@
             </div>
         </section>
 
-<?php include ('components/image-grid.php') ?>
+        <?php include ('components/image-grid.php') ?>
 
-<?php include ('components/case-studies.php') ?>
+        <?php include ('components/case-studies.php') ?>
 
-<?php include ('components/testimonials.php') ?>
+        <?php include ('components/testimonials.php') ?>
+
+    </main>
 
 <?php include ('components/globals/footer.php') ?>
 
 <?php include ('components/globals/sticky-footer.php') ?>
 
 <?php include ('components/globals/brochure-popup.php') ?>
+
+<?php include ('components/globals/mobile-header.php') ?>
 
 <?php include ('components/globals/included-scripts.php') ?>

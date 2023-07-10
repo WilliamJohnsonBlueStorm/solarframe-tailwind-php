@@ -1,6 +1,6 @@
 <section aria-labelledby="main-title" class="py-14">
     <div class="container">
-        <div class="grid grid-cols-12 gap-8">
+        <div class="grid grid-cols-12 gap-6">
             <div class="col-span-12 lg:col-span-7">
                 <?php if(isset($breadcrumbs) && !empty($breadcrumbs)) { ?>
                     <ul class="mb-8">

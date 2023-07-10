@@ -27,7 +27,7 @@
                     <img src="images/conservatories.webp" alt="Conservatories" class="brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300 max-h-[300px] w-full object-cover">
                     <div class="absolute bottom-0 p-4 text-brand-white">
                         <h3 class="text-h3 mb-4 font-bold">Conservatories</h3>
-                        <p class="hidden mb-4 group-hover:block transition-all duration-300">Conservatories provide a comfortable and stylish addition to any home.</p>
+                        <p class="max-h-[0px] group-hover:max-h-[300px] group-hover:mb-4 group-hover:block transition-all duration-300 overflow-hidden">Conservatories provide a comfortable and stylish addition to any home.</p>
                         <div class="flex">
                             <i class="fa fa-long-arrow-right h-[35px] w-[35px] border border-brand-orange rounded-full !flex items-center justify-center mr-2 group-hover:bg-brand-orange transition-all duration-300" aria-hidden="true"></i>
                             <p class="flex items-center">More information</p>
@@ -40,7 +40,7 @@
                     <img src="images/orangeries.jpeg" alt="Orangeries" class="brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300 max-h-[300px] w-full object-cover">
                     <div class="absolute bottom-0 p-4 text-brand-white">
                         <h3 class="text-h3 mb-4 font-bold">Orangeries</h3>
-                        <p class="hidden mb-4 group-hover:block transition-all duration-300">State-of-the-Art Orangeries - Make an instant impression</p>
+                        <p class="max-h-[0px] group-hover:max-h-[300px] group-hover:mb-4 group-hover:block transition-all duration-300 overflow-hidden">State-of-the-Art Orangeries - Make an instant impression</p>
                         <div class="flex">
                             <i class="fa fa-long-arrow-right h-[35px] w-[35px] border border-brand-orange rounded-full !flex items-center justify-center mr-2 group-hover:bg-brand-orange transition-all duration-300" aria-hidden="true"></i>
                             <p class="flex items-center">More information</p>
@@ -53,7 +53,7 @@
                     <img src="images/extensions.jpeg" alt="Extensions" class="brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300 max-h-[300px] w-full object-cover">
                     <div class="absolute bottom-0 p-4 text-brand-white">
                         <h3 class="text-h3 mb-4 font-bold">Single Story Extensions</h3>
-                        <p class="hidden mb-4 group-hover:block transition-all duration-300">Our extensions are built to last and completely bespoke to your requirements</p>
+                        <p class="max-h-[0px] group-hover:max-h-[300px] group-hover:mb-4 group-hover:block transition-all duration-300 overflow-hidden">Our extensions are built to last and completely bespoke to your requirements</p>
                         <div class="flex">
                             <i class="fa fa-long-arrow-right h-[35px] w-[35px] border border-brand-orange rounded-full !flex items-center justify-center mr-2 group-hover:bg-brand-orange transition-all duration-300" aria-hidden="true"></i>
                             <p class="flex items-center">More information</p>
@@ -78,7 +78,7 @@
             </div>
             <div class="col-span-4 lg:col-span-1 border border-brand-white overflow-hidden">
                 <a href="#" title="Windows" aria-label="Windows" class="relative group">
-                    <img src="images/windows.jpeg" alt="Windows" class="h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300 max-h-[300px] w-full object-cover lg:max-h-full">
+                    <img src="images/windows.jpeg" alt="Windows" class="h-full brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300 max-h-[300px] w-full object-cover lg:max-h-full">
                     <div class="absolute bottom-0 p-4 text-brand-white">
                         <h3 class="text-h3 mb-4 font-bold">Windows</h3>
                         <p></p>
@@ -91,7 +91,7 @@
             </div>
             <div class="col-span-4 lg:col-span-1 border border-brand-white overflow-hidden">
                 <a href="#" title="Doors" aria-label="Doors" class="relative group">
-                    <img src="images/doors.jpeg" alt="Doors" class="w-full h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300 max-h-[300px] w-full object-cover lg:max-h-full">
+                    <img src="images/doors.jpeg" alt="Doors" class="h-full brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300 max-h-[300px] w-full object-cover lg:max-h-full">
                     <div class="absolute bottom-0 p-4 text-brand-white">
                         <h3 class="text-h3 mb-4 font-bold">Doors</h3>
                         <p></p>
@@ -104,10 +104,10 @@
             </div>
             <div class="col-span-4 lg:col-span-1 border border-brand-white overflow-hidden">
                 <a href="#" title="Garden Studios" aria-label="Garden Studios" class="relative group">
-                    <img src="images/garden-studios.png" alt="Garden Studios" class="w-full h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300 max-h-[300px] w-full object-cover lg:max-h-full">
+                    <img src="images/garden-studios.png" alt="Garden Studios" class="h-full brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300 max-h-[300px] w-full object-cover lg:max-h-full">
                     <div class="absolute bottom-0 p-4 text-brand-white">
                         <h3 class="text-h3 mb-4 font-bold">Garden Studio</h3>
-                        <p class="hidden group-hover:block">A garden studio is becoming increasingly popular garden addition as people recognise the benefits of having extra living space.</p>
+                        <p class="max-h-[0px] group-hover:max-h-[300px] group-hover:mb-4 group-hover:block transition-all duration-300 overflow-hidden">A garden studio is becoming increasingly popular garden addition as people recognise the benefits of having extra living space.</p>
                         <div class="flex">
                             <i class="fa fa-long-arrow-right h-[35px] w-[35px] border border-brand-orange rounded-full !flex items-center justify-center mr-2 group-hover:bg-brand-orange transition-all duration-300" aria-hidden="true"></i>
                             <p class="flex items-center">More information</p>
@@ -117,7 +117,7 @@
             </div>
             <div class="col-span-4 lg:col-span-1 border border-brand-white overflow-hidden">
                 <a href="#" title="Glazed Roofs" aria-label="Glazed Roofs" class="relative group">
-                    <img src="images/Glazed-Roof-Conservatory-Banner.jpeg" alt="Glazed roof" class="w-full h-full object-cover brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300 max-h-[300px] w-full object-cover lg:max-h-full">
+                    <img src="images/Glazed-Roof-Conservatory-Banner.jpeg" alt="Glazed roof" class="h-full brightness-90 group-hover:brightness-75 group-hover:scale-110 transition-all duration-300 max-h-[300px] w-full object-cover lg:max-h-full">
                     <div class="absolute bottom-0 p-4 text-brand-white">
                         <h3 class="text-h3 mb-4 font-bold">Glazed Roofs</h3>
                         <p></p>
@@ -137,7 +137,7 @@
                         <div class="p-8 bg-brand-white ml-4 mr-4">
                             <h3 class="text-h3 mb-4 font-bold text-brand-darkgrey">Request your free quote today!</h3>
                             <p class="text-p mb-4">We have transformed homes throughout Yorkshire, North Nottinghamshire and Derbyshire over the last 12 years and look forward to starting a project with you.</p>
-                            <a href="#" title="request a quote" aria-label="request a quote" class="text-brand-white bg-brand-orange p-4 block text-center sm:inline-block font-bold hover:brightness-110 transition-all duration-300 font-bold">Request a quote</a>
+                            <a href="#" title="request a quote" aria-label="request a quote" class="text-brand-white bg-brand-orange p-4 block text-center sm:inline-block hover:brightness-110 transition-all duration-300 font-bold">Request a quote</a>
                         </div>
                     </div>
                 </div>
